@@ -1,24 +1,24 @@
-import json
-import os
 from fastapi import HTTPException
+from pymongo import MongoClient
 
-SQUADS_FILE = "data/squads.json"
+client = MongoClient("mongodb://localhost:27017/")
+db = client["stat"]
+collection = db["squads"]
 
 def get_squad_top():
-    if not os.path.exists(SQUADS_FILE):
-        raise HTTPException(status_code=404, detail="Файл со сквадами не найден.")
-
     try:
-        with open(SQUADS_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
+        squads = collection.find()
+        cleaned = {}
 
-        cleaned = {
-            squad: {
-                k: v for k, v in stats.items() if k not in ["side", "players"]
+        for squad in squads:
+            tag = squad["_id"]
+            stats = {
+                k: v for k, v in squad.items()
+                if k not in ["_id", "side", "players"]
             }
-            for squad, stats in data.items()
-        }
+            cleaned[tag] = stats
+
         return cleaned
 
-    except json.JSONDecodeError:
-        raise HTTPException(status_code=500, detail="Ошибка разбора JSON.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Ошибка при доступе к MongoDB: {str(e)}")

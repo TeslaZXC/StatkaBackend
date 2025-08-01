@@ -1,28 +1,20 @@
-import os
-import json
 from fastapi import HTTPException
+from pymongo import MongoClient
 
-MISSIONS_FOLDER = "data/mission/stat"
+client = MongoClient("mongodb://localhost:27017/")
+db = client["mission"]
+collection = db["stat"]
+
 
 def get_mission_list():
-    if not os.path.exists(MISSIONS_FOLDER):
-        raise HTTPException(status_code=404, detail="Папка с миссиями не найдена.")
+    try:
+        missions_cursor = collection.find({})
 
-    missions = []
-    for filename in os.listdir(MISSIONS_FOLDER):
-        if not filename.endswith(".json"):
-            continue
+        missions = list(missions_cursor)
 
-        filepath = os.path.join(MISSIONS_FOLDER, filename)
-        try:
-            with open(filepath, "r", encoding="utf-8") as f:
-                mission = json.load(f)
-                missions.append(mission)
-        except json.JSONDecodeError:
-            continue
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=f"Ошибка при чтении {filename}: {str(e)}")
+        missions.sort(key=lambda m: int(m.get("id", 0)), reverse=True)
 
-    missions.sort(key=lambda m: int(m.get("id", 0)), reverse=True)
+        return missions
 
-    return missions
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Ошибка при получении миссий из базы данных: {str(e)}")

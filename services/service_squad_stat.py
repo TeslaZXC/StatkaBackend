@@ -1,26 +1,26 @@
-import json
-import os
+from pymongo import MongoClient
+from fastapi import HTTPException
 
-SQUADS_FILE = "data/squads.json"
-
-def load_squad_data():
-    if not os.path.exists(SQUADS_FILE):
-        return {}
-    with open(SQUADS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+client = MongoClient("mongodb://localhost:27017/")
+db = client["stat"]
+collection = db["squads"]
 
 def get_squad_stat(tag: str):
-    data = load_squad_data()
     tag_upper = tag.upper()
-    squad = data.get(tag_upper)
-    if not squad:
-        return None
 
-    return {
-        "name": tag_upper,
-        "frags": squad.get("frags", 0),
-        "deaths": squad.get("deaths", 0),
-        "average_attendance": squad.get("average_attendance", 0),
-        "members": squad.get("members", []),
-        "score":squad.get("score",0)
-    }
+    try:
+        squad = collection.find_one({"_id": tag_upper})
+        if not squad:
+            return None
+
+        return {
+            "name": tag_upper,
+            "frags": squad.get("frags", 0),
+            "deaths": squad.get("deaths", 0),
+            "average_attendance": squad.get("average_attendance", 0),
+            "members": squad.get("members", []),
+            "score": squad.get("score", 0)
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Ошибка при обращении к MongoDB: {str(e)}")

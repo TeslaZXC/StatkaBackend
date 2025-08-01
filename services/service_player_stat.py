@@ -1,22 +1,20 @@
-import json
-import os
 from fastapi import HTTPException
+from pymongo import MongoClient
 
-PLAYERS_FILE = "data/players.json"
+client = MongoClient("mongodb://localhost:27017/")
+db = client["stat"]
+collection = db["players"]
 
-def load_player_by_name(name: str):
-    if not os.path.exists(PLAYERS_FILE):
-        raise HTTPException(status_code=404, detail="Файл игроков не найден.")
-
+def load_player_by_name(name: str) -> dict:
     try:
-        with open(PLAYERS_FILE, "r", encoding="utf-8") as f:
-            players = json.load(f)
+        player = collection.find_one({"name": {"$regex": f"^{name}$", "$options": "i"}})
 
-        for player_name, data in players.items():
-            if player_name.lower() == name.lower():
-                return data
+        if not player:
+            raise HTTPException(status_code=404, detail=f"Игрок '{name}' не найден.")
 
-        raise HTTPException(status_code=404, detail=f"Игрок '{name}' не найден.")
+        player.pop("_id", None)
 
-    except json.JSONDecodeError:
-        raise HTTPException(status_code=500, detail="Ошибка разбора JSON.")
+        return player
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Ошибка при доступе к базе данных: {str(e)}")
