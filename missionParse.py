@@ -111,6 +111,17 @@ def get_mission_list(limit=100):
 
             values = [td.get_text(strip=True) for td in tds]
 
+            # Фильтрация по mission_tag
+            if "mission_tag=" in json_href:
+                mission_tag_match = re.search(r"mission_tag=([a-zA-Z0-9_]+)", json_href)
+                mission_tag = mission_tag_match.group(1) if mission_tag_match else None
+                if mission_tag != "tvt":
+                    i += 2
+                    continue
+            else:
+                i += 2
+                continue
+
             mission_data = {
                 "id": int(values[0]) if len(values) > 0 else None,
                 "mission_name": mission_name,
@@ -130,6 +141,7 @@ def get_mission_list(limit=100):
 
         i += 2
 
+    # сортировка и обрезка только последних 100 с tag='tvt'
     missions.sort(key=lambda x: x["id"], reverse=True)
     return missions[:limit]
 
