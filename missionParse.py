@@ -141,7 +141,6 @@ def get_mission_list(limit=100):
 
         i += 2
 
-    # сортировка и обрезка только последних 100 с tag='tvt'
     missions.sort(key=lambda x: x["id"], reverse=True)
     return missions[:limit]
 
