@@ -1,0 +1,2493 @@
+{
+  "players": [
+    {
+      "name": "Val",
+      "squad": "Alpha 2-5",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:30",
+        "target": "[7th]Etwas",
+        "distance": "261m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "Finn",
+      "squad": "Alpha 1-4",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 2,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:33:34",
+          "target": "[UN] MACTEP",
+          "distance": "27m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        },
+        {
+          "time": "0:36:38",
+          "target": "Сохатый",
+          "distance": "16m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        },
+        {
+          "time": "0:38:45",
+          "target": "33-ий",
+          "distance": "13m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:38:47",
+        "target": "[SNZ]Sweety",
+        "distance": "34m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "ALЕX",
+      "squad": "Alpha 2-3",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:36",
+        "target": "[RE]Koppy",
+        "distance": "71m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "*ARMA*",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:27:59",
+          "target": "Mk32 GMG 25 mm (Raised)",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "Kirill",
+      "squad": "Alpha 2-2",
+      "side": "GUER",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:03",
+        "target": "[VRG] Cat",
+        "distance": "1718m",
+        "weapon": "Titan MPRL Compact (Olive)"
+      }
+    },
+    {
+      "name": "KosTik",
+      "squad": "Alpha 1-3",
+      "side": "GUER",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:58",
+        "target": "[SYND] DAntey",
+        "distance": "23m",
+        "weapon": "Mk200 6.5 mm"
+      }
+    },
+    {
+      "name": "MB 4WD",
+      "squad": "MB",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:49",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "1m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "33-ий",
+      "squad": "33",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:38:45",
+        "target": "Finn",
+        "distance": "13m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "Strider",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:18",
+        "target": "Dw. ToTCaMblu",
+        "distance": "57m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "Zhendos",
+      "squad": "Alpha 2-6",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:35:37",
+          "target": "[13th] Hakka",
+          "distance": "546m",
+          "weapon": "RPG-32 (Olive)"
+        },
+        {
+          "time": "0:35:37",
+          "target": "Offroad (Police)",
+          "distance": "546m",
+          "weapon": "RPG-32 (Olive)"
+        },
+        {
+          "time": "0:35:37",
+          "target": "[13th] Smittsam",
+          "distance": "541m",
+          "weapon": "RPG-32 (Olive)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[LG] DON",
+      "squad": "LG",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:43:46",
+        "target": "[Delta]Raidar",
+        "distance": "1149m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[RMC]DoS",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:33:32",
+          "target": "[13th] Evgenrus",
+          "distance": "144m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[UN]Arey",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:15:49",
+          "target": "[Гивай]Snow Murakami",
+          "distance": "54m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:37:32",
+          "target": "[7th]Ezhov",
+          "distance": "6m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:39:51",
+        "target": "[7th]Shpingalet",
+        "distance": "22m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[UN]Ezer",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:37:31",
+          "target": "[7th]Prapar",
+          "distance": "271m",
+          "weapon": "MX 3GL 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:47:31",
+        "target": "[Гивай]Pigeon",
+        "distance": "58m",
+        "weapon": "Mk200 6.5 mm"
+      }
+    },
+    {
+      "name": "[7th]Gnev",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:34",
+        "target": "[UN] MACTEP",
+        "distance": "5m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[BCS]Borw",
+      "squad": "BCS",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:31:20",
+        "target": "[RMC] Monty",
+        "distance": "581m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[RAF]Zubr",
+      "squad": "RAF",
+      "side": "GUER",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:09:03",
+        "target": "[JW] Owlet",
+        "distance": "108m",
+        "weapon": "MAAWS Mk4 Mod 0 (черный)"
+      }
+    },
+    {
+      "name": "[RE]Koppy",
+      "squad": "RE",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:24:36",
+          "target": "ALЕX",
+          "distance": "71m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:28:56",
+          "target": "[1REC] Eskander",
+          "distance": "50m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:30:12",
+        "target": "[NT]Yofox_",
+        "distance": "60m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[StB]GROM",
+      "squad": "STB",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:24",
+        "target": "[UN] MACTEP",
+        "distance": "54m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[UN]Farid",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:43",
+        "target": "[СМЕРШ] lazcore",
+        "distance": "1608m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[UN]Logan",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:18",
+        "target": "Dw. ToTCaMblu",
+        "distance": "50m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[VRG] Cat",
+      "squad": "VRG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:14",
+          "target": "[RMC] Marshall",
+          "distance": "1715m",
+          "weapon": "Titan MPRL Compact (Olive)"
+        },
+        {
+          "time": "0:21:03",
+          "target": "Kirill",
+          "distance": "1718m",
+          "weapon": "Titan MPRL Compact (Olive)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:29:27",
+        "target": "[RMC] Monty",
+        "distance": "453m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[7th]Etwas",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 6,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:13:08",
+          "target": "[AGG] Kavo?",
+          "distance": "174m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:13:08",
+          "target": "Offroad (Police)",
+          "distance": "174m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:13:08",
+          "target": "[AGG] John_de_Pa`Atras",
+          "distance": "169m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:13:08",
+          "target": "[AGG] Broul",
+          "distance": "169m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:13:08",
+          "target": "[AGG]Fomos",
+          "distance": "169m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:13:09",
+          "target": "[AGG] Inaderit",
+          "distance": "165m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:36:30",
+          "target": "Val",
+          "distance": "261m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:38:20",
+        "target": "[RMI]metaldoze",
+        "distance": "307m",
+        "weapon": "Mk18 ABR 7.62 mm"
+      }
+    },
+    {
+      "name": "[7th]Ezhov",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:32",
+        "target": "[UN]Arey",
+        "distance": "6m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[AGG]Fomos",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:08",
+        "target": "[7th]Etwas",
+        "distance": "169m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[JW] Owlet",
+      "squad": "JW",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:09:03",
+          "target": "[RAF]Zubr",
+          "distance": "108m",
+          "weapon": "MAAWS Mk4 Mod 0 (черный)"
+        },
+        {
+          "time": "0:09:03",
+          "target": "MB 4WD",
+          "distance": "108m",
+          "weapon": "MAAWS Mk4 Mod 0 (черный)"
+        },
+        {
+          "time": "0:14:45",
+          "target": "[NT] NKVDshnik",
+          "distance": "130m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:15:07",
+          "target": "[1REC] saliance",
+          "distance": "23m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:17:44",
+        "target": "[1REC] SexFlexer",
+        "distance": "40m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[NT]Yofox_",
+      "squad": "NT",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:30:12",
+          "target": "[RE]Koppy",
+          "distance": "60m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[OMB]Ximik",
+      "squad": "OMB",
+      "side": "GUER",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:28",
+        "target": "[UN] FishKa",
+        "distance": "881m",
+        "weapon": "Titan MPRL Compact (Olive)"
+      }
+    },
+    {
+      "name": "[RDO] Nael",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:24",
+        "target": "[SYND] Pipinkorotkiy",
+        "distance": "33m",
+        "weapon": "Mk18 ABR 7.62 mm"
+      }
+    },
+    {
+      "name": "[RE]Madori",
+      "squad": "RE",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:26:31",
+          "target": "[1REC] Krechet",
+          "distance": "19m",
+          "weapon": "MX 3GL 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:30:39",
+        "target": "[Гивай]Pigeon",
+        "distance": "36m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[RMC] N1le",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:29",
+        "target": "[VRG] Olemak",
+        "distance": "1578m",
+        "weapon": "MX 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[RMI]magic",
+      "squad": "RMI",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:26",
+        "target": "Сохатый",
+        "distance": "35m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[SNZ] Gans",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:40:48",
+          "target": "[STELS]Petrucho",
+          "distance": "32m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[SNZ]Arkus",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:34:13",
+        "target": "[СМЕРШ] lazcore",
+        "distance": "692m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[SYND] ARC",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:53",
+          "target": "[RDO] А ГейСер",
+          "distance": "9m",
+          "weapon": ""
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:53",
+        "target": "[RDO] А ГейСер",
+        "distance": "9m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[URAL]Dram",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:34",
+        "target": "[STELS]Petrucho",
+        "distance": "140m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[URAL]Rebi",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:32",
+        "target": "[STELS]Petrucho",
+        "distance": "123m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "Strider GMG",
+      "squad": "STRIDER",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:12",
+        "target": "[RMC] Monty",
+        "distance": "1452m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "Strider HMG",
+      "squad": "STRIDER",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:31:00",
+        "target": "[STELS]Petrucho",
+        "distance": "838m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[7th]Prapar",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:31",
+        "target": "[UN]Ezer",
+        "distance": "271m",
+        "weapon": "MX 3GL 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[AGG] Broul",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:08",
+        "target": "[7th]Etwas",
+        "distance": "169m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[AGG] Kavo?",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:08",
+        "target": "[7th]Etwas",
+        "distance": "174m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[FRC] Alfik",
+      "squad": "FRC",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:40:24",
+        "target": "[STELS]Petrucho",
+        "distance": "25m",
+        "weapon": "Mk18 ABR 7.62 mm"
+      }
+    },
+    {
+      "name": "[RMC] Monty",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 12,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:24:12",
+          "target": "[VRG] llBa1kerll",
+          "distance": "1452m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:24:12",
+          "target": "Strider GMG",
+          "distance": "1452m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:29:27",
+          "target": "[VRG] Cat",
+          "distance": "453m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:30:29",
+          "target": "[VRG] Daniil30",
+          "distance": "473m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:31:20",
+          "target": "[BCS]Borw",
+          "distance": "581m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:33:19",
+          "target": "[SYND] quas",
+          "distance": "614m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:35:07",
+          "target": "[13th] Godzilla",
+          "distance": "749m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:35:41",
+          "target": "[13th] Doloman",
+          "distance": "626m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:36:57",
+          "target": "[SYND] emptyentity",
+          "distance": "613m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:37:13",
+          "target": "[SYND] Улюп",
+          "distance": "721m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:37:24",
+          "target": "[SYND] Герань",
+          "distance": "709m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:39:50",
+          "target": "[SYND] Takanawa",
+          "distance": "748m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:40:58",
+          "target": "[SYND] DAntey",
+          "distance": "756m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RMC]Jastik",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:37:58",
+          "target": "[VRG] Wojciech84",
+          "distance": "200m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RMI]Trager",
+      "squad": "RMI",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:43:16",
+        "target": "[7th]Shpingalet",
+        "distance": "50m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[SNZ] Baron",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:27",
+        "target": "[Delta] Delovoy",
+        "distance": "656m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[SNZ] Tihon",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:38:13",
+        "target": "[STELS]Petrucho",
+        "distance": "48m",
+        "weapon": "Mk18 ABR 7.62 mm"
+      }
+    },
+    {
+      "name": "[SNZ]Sweety",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:38:47",
+          "target": "Finn",
+          "distance": "34m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:40:43",
+        "target": "[STELS]Petrucho",
+        "distance": "38m",
+        "weapon": "Mk18 ABR 7.62 mm"
+      }
+    },
+    {
+      "name": "[STELS]sega",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 1-5",
+      "frags": 1,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:13:05",
+          "target": "Giannis Savalas",
+          "distance": "2m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        },
+        {
+          "time": "0:46:01",
+          "target": "[520th] Эфедрин",
+          "distance": "284m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[SYND] quas",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:19",
+        "target": "[RMC] Monty",
+        "distance": "614m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[UN] FishKa",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:28",
+          "target": "[OMB]Ximik",
+          "distance": "881m",
+          "weapon": "Titan MPRL Compact (Olive)"
+        },
+        {
+          "time": "0:11:28",
+          "target": "тихоня",
+          "distance": "876m",
+          "weapon": "Titan MPRL Compact (Olive)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[UN] MACTEP",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:24",
+          "target": "[StB]GROM",
+          "distance": "54m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:33:34",
+          "target": "[7th]Gnev",
+          "distance": "5m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:33:34",
+        "target": "Finn",
+        "distance": "27m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[UN] havaec",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:25",
+        "target": "[STELS]Petrucho",
+        "distance": "1580m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[VRG] Jesus",
+      "squad": "VRG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:31",
+          "target": "[Гивай] DuckSide",
+          "distance": "56m",
+          "weapon": "Mk200 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:50",
+        "target": "[13th] Evgenrus",
+        "distance": "18m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[13th] Hakka",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:37",
+        "target": "Zhendos",
+        "distance": "546m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[520th] Alik",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:18",
+        "target": "Dw. ToTCaMblu",
+        "distance": "57m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[AGG] Kruger",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:06:22",
+          "target": "Offroad (Police)",
+          "distance": "0m",
+          "weapon": "MX 3GL 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:06:22",
+        "target": "[AGG] Kruger",
+        "distance": "0m",
+        "weapon": "MX 3GL 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[AGG] Nosyam",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:27:52",
+        "target": "[СМЕРШ]shegol",
+        "distance": "900m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[FRC] Fenrir",
+      "squad": "FRC",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:00",
+        "target": "[Delta] Delovoy",
+        "distance": "674m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[LG] Fused88",
+      "squad": "LG",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:25",
+        "target": "[1REC] Eskander",
+        "distance": "120m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[UN]Исак",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:40",
+        "target": "[СМЕРШ]shegol",
+        "distance": "1487m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[URAL] Alexs",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:41",
+        "target": "[STELS]Petrucho",
+        "distance": "151m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[URAL] Babai",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:54",
+        "target": "[STELS]Petrucho",
+        "distance": "153m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[VRG] Olemak",
+      "squad": "VRG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:29",
+          "target": "[RMC] N1le",
+          "distance": "1578m",
+          "weapon": "MX 6.5 mm (Black)"
+        },
+        {
+          "time": "0:27:20",
+          "target": "[СМЕРШ] Renne",
+          "distance": "1806m",
+          "weapon": "MX 6.5 mm (Black)"
+        },
+        {
+          "time": "0:30:24",
+          "target": "[Delta] Sebit",
+          "distance": "1233m",
+          "weapon": ""
+        }
+      ],
+      "death_detailed": {
+        "time": "0:31:00",
+        "target": "[STELS]Petrucho",
+        "distance": "838m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "тихоня",
+      "squad": "Alpha 3-1",
+      "side": "GUER",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:28",
+        "target": "[UN] FishKa",
+        "distance": "876m",
+        "weapon": "Titan MPRL Compact (Olive)"
+      }
+    },
+    {
+      "name": "Dw. ToTCaMblu",
+      "squad": "DW",
+      "side": "GUER",
+      "group": "Alpha 1-5",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:29:18",
+          "target": "Strider",
+          "distance": "57m",
+          "weapon": "RPG-32 (Olive)"
+        },
+        {
+          "time": "0:29:18",
+          "target": "[520th] Alik",
+          "distance": "57m",
+          "weapon": "RPG-32 (Olive)"
+        },
+        {
+          "time": "0:29:18",
+          "target": "[520th] danie",
+          "distance": "59m",
+          "weapon": "RPG-32 (Olive)"
+        },
+        {
+          "time": "0:29:18",
+          "target": "[UN]Logan",
+          "distance": "50m",
+          "weapon": "RPG-32 (Olive)"
+        },
+        {
+          "time": "0:35:24",
+          "target": "Van Transport",
+          "distance": "307m",
+          "weapon": "RPG-32 (Olive)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "Van Transport",
+      "squad": "VAN",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:24",
+        "target": "Dw. ToTCaMblu",
+        "distance": "307m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[520th] danie",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:18",
+        "target": "Dw. ToTCaMblu",
+        "distance": "59m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[Delta] Sebit",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:24",
+        "target": "[VRG] Olemak",
+        "distance": "1233m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[Delta]Raidar",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:43:46",
+          "target": "[LG] DON",
+          "distance": "1149m",
+          "weapon": "Binoculars"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RMC] Kypatop",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:28",
+        "target": "[RMC] Kypatop",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[SYND] DAntey",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:37:58",
+          "target": "KosTik",
+          "distance": "23m",
+          "weapon": "Mk200 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:40:58",
+        "target": "[RMC] Monty",
+        "distance": "756m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[13th] Doloman",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:41",
+        "target": "[RMC] Monty",
+        "distance": "626m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[1REC] Krechet",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:31",
+        "target": "[RE]Madori",
+        "distance": "19m",
+        "weapon": "MX 3GL 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[AGG] Inaderit",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:09",
+        "target": "[7th]Etwas",
+        "distance": "165m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[NT] NKVDshnik",
+      "squad": "NT",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:45",
+        "target": "[JW] Owlet",
+        "distance": "130m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[RDO] Чича",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:42",
+        "target": "[VRG] Daniil30",
+        "distance": "20m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[RMC] Marshall",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:14",
+        "target": "[VRG] Cat",
+        "distance": "1715m",
+        "weapon": "Titan MPRL Compact (Olive)"
+      }
+    },
+    {
+      "name": "[RMI]metaldoze",
+      "squad": "RMI",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:38:20",
+          "target": "[7th]Etwas",
+          "distance": "307m",
+          "weapon": "Mk18 ABR 7.62 mm"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[STELS]Pushkar",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:14",
+        "target": "[520th] Эфедрин",
+        "distance": "89m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[VRG] Daniil30",
+      "squad": "VRG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:42",
+          "target": "[RDO] Чича",
+          "distance": "20m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:30:29",
+        "target": "[RMC] Monty",
+        "distance": "473m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "Сохатый",
+      "squad": "Alpha 1-4",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:36:26",
+          "target": "[RMI]magic",
+          "distance": "35m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:36:38",
+        "target": "Finn",
+        "distance": "16m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "Giannis Savalas",
+      "squad": "GIANNIS",
+      "side": "GUER",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:05",
+        "target": "[STELS]sega",
+        "distance": "2m",
+        "weapon": "TRG-20 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[13th] Evgenrus",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:50",
+          "target": "[VRG] Jesus",
+          "distance": "18m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:33:32",
+        "target": "[RMC]DoS",
+        "distance": "144m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[13th] Godzilla",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:07",
+        "target": "[RMC] Monty",
+        "distance": "749m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[13th] Smittsam",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:37",
+        "target": "Zhendos",
+        "distance": "541m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[1REC] Eskander",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:15:01",
+          "target": "[JW] BornToYarik",
+          "distance": "157m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        },
+        {
+          "time": "0:15:25",
+          "target": "[LG] Fused88",
+          "distance": "120m",
+          "weapon": "TRG-21 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:28:56",
+        "target": "[RE]Koppy",
+        "distance": "50m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[1REC] saliance",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:07",
+        "target": "[JW] Owlet",
+        "distance": "23m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[7th]Shpingalet",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:39:51",
+          "target": "[UN]Arey",
+          "distance": "22m",
+          "weapon": "Zafir 7.62 mm"
+        },
+        {
+          "time": "0:43:16",
+          "target": "[RMI]Trager",
+          "distance": "50m",
+          "weapon": "Zafir 7.62 mm"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[Delta] Delovoy",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 4,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:36:00",
+          "target": "[FRC] Fenrir",
+          "distance": "674m",
+          "weapon": "Zafir 7.62 mm"
+        },
+        {
+          "time": "0:36:04",
+          "target": "[SYND] Pipinkorotkiy",
+          "distance": "689m",
+          "weapon": "Zafir 7.62 mm"
+        },
+        {
+          "time": "0:37:27",
+          "target": "[SNZ] Baron",
+          "distance": "656m",
+          "weapon": "Zafir 7.62 mm"
+        },
+        {
+          "time": "0:37:33",
+          "target": "[SNZ] Kotovskiy",
+          "distance": "620m",
+          "weapon": "Zafir 7.62 mm"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[SNZ] Kotovskiy",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:33",
+        "target": "[Delta] Delovoy",
+        "distance": "620m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[STELS]Petrucho",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 1-5",
+      "frags": 10,
+      "teamkills": 0,
+      "vehicle_kills": 4,
+      "kills_detailed": [
+        {
+          "time": "0:17:25",
+          "target": "[UN] havaec",
+          "distance": "1580m",
+          "weapon": "Binoculars"
+        },
+        {
+          "time": "0:17:25",
+          "target": "Strider HMG",
+          "distance": "1580m",
+          "weapon": "Binoculars"
+        },
+        {
+          "time": "0:28:32",
+          "target": "[URAL]Rebi",
+          "distance": "123m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:28:34",
+          "target": "[URAL]Dram",
+          "distance": "140m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:28:41",
+          "target": "[URAL] Alexs",
+          "distance": "151m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:29:05",
+          "target": "Offroad (Police)",
+          "distance": "152m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:29:54",
+          "target": "[URAL] Babai",
+          "distance": "153m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:30:06",
+          "target": "Offroad (Police)",
+          "distance": "191m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:30:06",
+          "target": "[URAL] Flandern",
+          "distance": "192m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:31:00",
+          "target": "[VRG] Olemak",
+          "distance": "838m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:31:00",
+          "target": "Strider HMG",
+          "distance": "838m",
+          "weapon": "Rahim 7,62 мм (черный)"
+        },
+        {
+          "time": "0:38:13",
+          "target": "[SNZ] Tihon",
+          "distance": "48m",
+          "weapon": "Mk18 ABR 7.62 mm"
+        },
+        {
+          "time": "0:40:24",
+          "target": "[FRC] Alfik",
+          "distance": "25m",
+          "weapon": "Mk18 ABR 7.62 mm"
+        },
+        {
+          "time": "0:40:43",
+          "target": "[SNZ]Sweety",
+          "distance": "38m",
+          "weapon": "Mk18 ABR 7.62 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:40:48",
+        "target": "[SNZ] Gans",
+        "distance": "32m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[SYND] Takanawa",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:39:50",
+        "target": "[RMC] Monty",
+        "distance": "748m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[SYND] Улюп",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:13",
+        "target": "[RMC] Monty",
+        "distance": "721m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[UN] =Лунь=",
+      "squad": "UN",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:24",
+        "target": "[СМЕРШ] lazcore",
+        "distance": "1494m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[URAL] Flandern",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:06",
+        "target": "[STELS]Petrucho",
+        "distance": "192m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "Adam Dimitriadis",
+      "squad": "ADAM",
+      "side": "GUER",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:34",
+        "target": "[520th] Эфедрин",
+        "distance": "82m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "Offroad (Police)",
+      "squad": "OFFROAD",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:37",
+        "target": "Zhendos",
+        "distance": "546m",
+        "weapon": "RPG-32 (Olive)"
+      }
+    },
+    {
+      "name": "[1REC] SexFlexer",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:17:44",
+          "target": "[JW] Owlet",
+          "distance": "40m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:19:15",
+        "target": "[VRG] llBa1kerll",
+        "distance": "797m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[JW] BornToYarik",
+      "squad": "JW",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:01",
+        "target": "[1REC] Eskander",
+        "distance": "157m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[VRG] Wojciech84",
+      "squad": "VRG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:58",
+        "target": "[RMC]Jastik",
+        "distance": "200m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "[VRG] llBa1kerll",
+      "squad": "VRG",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:19:15",
+          "target": "[1REC] SexFlexer",
+          "distance": "797m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:24:12",
+        "target": "[RMC] Monty",
+        "distance": "1452m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[SYND] Масло",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:45",
+        "target": "[RDO] А ГейСер",
+        "distance": "16m",
+        "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "Dimitirou Melidoni",
+      "squad": "DIMITIROU",
+      "side": "GUER",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:16",
+        "target": "[520th] Эфедрин",
+        "distance": "90m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[SYND] emptyentity",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:57",
+        "target": "[RMC] Monty",
+        "distance": "613m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[Гивай]Pigeon",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 1-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:30:39",
+          "target": "[RE]Madori",
+          "distance": "36m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        },
+        {
+          "time": "0:47:31",
+          "target": "[UN]Ezer",
+          "distance": "58m",
+          "weapon": "Mk200 6.5 mm"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[СМЕРШ] Renne",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:27:20",
+        "target": "[VRG] Olemak",
+        "distance": "1806m",
+        "weapon": "MX 6.5 mm (Black)"
+      }
+    },
+    {
+      "name": "[СМЕРШ]shegol",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 1-6",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:26:40",
+          "target": "[UN]Исак",
+          "distance": "1487m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        },
+        {
+          "time": "0:27:52",
+          "target": "[AGG] Nosyam",
+          "distance": "900m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[SYND] Герань",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:24",
+        "target": "[RMC] Monty",
+        "distance": "709m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[SYND] Pipinkorotkiy",
+      "squad": "SYND",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:24",
+          "target": "[RDO] Nael",
+          "distance": "33m",
+          "weapon": "Mk18 ABR 7.62 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:36:04",
+        "target": "[Delta] Delovoy",
+        "distance": "689m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[СМЕРШ] lazcore",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 1-6",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:24",
+          "target": "[UN] =Лунь=",
+          "distance": "1494m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        },
+        {
+          "time": "0:26:43",
+          "target": "[UN]Farid",
+          "distance": "1608m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        },
+        {
+          "time": "0:34:13",
+          "target": "[SNZ]Arkus",
+          "distance": "692m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RDO] А ГейСер",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:45",
+          "target": "[SYND] Масло",
+          "distance": "16m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        },
+        {
+          "time": "0:21:53",
+          "target": "[SYND] ARC",
+          "distance": "9m",
+          "weapon": "TRG-21 EGLM 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:53",
+        "target": "[SYND] ARC",
+        "distance": "9m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[Гивай] DuckSide",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:12:31",
+          "target": "MB 4WD",
+          "distance": "1m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:12:31",
+        "target": "[VRG] Jesus",
+        "distance": "56m",
+        "weapon": "Mk200 6.5 mm"
+      }
+    },
+    {
+      "name": "[520th] Эфедрин",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:33:30",
+          "target": "[STELS]Pushkar",
+          "distance": "259m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:36:14",
+          "target": "[STELS]Pushkar",
+          "distance": "89m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:36:16",
+          "target": "Dimitirou Melidoni",
+          "distance": "90m",
+          "weapon": "MXM 6.5 mm (Black)"
+        },
+        {
+          "time": "0:36:34",
+          "target": "Adam Dimitriadis",
+          "distance": "82m",
+          "weapon": "MXM 6.5 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:46:01",
+        "target": "[STELS]sega",
+        "distance": "284m",
+        "weapon": "Rahim 7,62 мм (черный)"
+      }
+    },
+    {
+      "name": "[AGG] John_de_Pa`Atras",
+      "squad": "AGG",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:08",
+        "target": "[7th]Etwas",
+        "distance": "169m",
+        "weapon": "TRG-21 5.56 mm (Black)"
+      }
+    },
+    {
+      "name": "Mk32 GMG 25 mm (Raised)",
+      "squad": "MK32",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:27:59",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[Гивай]Snow Murakami",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:15:49",
+          "target": "MB 4WD",
+          "distance": "1m",
+          "weapon": "TRG-20 5.56 mm (Black)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:15:49",
+        "target": "[UN]Arey",
+        "distance": "54m",
+        "weapon": "MXM 6.5 mm (Black)"
+      }
+    }
+  ]
+}

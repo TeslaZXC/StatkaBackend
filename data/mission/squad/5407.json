@@ -1,0 +1,114 @@
+[
+  {
+    "squad": "UN",
+    "side": "GUER",
+    "frags": 2,
+    "deaths": 8,
+    "players": 9
+  },
+  {
+    "squad": "CA",
+    "side": "WEST",
+    "frags": 8,
+    "deaths": 5,
+    "players": 5
+  },
+  {
+    "squad": "LG",
+    "side": "WEST",
+    "frags": 4,
+    "deaths": 0,
+    "players": 1
+  },
+  {
+    "squad": "VRG",
+    "side": "GUER",
+    "frags": 5,
+    "deaths": 7,
+    "players": 7
+  },
+  {
+    "squad": "DW",
+    "side": "WEST",
+    "frags": 10,
+    "deaths": 0,
+    "players": 5
+  },
+  {
+    "squad": "FSK",
+    "side": "WEST",
+    "frags": 10,
+    "deaths": 3,
+    "players": 5
+  },
+  {
+    "squad": "NT",
+    "side": "GUER",
+    "frags": 1,
+    "deaths": 8,
+    "players": 8
+  },
+  {
+    "squad": "RDO",
+    "side": "GUER",
+    "frags": 1,
+    "deaths": 3,
+    "players": 3
+  },
+  {
+    "squad": "RMC",
+    "side": "GUER",
+    "frags": 3,
+    "deaths": 7,
+    "players": 7
+  },
+  {
+    "squad": "TERA",
+    "side": "GUER",
+    "frags": 3,
+    "deaths": 9,
+    "players": 9
+  },
+  {
+    "squad": "13TH",
+    "side": "WEST",
+    "frags": 20,
+    "deaths": 6,
+    "players": 9
+  },
+  {
+    "squad": "520TH",
+    "side": "WEST",
+    "frags": 1,
+    "deaths": 0,
+    "players": 1
+  },
+  {
+    "squad": "SYND",
+    "side": "GUER",
+    "frags": 0,
+    "deaths": 6,
+    "players": 6
+  },
+  {
+    "squad": "URAL",
+    "side": "WEST",
+    "frags": 7,
+    "deaths": 2,
+    "players": 3
+  },
+  {
+    "squad": "DELTA",
+    "side": "GUER",
+    "frags": 0,
+    "deaths": 5,
+    "players": 5
+  },
+  {
+    "squad": "СМЕРШ",
+    "side": "GUER",
+    "frags": 2,
+    "deaths": 7,
+    "players": 7
+  }
+]

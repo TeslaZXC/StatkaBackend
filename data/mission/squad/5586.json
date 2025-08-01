@@ -1,0 +1,142 @@
+[
+  {
+    "squad": "UN",
+    "side": "GUER",
+    "frags": 4,
+    "deaths": 11,
+    "players": 11
+  },
+  {
+    "squad": "7TH",
+    "side": "EAST",
+    "frags": 1,
+    "deaths": 3,
+    "players": 4
+  },
+  {
+    "squad": "LG",
+    "side": "EAST",
+    "frags": 9,
+    "deaths": 5,
+    "players": 5
+  },
+  {
+    "squad": "RE",
+    "side": "EAST",
+    "frags": 0,
+    "deaths": 4,
+    "players": 4
+  },
+  {
+    "squad": "VRG",
+    "side": "GUER",
+    "frags": 13,
+    "deaths": 5,
+    "players": 7
+  },
+  {
+    "squad": "DW",
+    "side": "EAST",
+    "frags": 7,
+    "deaths": 5,
+    "players": 6
+  },
+  {
+    "squad": "NT",
+    "side": "GUER",
+    "frags": 2,
+    "deaths": 7,
+    "players": 7
+  },
+  {
+    "squad": "TERA",
+    "side": "GUER",
+    "frags": 6,
+    "deaths": 12,
+    "players": 12
+  },
+  {
+    "squad": "URAL",
+    "side": "EAST",
+    "frags": 3,
+    "deaths": 6,
+    "players": 6
+  },
+  {
+    "squad": "13TH",
+    "side": "EAST",
+    "frags": 3,
+    "deaths": 5,
+    "players": 5
+  },
+  {
+    "squad": "520TH",
+    "side": "EAST",
+    "frags": 3,
+    "deaths": 4,
+    "players": 5
+  },
+  {
+    "squad": "KSK",
+    "side": "GUER",
+    "frags": 0,
+    "deaths": 1,
+    "players": 1
+  },
+  {
+    "squad": "RMC",
+    "side": "GUER",
+    "frags": 7,
+    "deaths": 2,
+    "players": 3
+  },
+  {
+    "squad": "SNZ",
+    "side": "GUER",
+    "frags": 0,
+    "deaths": 1,
+    "players": 1
+  },
+  {
+    "squad": "CA",
+    "side": "EAST",
+    "frags": 4,
+    "deaths": 6,
+    "players": 6
+  },
+  {
+    "squad": "DELTA",
+    "side": "GUER",
+    "frags": 5,
+    "deaths": 5,
+    "players": 5
+  },
+  {
+    "squad": "SYND",
+    "side": "EAST",
+    "frags": 2,
+    "deaths": 7,
+    "players": 7
+  },
+  {
+    "squad": "1REC",
+    "side": "EAST",
+    "frags": 16,
+    "deaths": 2,
+    "players": 2
+  },
+  {
+    "squad": "FSK",
+    "side": "EAST",
+    "frags": 0,
+    "deaths": 1,
+    "players": 1
+  },
+  {
+    "squad": "СМЕРШ",
+    "side": "GUER",
+    "frags": 4,
+    "deaths": 8,
+    "players": 8
+  }
+]

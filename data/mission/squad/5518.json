@@ -1,0 +1,142 @@
+[
+  {
+    "squad": "UN",
+    "side": "EAST",
+    "frags": 14,
+    "deaths": 4,
+    "players": 8
+  },
+  {
+    "squad": "7TH",
+    "side": "WEST",
+    "frags": 1,
+    "deaths": 4,
+    "players": 4
+  },
+  {
+    "squad": "CA",
+    "side": "WEST",
+    "frags": 10,
+    "deaths": 2,
+    "players": 4
+  },
+  {
+    "squad": "LG",
+    "side": "WEST",
+    "frags": 1,
+    "deaths": 0,
+    "players": 1
+  },
+  {
+    "squad": "RDO",
+    "side": "WEST",
+    "frags": 0,
+    "deaths": 4,
+    "players": 4
+  },
+  {
+    "squad": "RE",
+    "side": "WEST",
+    "frags": 2,
+    "deaths": 3,
+    "players": 4
+  },
+  {
+    "squad": "VRG",
+    "side": "EAST",
+    "frags": 9,
+    "deaths": 8,
+    "players": 8
+  },
+  {
+    "squad": "FSK",
+    "side": "WEST",
+    "frags": 4,
+    "deaths": 1,
+    "players": 4
+  },
+  {
+    "squad": "NT",
+    "side": "EAST",
+    "frags": 4,
+    "deaths": 4,
+    "players": 7
+  },
+  {
+    "squad": "SNZ",
+    "side": "WEST",
+    "frags": 0,
+    "deaths": 7,
+    "players": 7
+  },
+  {
+    "squad": "TERA",
+    "side": "EAST",
+    "frags": 6,
+    "deaths": 6,
+    "players": 10
+  },
+  {
+    "squad": "13TH",
+    "side": "WEST",
+    "frags": 8,
+    "deaths": 7,
+    "players": 8
+  },
+  {
+    "squad": "520TH",
+    "side": "WEST",
+    "frags": 3,
+    "deaths": 4,
+    "players": 6
+  },
+  {
+    "squad": "RMC",
+    "side": "EAST",
+    "frags": 7,
+    "deaths": 0,
+    "players": 3
+  },
+  {
+    "squad": "DW",
+    "side": "WEST",
+    "frags": 1,
+    "deaths": 2,
+    "players": 3
+  },
+  {
+    "squad": "DELTA",
+    "side": "EAST",
+    "frags": 1,
+    "deaths": 3,
+    "players": 5
+  },
+  {
+    "squad": "URAL",
+    "side": "WEST",
+    "frags": 4,
+    "deaths": 1,
+    "players": 3
+  },
+  {
+    "squad": "СМЕРШ",
+    "side": "EAST",
+    "frags": 2,
+    "deaths": 8,
+    "players": 8
+  },
+  {
+    "squad": "SYND",
+    "side": "WEST",
+    "frags": 1,
+    "deaths": 2,
+    "players": 2
+  },
+  {
+    "squad": "1REC",
+    "side": "EAST",
+    "frags": 2,
+    "deaths": 0,
+    "players": 1
+  }
+]
