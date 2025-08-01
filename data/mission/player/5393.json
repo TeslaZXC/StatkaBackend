@@ -1,0 +1,3073 @@
+{
+  "players": [
+    {
+      "name": "Vaza",
+      "squad": "Alpha 2-3",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:17",
+        "target": "[CA] Godis",
+        "distance": "34m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "Pound",
+      "squad": "Alpha 3-4",
+      "side": "WEST",
+      "group": "Alpha 3-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:48",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "vaska",
+      "squad": "Alpha 3-1",
+      "side": "WEST",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:47",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1556m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "*ARMA*",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 2,
+      "teamkills": 4,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:06:28",
+          "target": "V-44 X Blackfish (Vehicle Transport)",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:06:28",
+          "target": "Dw. Malice",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:09:07",
+          "target": "Speedboat HMG",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:17:48",
+          "target": "Pound",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:25:19",
+          "target": "[FSK] Ерсын",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:25:19",
+          "target": "Rescue Boat",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:35:22",
+          "target": "V-44 X Blackfish (Infantry Transport)",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "Komisar",
+      "squad": "Alpha 1-4",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:09",
+        "target": "[NT]Blackburn",
+        "distance": "277m",
+        "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+      }
+    },
+    {
+      "name": "[UN]DED",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:16:57",
+        "target": "[UN]DED",
+        "distance": "0m",
+        "weapon": "AKU-15 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "Dw. ASYS",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:30",
+        "target": "[RMC] Marshall",
+        "distance": "6m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[7th]k0t",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:10:10",
+        "target": "[AGG] Kavo?",
+        "distance": "2m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[RE]Esra",
+      "squad": "RE",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:17:11",
+          "target": "[VRG] Kovalski",
+          "distance": "103m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:17:30",
+        "target": "[VRG] Matvein",
+        "distance": "62m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[RMC]Eva",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:25",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1742m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[StB]Pit",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:33",
+        "target": "[StB]Psikh",
+        "distance": "65m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Arey",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:59",
+        "target": "[UN]Arey",
+        "distance": "0m",
+        "weapon": "PM 9 mm"
+      }
+    },
+    {
+      "name": "[UN]Ezer",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:58",
+        "target": "[UN]Ezer",
+        "distance": "0m",
+        "weapon": "PM 9 mm"
+      }
+    },
+    {
+      "name": "Граф",
+      "squad": "Alpha 2-1",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:17",
+        "target": "[NT]Blackburn",
+        "distance": "65m",
+        "weapon": "АК-15 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[CA] Efr.",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:14:25",
+          "target": "[AGG] Moon",
+          "distance": "211m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:22:02",
+        "target": "[RMC] Kypatop",
+        "distance": "17m",
+        "weapon": "АК-15 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[RE]Harex",
+      "squad": "RE",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:26",
+        "target": "[Delta]nikodeli",
+        "distance": "55m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[RS]Drago",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:07:27",
+          "target": "[СМЕРШ] lazcore",
+          "distance": "1254m",
+          "weapon": ""
+        }
+      ],
+      "death_detailed": {
+        "time": "0:11:43",
+        "target": "[Delta]nikodeli",
+        "distance": "10m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[SNZ]Psix",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:44:38",
+        "target": "[RMC] Marshall",
+        "distance": "3m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Divan",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:26",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "1404m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Farid",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:03",
+          "target": "[StB]Zanoza",
+          "distance": "283m",
+          "weapon": "АК-15 GL 7.62 мм (болотный)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:14:35",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "1543m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Logan",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:00",
+        "target": "[7th]PyJIbka",
+        "distance": "33m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[VRG] Cat",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:10:48",
+        "target": "[URAL] Alexs",
+        "distance": "49m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "Dw. Domver",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:19",
+        "target": "[RMC] Marshall",
+        "distance": "13m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "Dw. MOLOKO",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:05:20",
+          "target": "[520th] Alik",
+          "distance": "12m",
+          "weapon": "Vermin SMG .45 ACP"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:35:21",
+        "target": "Dw. MOLOKO",
+        "distance": "0m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "Dw. Malice",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:06:28",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[7th]Kuler",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:35",
+          "target": "[AGG] Waai fu",
+          "distance": "21m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:26:14",
+        "target": "[7th]Kuler",
+        "distance": "0m",
+        "weapon": "Throw"
+      }
+    },
+    {
+      "name": "[7th]ŽUBR",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:14:59",
+          "target": "[RDO] А ГейСер",
+          "distance": "1043m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[AGG] Moon",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:04",
+          "target": "[FRC] Fenrir",
+          "distance": "253m",
+          "weapon": "RPK-12 7.62 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:14:25",
+        "target": "[CA] Efr.",
+        "distance": "211m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[CA] Godis",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 2,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:15:59",
+          "target": "[UN]Исак",
+          "distance": "483m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:18:27",
+          "target": "[NT] Marnet",
+          "distance": "4m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:24:17",
+          "target": "Vaza",
+          "distance": "34m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:32:19",
+        "target": "[RMC] Marshall",
+        "distance": "7m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[FSK] Soup",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:23",
+        "target": "[FSK] Soup",
+        "distance": "0m",
+        "weapon": "P07 9 mm"
+      }
+    },
+    {
+      "name": "[FSK] Бо",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:09",
+        "target": "[AGG] Waai fu",
+        "distance": "58m",
+        "weapon": "АК-15 GL 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[RDO] Nael",
+      "squad": "RDO",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:06",
+        "target": "[RMC] Kypatop",
+        "distance": "18m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[RS]Vender",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:04:32",
+        "target": "[RS]Vender",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[StB]Guron",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:08:47",
+        "target": "[Delta]nikodeli",
+        "distance": "288m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[StB]Psikh",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:33",
+          "target": "[StB]Pit",
+          "distance": "65m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:33:47",
+        "target": "[StB]Psikh",
+        "distance": "0m",
+        "weapon": "Throw"
+      }
+    },
+    {
+      "name": "[StB]Rebus",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:16",
+          "target": "[VRG] Kovalski",
+          "distance": "53m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:31:33",
+        "target": "[StB]Rebus",
+        "distance": "0m",
+        "weapon": "Throw"
+      }
+    },
+    {
+      "name": "[URAL]Rebi",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:52",
+        "target": "[VRG] ZLuka",
+        "distance": "40m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "MSE-3 Marid",
+      "squad": "MSE",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:03",
+        "target": "[FSK] wigeance",
+        "distance": "479m",
+        "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+      }
+    },
+    {
+      "name": "Rescue Boat",
+      "squad": "RESCUE",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:19",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[13th] Oleg",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:28",
+        "target": "[13th] Oleg",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[13th] Pank",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:23",
+          "target": "[Гивай]Snow Murakami",
+          "distance": "413m",
+          "weapon": "Binoculars"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:41:44",
+        "target": "[SYND] Arsik7",
+        "distance": "293m",
+        "weapon": "ASP-1 Kir 12.7 mm (Black)"
+      }
+    },
+    {
+      "name": "[520th] SKY",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 5,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:37",
+          "target": "[TERA] KSander",
+          "distance": "76m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:13:13",
+          "target": "[TERA] teran",
+          "distance": "23m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:14:42",
+          "target": "[TERA]Prime",
+          "distance": "33m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:14:42",
+          "target": "[TERA] Winston",
+          "distance": "32m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:14:51",
+          "target": "[TERA]LeSnOi",
+          "distance": "46m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:29:53",
+        "target": "[13th] Smittsam",
+        "distance": "6m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "[7th]Prapar",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:13:30",
+          "target": "[VRG] llBa1kerll",
+          "distance": "10m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:17:37",
+        "target": "[VRG] Matvein",
+        "distance": "107m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[7th]karas'",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:10:24",
+        "target": "[AGG] Kavo?",
+        "distance": "7m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[AGG] Kavo?",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:10:10",
+          "target": "[7th]k0t",
+          "distance": "2m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:10:24",
+          "target": "[7th]karas'",
+          "distance": "7m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:15:57",
+          "target": "[CA] Atreides",
+          "distance": "26m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:27:02",
+        "target": "[STELS]Jason",
+        "distance": "17m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[FSK] Sprut",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:25",
+        "target": "[VRG] Olemak",
+        "distance": "2m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "[FSK]nurmuh",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:19",
+        "target": "[AGG] Waai fu",
+        "distance": "88m",
+        "weapon": "АК-15 GL 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[FSK]pelmen",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:36",
+        "target": "[520th] Эфедрин",
+        "distance": "304m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[NT] Andrew",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:04",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1817m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[NT] FishKa",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:30",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1848m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[NT] Marnet",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:18:27",
+        "target": "[CA] Godis",
+        "distance": "4m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[RMC] Alpha",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 4,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:13:13",
+          "target": "[13th] Godzilla",
+          "distance": "49m",
+          "weapon": "ASP-1 Kir 12.7 mm (Black)"
+        },
+        {
+          "time": "0:22:17",
+          "target": "[Гивай]ёрик",
+          "distance": "562m",
+          "weapon": "ASP-1 Kir 12.7 mm (Black)"
+        },
+        {
+          "time": "0:29:30",
+          "target": "[TNA] 6oTer",
+          "distance": "633m",
+          "weapon": "ASP-1 Kir 12.7 mm (Black)"
+        },
+        {
+          "time": "0:35:15",
+          "target": "[SNZ] Tihon",
+          "distance": "582m",
+          "weapon": "Zafir 7.62 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:38:32",
+        "target": "[13th] Smittsam",
+        "distance": "238m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "[RMC] Monty",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:38",
+        "target": "[520th] Эфедрин",
+        "distance": "283m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[RMC] Uktus",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:34",
+        "target": "[13th] Godzilla",
+        "distance": "38m",
+        "weapon": "Vermin SMG .45 ACP"
+      }
+    },
+    {
+      "name": "[RS] VOSTOK",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:06",
+        "target": "[VRG] Matvein",
+        "distance": "7m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[RS]Falcon5",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:09:26",
+        "target": "[Delta]nikodeli",
+        "distance": "168m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[SNZ] Baron",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:45:21",
+        "target": "[NT] mitternacht",
+        "distance": "3m",
+        "weapon": "АК-15 GL 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[SNZ] Tihon",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:15",
+        "target": "[RMC] Alpha",
+        "distance": "582m",
+        "weapon": "Zafir 7.62 mm"
+      }
+    },
+    {
+      "name": "[SYND] liss",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:46:13",
+        "target": "[13th] Smittsam",
+        "distance": "127m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "[StB]Zanoza",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:03",
+        "target": "[UN]Farid",
+        "distance": "283m",
+        "weapon": "АК-15 GL 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[TERA]Prime",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:42",
+        "target": "[520th] SKY",
+        "distance": "33m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[TNA] 6oTer",
+      "squad": "TNA",
+      "side": "WEST",
+      "group": "Alpha 1-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:56",
+          "target": "[Delta]nikodeli",
+          "distance": "85m",
+          "weapon": "MAR-10 .338 (Camo)"
+        },
+        {
+          "time": "0:22:19",
+          "target": "[VRG] Matvein",
+          "distance": "10m",
+          "weapon": "MAR-10 .338 (Camo)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:29:30",
+        "target": "[RMC] Alpha",
+        "distance": "633m",
+        "weapon": "ASP-1 Kir 12.7 mm (Black)"
+      }
+    },
+    {
+      "name": "[UN] MACTEP",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:18:01",
+        "target": "[520th] Эфедрин",
+        "distance": "348m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Bronson",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:52",
+        "target": "[7th]PyJIbka",
+        "distance": "37m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[VRG] ZLuka",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:52",
+          "target": "[URAL]Rebi",
+          "distance": "40m",
+          "weapon": "SDAR 5.56 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:13:12",
+        "target": "[URAL] Alexs",
+        "distance": "48m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "Dw. nikokrav",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:35",
+        "target": "[RMC] Marshall",
+        "distance": "14m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[13th] Hakka",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:15",
+        "target": "[СМЕРШ] SomM",
+        "distance": "12m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[520th] Alik",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:05:20",
+        "target": "Dw. MOLOKO",
+        "distance": "12m",
+        "weapon": "Vermin SMG .45 ACP"
+      }
+    },
+    {
+      "name": "[7th]PyJIbka",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:17:52",
+          "target": "[UN]Bronson",
+          "distance": "37m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:20:00",
+          "target": "[UN]Logan",
+          "distance": "33m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:23:26",
+        "target": "[520th] Эфедрин",
+        "distance": "285m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[AGG] Kruger",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:20",
+        "target": "[STELS]Jason",
+        "distance": "5m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[AGG] Nosyam",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:24",
+          "target": "[URAL] Alexs",
+          "distance": "86m",
+          "weapon": "АК-15 7.62 мм (болотный)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:22:54",
+        "target": "[STELS]Jason",
+        "distance": "20m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[FRC] Fenrir",
+      "squad": "FRC",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:04",
+        "target": "[AGG] Moon",
+        "distance": "253m",
+        "weapon": "RPK-12 7.62 mm"
+      }
+    },
+    {
+      "name": "[STELS]Jason",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 5,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:54",
+          "target": "[AGG] Nosyam",
+          "distance": "20m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:23:20",
+          "target": "[AGG] Kruger",
+          "distance": "5m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:23:31",
+          "target": "[AGG] Михайло",
+          "distance": "7m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:25:14",
+          "target": "[AGG] Sen. Lizmayl",
+          "distance": "8m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:27:02",
+          "target": "[AGG] Kavo?",
+          "distance": "17m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:33:19",
+        "target": "[NT] mitternacht",
+        "distance": "72m",
+        "weapon": "АК-15 GL 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[TERA] Iskra",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:01",
+        "target": "[CA] Cake_is_lie",
+        "distance": "818m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[TERA] Samsa",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:23",
+        "target": "[TERA] Samsa",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[TERA] teran",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:13",
+        "target": "[520th] SKY",
+        "distance": "23m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[TERA]LeSnOi",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:51",
+        "target": "[520th] SKY",
+        "distance": "46m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Barbaris",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:08",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1837m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[UN]Исак",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:59",
+        "target": "[CA] Godis",
+        "distance": "483m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[URAL] Alexs",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:10:48",
+          "target": "[VRG] Cat",
+          "distance": "49m",
+          "weapon": "SDAR 5.56 mm"
+        },
+        {
+          "time": "0:13:12",
+          "target": "[VRG] ZLuka",
+          "distance": "48m",
+          "weapon": "SDAR 5.56 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:24",
+        "target": "[AGG] Nosyam",
+        "distance": "86m",
+        "weapon": "АК-15 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[VRG] Olemak",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:15:25",
+          "target": "[FSK] Sprut",
+          "distance": "2m",
+          "weapon": "SDAR 5.56 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:16:15",
+        "target": "[FSK] starmrak",
+        "distance": "3m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "Dw. ToTCaMblu",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:23",
+        "target": "[RMC] Marshall",
+        "distance": "6m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "Speedboat HMG",
+      "squad": "SPEEDBOAT",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:09:07",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[13th] CaH4e3",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:24:15",
+          "target": "[AGG] Inaderit",
+          "distance": "8m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:24:25",
+        "target": "[RMC] Marshall",
+        "distance": "8m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[AGG] Waai fu",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:09",
+          "target": "[FSK] Бо",
+          "distance": "58m",
+          "weapon": "АК-15 GL 7.62 мм (болотный)"
+        },
+        {
+          "time": "0:21:19",
+          "target": "[FSK]nurmuh",
+          "distance": "88m",
+          "weapon": "АК-15 GL 7.62 мм (болотный)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:22:35",
+        "target": "[7th]Kuler",
+        "distance": "21m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[CA] Atreides",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:09:44",
+          "target": "[13th] Evgenrus",
+          "distance": "140m",
+          "weapon": "SPMG .338 (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:15:57",
+        "target": "[AGG] Kavo?",
+        "distance": "26m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[FSK] ml1ster",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:25",
+        "target": "[RMC] Marshall",
+        "distance": "3m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[NT]Blackburn",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:13:17",
+          "target": "Граф",
+          "distance": "65m",
+          "weapon": "АК-15 7.62 мм (болотный)"
+        },
+        {
+          "time": "0:15:09",
+          "target": "Komisar",
+          "distance": "277m",
+          "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:17:04",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1720m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[RMC] Kypatop",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:15:06",
+          "target": "[RDO] Nael",
+          "distance": "18m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:22:02",
+          "target": "[CA] Efr.",
+          "distance": "17m",
+          "weapon": "АК-15 7.62 мм (болотный)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:23:03",
+        "target": "[AGG] Михайло",
+        "distance": "11m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[STELS]Zealot",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:31:29",
+          "target": "Dw. Zloy_aka_JIbI4",
+          "distance": "12m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:32:21",
+        "target": "[RMC] Marshall",
+        "distance": "3m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[SYND] Arsik7",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:41:44",
+          "target": "[13th] Pank",
+          "distance": "293m",
+          "weapon": "ASP-1 Kir 12.7 mm (Black)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[SYND] Fanken",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:41:08",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1388m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[SYND]Douglas",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:03",
+        "target": "[FSK] wigeance",
+        "distance": "480m",
+        "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+      }
+    },
+    {
+      "name": "[TERA] ulitka",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:14:24",
+          "target": "Dw. Bear_Baby_Bear",
+          "distance": "222m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:14:35",
+        "target": "[SNZ] manfrint",
+        "distance": "2m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "[VRG] Matvein",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 5,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:16:16",
+          "target": "[STELS]svarscheg",
+          "distance": "99m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:17:06",
+          "target": "[13th] Doloman",
+          "distance": "107m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:17:30",
+          "target": "[RE]Esra",
+          "distance": "62m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:17:37",
+          "target": "[7th]Prapar",
+          "distance": "107m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:21:06",
+          "target": "[RS] VOSTOK",
+          "distance": "7m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:22:19",
+        "target": "[TNA] 6oTer",
+        "distance": "10m",
+        "weapon": "MAR-10 .338 (Camo)"
+      }
+    },
+    {
+      "name": "[13th] Doloman",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:13:04",
+          "target": "[-UN-] Лунь",
+          "distance": "1151m",
+          "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:17:06",
+        "target": "[VRG] Matvein",
+        "distance": "107m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[AGG] Inaderit",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:15",
+        "target": "[13th] CaH4e3",
+        "distance": "8m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[CA] AleekseeV",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:10:56",
+        "target": "[CA] AleekseeV",
+        "distance": "0m",
+        "weapon": "Throw"
+      }
+    },
+    {
+      "name": "[Delta]Ogrizok",
+      "squad": "DELTA",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:10:56",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "700m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[Delta]Pavline",
+      "squad": "DELTA",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:36",
+        "target": "[13th] NotSkvich",
+        "distance": "267m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[FSK] starmrak",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:16:15",
+          "target": "[VRG] Olemak",
+          "distance": "3m",
+          "weapon": "SDAR 5.56 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:50",
+        "target": "[RMC] Marshall",
+        "distance": "113m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[FSK] wigeance",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:21:03",
+          "target": "[SYND] Масло",
+          "distance": "479m",
+          "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+        },
+        {
+          "time": "0:21:03",
+          "target": "MSE-3 Marid",
+          "distance": "479m",
+          "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+        },
+        {
+          "time": "0:21:03",
+          "target": "[SYND]Douglas",
+          "distance": "480m",
+          "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[NT] NKVDshnik",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:42",
+        "target": "[NT] NKVDshnik",
+        "distance": "0m",
+        "weapon": "ASP-1 Kir 12.7 mm (Black)"
+      }
+    },
+    {
+      "name": "[RMC] Marshall",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 10,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:50",
+          "target": "[FSK] starmrak",
+          "distance": "113m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:24:25",
+          "target": "[13th] CaH4e3",
+          "distance": "8m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:25:19",
+          "target": "Dw. Domver",
+          "distance": "13m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:28:23",
+          "target": "Dw. ToTCaMblu",
+          "distance": "6m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:29:25",
+          "target": "[FSK] ml1ster",
+          "distance": "3m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:29:30",
+          "target": "Dw. ASYS",
+          "distance": "6m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:32:19",
+          "target": "[CA] Godis",
+          "distance": "7m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:32:21",
+          "target": "[STELS]Zealot",
+          "distance": "3m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:33:35",
+          "target": "Dw. nikokrav",
+          "distance": "14m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:44:38",
+          "target": "[SNZ]Psix",
+          "distance": "3m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[SNZ] manfrint",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 3-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:14:35",
+          "target": "[TERA] ulitka",
+          "distance": "2m",
+          "weapon": "SDAR 5.56 mm"
+        },
+        {
+          "time": "0:17:12",
+          "target": "[AGG] John_de_Pa`Atras",
+          "distance": "1m",
+          "weapon": "SDAR 5.56 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:23:43",
+        "target": "[SNZ] manfrint",
+        "distance": "0m",
+        "weapon": "P07 9 mm"
+      }
+    },
+    {
+      "name": "[TERA] KSander",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:37",
+        "target": "[520th] SKY",
+        "distance": "76m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[TERA] Winston",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:42",
+        "target": "[520th] SKY",
+        "distance": "32m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[VRG] Daniil30",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:31",
+        "target": "[Delta]nikodeli",
+        "distance": "19m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[VRG] Kovalski",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:16",
+        "target": "[StB]Rebus",
+        "distance": "53m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[-UN-] Лунь",
+      "squad": "-UN-",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:04",
+        "target": "[13th] Doloman",
+        "distance": "1151m",
+        "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+      }
+    },
+    {
+      "name": "[13th] Evgenrus",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:09:44",
+        "target": "[CA] Atreides",
+        "distance": "140m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "[13th] Godzilla",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:34",
+          "target": "[RMC] Uktus",
+          "distance": "38m",
+          "weapon": "Vermin SMG .45 ACP"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:13:13",
+        "target": "[RMC] Alpha",
+        "distance": "49m",
+        "weapon": "ASP-1 Kir 12.7 mm (Black)"
+      }
+    },
+    {
+      "name": "[13th] Smittsam",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 5,
+      "teamkills": 2,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:17:35",
+          "target": "[СМЕРШ] SomM",
+          "distance": "28m",
+          "weapon": "SPMG .338 (Sand)"
+        },
+        {
+          "time": "0:24:45",
+          "target": "[СМЕРШ] Renne",
+          "distance": "5m",
+          "weapon": "SPMG .338 (Sand)"
+        },
+        {
+          "time": "0:27:52",
+          "target": "[13th] NotSkvich",
+          "distance": "13m",
+          "weapon": "SPMG .338 (Sand)"
+        },
+        {
+          "time": "0:29:53",
+          "target": "[520th] SKY",
+          "distance": "6m",
+          "weapon": "SPMG .338 (Sand)"
+        },
+        {
+          "time": "0:31:39",
+          "target": "[СМЕРШ]  Терский",
+          "distance": "21m",
+          "weapon": "SPMG .338 (Sand)"
+        },
+        {
+          "time": "0:38:32",
+          "target": "[RMC] Alpha",
+          "distance": "238m",
+          "weapon": "SPMG .338 (Sand)"
+        },
+        {
+          "time": "0:46:13",
+          "target": "[SYND] liss",
+          "distance": "127m",
+          "weapon": "SPMG .338 (Sand)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[Delta]nikodeli",
+      "squad": "DELTA",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 4,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:08:47",
+          "target": "[StB]Guron",
+          "distance": "288m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:09:26",
+          "target": "[RS]Falcon5",
+          "distance": "168m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:11:26",
+          "target": "[RE]Harex",
+          "distance": "55m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:11:31",
+          "target": "[VRG] Daniil30",
+          "distance": "19m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        },
+        {
+          "time": "0:11:43",
+          "target": "[RS]Drago",
+          "distance": "10m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:11:56",
+        "target": "[TNA] 6oTer",
+        "distance": "85m",
+        "weapon": "MAR-10 .338 (Camo)"
+      }
+    },
+    {
+      "name": "[STELS]Petrucho",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:01",
+        "target": "[STELS]Petrucho",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[SYND] Улюп",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:34:14",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1442m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[13th] NotSkvich",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:36",
+          "target": "[Delta]Pavline",
+          "distance": "267m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:27:52",
+        "target": "[13th] Smittsam",
+        "distance": "13m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "[CA] Cake_is_lie",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 9,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:12:01",
+          "target": "[TERA] Iskra",
+          "distance": "818m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:15:00",
+          "target": "[RDO] VavvVay :З",
+          "distance": "1401m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:17:04",
+          "target": "[NT]Blackburn",
+          "distance": "1720m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:17:25",
+          "target": "[RMC]Eva",
+          "distance": "1742m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:21:30",
+          "target": "[NT] FishKa",
+          "distance": "1848m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:22:08",
+          "target": "[UN]Barbaris",
+          "distance": "1837m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:24:03",
+          "target": "Zamak Transport (Covered)",
+          "distance": "1816m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:24:04",
+          "target": "[NT] Andrew",
+          "distance": "1817m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:30:47",
+          "target": "vaska",
+          "distance": "1556m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:34:14",
+          "target": "[SYND] Улюп",
+          "distance": "1442m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:41:08",
+          "target": "[SYND] Fanken",
+          "distance": "1388m",
+          "weapon": "SPAR-16 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[FSK] Ерсын",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:19",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[NT] mitternacht",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:26:11",
+          "target": "[520th] Эфедрин",
+          "distance": "149m",
+          "weapon": "АК-15 GL 7.62 мм (болотный)"
+        },
+        {
+          "time": "0:33:19",
+          "target": "[STELS]Jason",
+          "distance": "72m",
+          "weapon": "АК-15 GL 7.62 мм (болотный)"
+        },
+        {
+          "time": "0:45:21",
+          "target": "[SNZ] Baron",
+          "distance": "3m",
+          "weapon": "АК-15 GL 7.62 мм (болотный)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[STELS]svarscheg",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:16:16",
+        "target": "[VRG] Matvein",
+        "distance": "99m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "[VRG] llBa1kerll",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:30",
+        "target": "[7th]Prapar",
+        "distance": "10m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[FSK] SkoloPendra",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:00",
+        "target": "[520th] Эфедрин",
+        "distance": "489m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[RDO] VavvVay :З",
+      "squad": "RDO",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:00",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1401m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[SYND] Масло",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:03",
+        "target": "[FSK] wigeance",
+        "distance": "479m",
+        "weapon": "MAAWS Mk4 Mod 0 (Sand)"
+      }
+    },
+    {
+      "name": "[СМЕРШ] SomM",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:17:15",
+          "target": "[13th] Hakka",
+          "distance": "12m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:17:35",
+        "target": "[13th] Smittsam",
+        "distance": "28m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "Dw. Bear_Baby_Bear",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:24",
+        "target": "[TERA] ulitka",
+        "distance": "222m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "Dw. Zloy_aka_JIbI4",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:19:56",
+          "target": "[RMC] Kypatop",
+          "distance": "10m",
+          "weapon": "SDAR 5.56 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:31:29",
+        "target": "[STELS]Zealot",
+        "distance": "12m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[AGG] Sen. Lizmayl",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:17:22",
+          "target": "[520th] Лидокаин",
+          "distance": "35m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:25:14",
+        "target": "[STELS]Jason",
+        "distance": "8m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[СМЕРШ] Renne",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:45",
+        "target": "[13th] Smittsam",
+        "distance": "5m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "[СМЕРШ] Tesla",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:46",
+        "target": "[СМЕРШ]  Терский",
+        "distance": "40m",
+        "weapon": "Katiba Carbine 6.5 mm"
+      }
+    },
+    {
+      "name": "Steerable Parachute",
+      "squad": "STEERABLE",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:10:45",
+        "target": "[520th] Эфедрин",
+        "distance": "0m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[STELS]Iwan_Susanin",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:04:09",
+        "target": "[STELS]Iwan_Susanin",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[AGG] Михайло",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:23:03",
+          "target": "[RMC] Kypatop",
+          "distance": "11m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:23:31",
+        "target": "[STELS]Jason",
+        "distance": "7m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[Гивай]ёрик",
+      "squad": "ГИВАЙ",
+      "side": "WEST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:17",
+        "target": "[RMC] Alpha",
+        "distance": "562m",
+        "weapon": "ASP-1 Kir 12.7 mm (Black)"
+      }
+    },
+    {
+      "name": "[СМЕРШ] lazcore",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:07:27",
+        "target": "[RS]Drago",
+        "distance": "1254m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[RDO] А ГейСер",
+      "squad": "RDO",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:59",
+        "target": "[7th]ŽUBR",
+        "distance": "1043m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[520th] Эфедрин",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 2,
+      "teamkills": 3,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:10:45",
+          "target": "Steerable Parachute",
+          "distance": "0m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:12:38",
+          "target": "[RMC] Monty",
+          "distance": "283m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:18:01",
+          "target": "[UN] MACTEP",
+          "distance": "348m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:21:00",
+          "target": "[FSK] SkoloPendra",
+          "distance": "489m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:22:36",
+          "target": "[FSK]pelmen",
+          "distance": "304m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:23:26",
+          "target": "[7th]PyJIbka",
+          "distance": "285m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:26:11",
+        "target": "[NT] mitternacht",
+        "distance": "149m",
+        "weapon": "АК-15 GL 7.62 мм (болотный)"
+      }
+    },
+    {
+      "name": "[AGG] John_de_Pa`Atras",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:12",
+        "target": "[SNZ] manfrint",
+        "distance": "1m",
+        "weapon": "SDAR 5.56 mm"
+      }
+    },
+    {
+      "name": "[520th] Лидокаин",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:22",
+        "target": "[AGG] Sen. Lizmayl",
+        "distance": "35m",
+        "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "Zamak Transport (Covered)",
+      "squad": "ZAMAK",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:03",
+        "target": "[CA] Cake_is_lie",
+        "distance": "1816m",
+        "weapon": "SPAR-16 5.56 mm (Sand)"
+      }
+    },
+    {
+      "name": "[Гивай]Snow Murakami",
+      "squad": "ГИВАЙ",
+      "side": "WEST",
+      "group": "Alpha 1-1",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:10:56",
+          "target": "[Delta]Ogrizok",
+          "distance": "700m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:14:26",
+          "target": "[UN]Divan",
+          "distance": "1404m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        },
+        {
+          "time": "0:14:35",
+          "target": "[UN]Farid",
+          "distance": "1543m",
+          "weapon": "SPAR-16 GL 5.56 mm (Sand)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:22:23",
+        "target": "[13th] Pank",
+        "distance": "413m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[СМЕРШ]  Терский",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:28:46",
+          "target": "[СМЕРШ] Tesla",
+          "distance": "40m",
+          "weapon": "Katiba Carbine 6.5 mm"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:31:39",
+        "target": "[13th] Smittsam",
+        "distance": "21m",
+        "weapon": "SPMG .338 (Sand)"
+      }
+    },
+    {
+      "name": "V-44 X Blackfish (Vehicle Transport)",
+      "squad": "V",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:06:28",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "V-44 X Blackfish (Infantry Transport)",
+      "squad": "V",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:22",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    }
+  ]
+}

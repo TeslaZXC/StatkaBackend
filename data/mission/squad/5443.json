@@ -1,0 +1,135 @@
+[
+  {
+    "squad": "RE",
+    "side": "WEST",
+    "frags": 1,
+    "deaths": 3,
+    "players": 4
+  },
+  {
+    "squad": "UN",
+    "side": "WEST",
+    "frags": 4,
+    "deaths": 9,
+    "players": 10
+  },
+  {
+    "squad": "7TH",
+    "side": "WEST",
+    "frags": 4,
+    "deaths": 6,
+    "players": 7
+  },
+  {
+    "squad": "RMC",
+    "side": "EAST",
+    "frags": 1,
+    "deaths": 4,
+    "players": 4
+  },
+  {
+    "squad": "FSK",
+    "side": "EAST",
+    "frags": 1,
+    "deaths": 11,
+    "players": 11
+  },
+  {
+    "squad": "KSK",
+    "side": "EAST",
+    "frags": 6,
+    "deaths": 11,
+    "players": 11
+  },
+  {
+    "squad": "LG",
+    "side": "WEST",
+    "frags": 6,
+    "deaths": 0,
+    "players": 1
+  },
+  {
+    "squad": "SNZ",
+    "side": "WEST",
+    "frags": 5,
+    "deaths": 1,
+    "players": 4
+  },
+  {
+    "squad": "TERA",
+    "side": "EAST",
+    "frags": 7,
+    "deaths": 11,
+    "players": 11
+  },
+  {
+    "squad": "URAL",
+    "side": "EAST",
+    "frags": 3,
+    "deaths": 6,
+    "players": 6
+  },
+  {
+    "squad": "VRG",
+    "side": "WEST",
+    "frags": 6,
+    "deaths": 9,
+    "players": 11
+  },
+  {
+    "squad": "13TH",
+    "side": "WEST",
+    "frags": 6,
+    "deaths": 4,
+    "players": 6
+  },
+  {
+    "squad": "520TH",
+    "side": "EAST",
+    "frags": 4,
+    "deaths": 5,
+    "players": 5
+  },
+  {
+    "squad": "NT",
+    "side": "WEST",
+    "frags": 0,
+    "deaths": 1,
+    "players": 1
+  },
+  {
+    "squad": "1REC",
+    "side": "WEST",
+    "frags": 7,
+    "deaths": 5,
+    "players": 6
+  },
+  {
+    "squad": "DW",
+    "side": "WEST",
+    "frags": 2,
+    "deaths": 1,
+    "players": 1
+  },
+  {
+    "squad": "CA",
+    "side": "WEST",
+    "frags": 0,
+    "deaths": 1,
+    "players": 1
+  },
+  {
+    "squad": "SYND",
+    "side": "EAST",
+    "frags": 3,
+    "deaths": 5,
+    "players": 6
+  },
+  {
+    "squad": "СМЕРШ",
+    "side": "EAST",
+    "frags": 8,
+    "deaths": 10,
+    "players": 11
+  }
+]

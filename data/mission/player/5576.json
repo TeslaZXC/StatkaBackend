@@ -1,0 +1,2440 @@
+{
+  "players": [
+    {
+      "name": "Val",
+      "squad": "Alpha 1-3",
+      "side": "GUER",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:38",
+        "target": "[URAL] Mosinka_Stalina",
+        "distance": "69m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "ALЕX",
+      "squad": "Alpha 2-6",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:40",
+        "target": "[URAL]Dram",
+        "distance": "338m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "BMP-1",
+      "squad": "BMP",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:11",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "42m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "KOSBO",
+      "squad": "Alpha 3-3",
+      "side": "GUER",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:45",
+        "target": "KOSBO",
+        "distance": "0m",
+        "weapon": "M1911A1"
+      }
+    },
+    {
+      "name": "vaska",
+      "squad": "Alpha 2-1",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:08:12",
+        "target": "[1REC] мотуган",
+        "distance": "156m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "*ARMA*",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 4,
+      "teamkills": 3,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:23:02",
+          "target": "[SNZ 99] Burn",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:23:02",
+          "target": "BMP-1",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:23:02",
+          "target": "[SNZ 99] Alfik",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:23:02",
+          "target": "Hilux (Covered)",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:23:02",
+          "target": "[STELS]Pushkar",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:28:19",
+          "target": "GAZ-66",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        },
+        {
+          "time": "0:29:22",
+          "target": "[1REC] Kuzzu",
+          "distance": "-1m",
+          "weapon": "no weapon"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "GAZ-66",
+      "squad": "GAZ",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:19",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "Kirill",
+      "squad": "Alpha 2-5",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:18:35",
+          "target": "[URAL]Dram",
+          "distance": "258m",
+          "weapon": "[BAF Factions] M16A3 (M203)"
+        },
+        {
+          "time": "0:35:04",
+          "target": "[520th] Лидокаин",
+          "distance": "13m",
+          "weapon": "[BAF Factions] M16A3 (M203)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "ZiL-131",
+      "squad": "ZIL",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:26",
+        "target": "[СМЕРШ] Renne",
+        "distance": "34m",
+        "weapon": "РШГ-2"
+      }
+    },
+    {
+      "name": "[JW] BAN",
+      "squad": "JW",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:08:03",
+          "target": "[LG] DON",
+          "distance": "84m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:35:32",
+          "target": "[RAF]Valour",
+          "distance": "427m",
+          "weapon": "[BAF Factions] M16A2"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[LG] DON",
+      "squad": "LG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:07:28",
+          "target": "[RMC]Eva",
+          "distance": "39m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:08:03",
+        "target": "[JW] BAN",
+        "distance": "84m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[RMC]DoS",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:09:53",
+          "target": "[LG] Fused88",
+          "distance": "99m",
+          "weapon": "[BAF Factions] СВД"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:10:06",
+        "target": "[LG]heizy",
+        "distance": "91m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[RMC]Eva",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:07:28",
+        "target": "[LG] DON",
+        "distance": "39m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[UN]Ezer",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:14",
+        "target": "[JW] BornToYarik",
+        "distance": "22m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[7th]Gnev",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:32:29",
+        "target": "[7th]Gnev",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[7th]Slam",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:35",
+        "target": "[URAL]Rebi",
+        "distance": "490m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[BCS]Borw",
+      "squad": "BCS",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:28:08",
+          "target": "[RMC] Kypatop",
+          "distance": "24m",
+          "weapon": "ПКМ"
+        },
+        {
+          "time": "0:32:42",
+          "target": "[CA] Atreides",
+          "distance": "47m",
+          "weapon": "ПКМ"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[LG] Pank",
+      "squad": "LG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:50",
+        "target": "[СМЕРШ]shegol",
+        "distance": "1090m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[LG]heizy",
+      "squad": "LG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:10:06",
+          "target": "[RMC]DoS",
+          "distance": "91m",
+          "weapon": "АКМС (ГП-25)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RAF]Merc",
+      "squad": "RAF",
+      "side": "GUER",
+      "group": "Alpha 3-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:24:01",
+          "target": "[RE]Madori",
+          "distance": "64m",
+          "weapon": "[BAF Factions] M16A3 (M203)"
+        },
+        {
+          "time": "0:28:58",
+          "target": "[UN] MACTEP",
+          "distance": "1076m",
+          "weapon": "[BAF Factions] M16A3 (M203)"
+        },
+        {
+          "time": "0:28:58",
+          "target": "GAZ-233014 (Camo)",
+          "distance": "1077m",
+          "weapon": "[BAF Factions] M16A3 (M203)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RDO]Geng",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:02",
+        "target": "[520th] Лидокаин",
+        "distance": "70m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[RE]Koppy",
+      "squad": "RE",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:12",
+        "target": "[RAF]Kickraz",
+        "distance": "261m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "[UN]Apple",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:31",
+          "target": "[RDO] VavvVay :З",
+          "distance": "1186m",
+          "weapon": ""
+        }
+      ],
+      "death_detailed": {
+        "time": "0:28:29",
+        "target": "[7th]karas'",
+        "distance": "62m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[UN]Logan",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:27:00",
+        "target": "[RDO] Nael",
+        "distance": "117m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[7th]Etwas",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:51",
+        "target": "[VRG] Kovalski",
+        "distance": "5m",
+        "weapon": "АКМ"
+      }
+    },
+    {
+      "name": "[7th]Ezhov",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:20",
+        "target": "[URAL]Rebi",
+        "distance": "501m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[7th]Kuler",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:34",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "1565m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[JW] Owlet",
+      "squad": "JW",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:18:50",
+          "target": "[13th] Hakka",
+          "distance": "2m",
+          "weapon": "M1911A1"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:24:29",
+        "target": "[JW] Owlet",
+        "distance": "0m",
+        "weapon": "M1911A1"
+      }
+    },
+    {
+      "name": "[RDO] Nael",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:27:00",
+          "target": "[UN]Logan",
+          "distance": "117m",
+          "weapon": "АКМС (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:27:00",
+        "target": "[VRG] Azov",
+        "distance": "770m",
+        "weapon": "DXL-5 Опустошитель"
+      }
+    },
+    {
+      "name": "[RE]Madori",
+      "squad": "RE",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:59",
+          "target": "[STELS]Jason",
+          "distance": "85m",
+          "weapon": "АК-74М (Б-10М/Б-33)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:24:01",
+        "target": "[RAF]Merc",
+        "distance": "64m",
+        "weapon": "[BAF Factions] M16A3 (M203)"
+      }
+    },
+    {
+      "name": "[SNZ]Arkus",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:03",
+        "target": "[RMC] Marshall",
+        "distance": "19m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[SYND] ARC",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:14",
+        "target": "[srr]Sector594",
+        "distance": "1676m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[StB]Psikh",
+      "squad": "STB",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:48",
+        "target": "[URAL]Rebi",
+        "distance": "448m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[URAL]Dram",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:40",
+          "target": "ALЕX",
+          "distance": "338m",
+          "weapon": "ПКМ"
+        },
+        {
+          "time": "0:17:02",
+          "target": "[1REC] Billy911",
+          "distance": "318m",
+          "weapon": "ПКМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:18:35",
+        "target": "Kirill",
+        "distance": "258m",
+        "weapon": "[BAF Factions] M16A3 (M203)"
+      }
+    },
+    {
+      "name": "[URAL]Rebi",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 5,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:13:12",
+          "target": "[1REC] NKVDshnik",
+          "distance": "475m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:20:48",
+          "target": "[StB]Psikh",
+          "distance": "448m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:21:20",
+          "target": "[7th]Ezhov",
+          "distance": "501m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:21:35",
+          "target": "[7th]Slam",
+          "distance": "490m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:26:25",
+          "target": "[srr]Sector594",
+          "distance": "1186m",
+          "weapon": "[BAF Factions] СВД"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:28:28",
+        "target": "[CA] Atreides",
+        "distance": "1185m",
+        "weapon": "[BAF Factions] M16A2 (M203)"
+      }
+    },
+    {
+      "name": "[VRG] Azov",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 3-3",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:32",
+          "target": "[RDO] Чича",
+          "distance": "1466m",
+          "weapon": "DXL-5 Опустошитель"
+        },
+        {
+          "time": "0:27:00",
+          "target": "[RDO] Nael",
+          "distance": "770m",
+          "weapon": "DXL-5 Опустошитель"
+        },
+        {
+          "time": "0:32:52",
+          "target": "[СМЕРШ] Tesla",
+          "distance": "1752m",
+          "weapon": "DXL-5 Опустошитель"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[520th] SKY",
+      "squad": "520TH",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:19:22",
+        "target": "[Гивай] Roofix",
+        "distance": "325m",
+        "weapon": "[BAF Factions] M16A3 (M203)"
+      }
+    },
+    {
+      "name": "[7th]karas'",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 1-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:28:29",
+          "target": "[UN]Apple",
+          "distance": "62m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:28:32",
+        "target": "[UN] MACTEP",
+        "distance": "86m",
+        "weapon": "АК-74М (Б-10М/Б-33)"
+      }
+    },
+    {
+      "name": "[FSK]nurmuh",
+      "squad": "FSK",
+      "side": "EAST",
+      "group": "Alpha 3-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:55",
+          "target": "[Delta] Delovoy",
+          "distance": "125m",
+          "weapon": "АКМС (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:24",
+        "target": "[STELS]Swebak",
+        "distance": "63m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[RAF]Valour",
+      "squad": "RAF",
+      "side": "GUER",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:32",
+        "target": "[JW] BAN",
+        "distance": "427m",
+        "weapon": "[BAF Factions] M16A2"
+      }
+    },
+    {
+      "name": "[RMC]Jastik",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:31:25",
+          "target": "Сохатый",
+          "distance": "61m",
+          "weapon": "АКМС"
+        },
+        {
+          "time": "0:31:31",
+          "target": "[13th] WoWrostov",
+          "distance": "68m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RMI]Trager",
+      "squad": "RMI",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:31:56",
+        "target": "[SYND] Улюп",
+        "distance": "98m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[SNZ] Baron",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:07",
+        "target": "[RMC] Marshall",
+        "distance": "4m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[SNZ] Tihon",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:31",
+        "target": "[STELS]Swebak",
+        "distance": "90m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[SNZ]Sweety",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:28",
+        "target": "[RMC] Marshall",
+        "distance": "43m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[SYND] quas",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:12:11",
+        "target": "[srr]Sector594",
+        "distance": "1847m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[UN] MACTEP",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:28:32",
+          "target": "[7th]karas'",
+          "distance": "86m",
+          "weapon": "АК-74М (Б-10М/Б-33)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:28:58",
+        "target": "[RAF]Merc",
+        "distance": "1076m",
+        "weapon": "[BAF Factions] M16A3 (M203)"
+      }
+    },
+    {
+      "name": "[UN] havaec",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:33:40",
+        "target": "[JW] BornToYarik",
+        "distance": "32m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[VRG] Tolik",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:05",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "792m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[VRG] Yanik",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:42",
+          "target": "[Delta]Siris",
+          "distance": "29m",
+          "weapon": "АКМС (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:24:16",
+        "target": "[STELS]Swebak",
+        "distance": "119m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[13th] Hakka",
+      "squad": "13TH",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:34",
+          "target": "[13th] Smittsam",
+          "distance": "2m",
+          "weapon": "АКМ (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:18:50",
+        "target": "[JW] Owlet",
+        "distance": "2m",
+        "weapon": "M1911A1"
+      }
+    },
+    {
+      "name": "[1REC] Kuzzu",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 3-6",
+      "frags": 0,
+      "teamkills": 2,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:14:42",
+          "target": "Kuzma Kamenev",
+          "distance": "4m",
+          "weapon": "АКМС"
+        },
+        {
+          "time": "0:14:42",
+          "target": "Ilya Sharapov",
+          "distance": "2m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:29:22",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[520th] Alik",
+      "squad": "520TH",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:30:00",
+          "target": "[STELS]Zealot",
+          "distance": "36m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:30:18",
+        "target": "[STELS]Swebak",
+        "distance": "5m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[7th]Pashtet",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:18",
+        "target": "[FSK] Ерсын",
+        "distance": "78m",
+        "weapon": "АКМ (ГП-25)"
+      }
+    },
+    {
+      "name": "[Delta]Siris",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:42",
+        "target": "[VRG] Yanik",
+        "distance": "29m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[LG] Fused88",
+      "squad": "LG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:09:26",
+          "target": "Aleksander Zubov",
+          "distance": "174m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:09:53",
+        "target": "[RMC]DoS",
+        "distance": "99m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[RAF]Kickraz",
+      "squad": "RAF",
+      "side": "GUER",
+      "group": "Alpha 3-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:23:12",
+          "target": "[RE]Koppy",
+          "distance": "261m",
+          "weapon": "ПКМ"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[STELS]Jason",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:59",
+        "target": "[RE]Madori",
+        "distance": "85m",
+        "weapon": "АК-74М (Б-10М/Б-33)"
+      }
+    },
+    {
+      "name": "[UN]Исак",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:10",
+        "target": "[STELS]Swebak",
+        "distance": "115m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[URAL] Alexs",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:26",
+        "target": "[13th] Doloman",
+        "distance": "50m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[URAL] Babai",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:31:54",
+        "target": "[STELS]Swebak",
+        "distance": "231m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "Hilux (DHSKM)",
+      "squad": "HILUX",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:06",
+        "target": "[CA] Atreides",
+        "distance": "1683m",
+        "weapon": "[BAF Factions] M16A2 (M203)"
+      }
+    },
+    {
+      "name": "Ilya Sharapov",
+      "squad": "ILYA",
+      "side": "GUER",
+      "group": "Alpha 3-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:42",
+        "target": "[1REC] Kuzzu",
+        "distance": "2m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "Kuzma Kamenev",
+      "squad": "KUZMA",
+      "side": "GUER",
+      "group": "Alpha 3-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:14:42",
+        "target": "[1REC] Kuzzu",
+        "distance": "4m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[CA] Atreides",
+      "squad": "CA",
+      "side": "GUER",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:28:28",
+          "target": "[URAL]Rebi",
+          "distance": "1185m",
+          "weapon": "[BAF Factions] M16A2 (M203)"
+        },
+        {
+          "time": "0:29:06",
+          "target": "Hilux (DHSKM)",
+          "distance": "1683m",
+          "weapon": "[BAF Factions] M16A2 (M203)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:32:42",
+        "target": "[BCS]Borw",
+        "distance": "47m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "[Delta]Raidar",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:36",
+        "target": "[Delta]Raidar",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[RMC] Kypatop",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:08",
+        "target": "[BCS]Borw",
+        "distance": "24m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "[SNZ 99] Burn",
+      "squad": "SNZ 99",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:02",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[STELS]Swebak",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 3-3",
+      "frags": 9,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:24",
+          "target": "[FSK]nurmuh",
+          "distance": "63m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:24:16",
+          "target": "[VRG] Yanik",
+          "distance": "119m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:24:44",
+          "target": "[VRG] Kovalski",
+          "distance": "86m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:30:18",
+          "target": "[520th] Alik",
+          "distance": "5m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:30:43",
+          "target": "[520th] Эфедрин",
+          "distance": "194m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:31:38",
+          "target": "[13th] Doloman",
+          "distance": "107m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:31:54",
+          "target": "[URAL] Babai",
+          "distance": "231m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:33:31",
+          "target": "[SNZ] Tihon",
+          "distance": "90m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:35:10",
+          "target": "[UN]Исак",
+          "distance": "115m",
+          "weapon": "[BAF Factions] СВД"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[STELS]Zealot",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:00",
+        "target": "[520th] Alik",
+        "distance": "36m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "Hilux (Rocket)",
+      "squad": "HILUX",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:40",
+        "target": "[URAL] Mosinka_Stalina",
+        "distance": "75m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[13th] Doloman",
+      "squad": "13TH",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 4,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:18:50",
+          "target": "[520th] Новокаин",
+          "distance": "110m",
+          "weapon": "РШГ-2 (отстрелянный)"
+        },
+        {
+          "time": "0:25:59",
+          "target": "[SNZ] Mr. Prays",
+          "distance": "2m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:29:26",
+          "target": "[URAL] Alexs",
+          "distance": "50m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:29:26",
+          "target": "BMP-1",
+          "distance": "50m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:29:26",
+          "target": "[URAL] Mosinka_Stalina",
+          "distance": "51m",
+          "weapon": "РПГ-7В2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:31:38",
+        "target": "[STELS]Swebak",
+        "distance": "107m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[1REC] Krechet",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:17",
+        "target": "[SYND] Улюп",
+        "distance": "8m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[Delta]Ogrizok",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:19:12",
+        "target": "[VRG] Kovalski",
+        "distance": "52m",
+        "weapon": "АКМ"
+      }
+    },
+    {
+      "name": "[LG] NotSkvich",
+      "squad": "LG",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:11",
+          "target": "[1REC] Eskander",
+          "distance": "664m",
+          "weapon": "[BAF Factions] СВД"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:21:28",
+        "target": "[СМЕРШ] Renne",
+        "distance": "103m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "[RDO] Чича",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:32",
+        "target": "[VRG] Azov",
+        "distance": "1466m",
+        "weapon": "DXL-5 Опустошитель"
+      }
+    },
+    {
+      "name": "[RMC] Marshall",
+      "squad": "RMC",
+      "side": "GUER",
+      "group": "Alpha 1-4",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:35:07",
+          "target": "[SNZ] Baron",
+          "distance": "4m",
+          "weapon": "Binoculars"
+        },
+        {
+          "time": "0:36:28",
+          "target": "[SNZ]Sweety",
+          "distance": "43m",
+          "weapon": "АКМС"
+        },
+        {
+          "time": "0:37:03",
+          "target": "[SNZ]Arkus",
+          "distance": "19m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RMI]metaldoze",
+      "squad": "RMI",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:34:11",
+        "target": "[7th]Shpingalet",
+        "distance": "29m",
+        "weapon": "[BAF Factions] M16A2"
+      }
+    },
+    {
+      "name": "[SNZ 99] Alfik",
+      "squad": "SNZ 99",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:02",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[STELS]Pushkar",
+      "squad": "STELS",
+      "side": "GUER",
+      "group": "Alpha 3-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:02",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "[VRG] Kovalski",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:19:12",
+          "target": "[Delta]Ogrizok",
+          "distance": "52m",
+          "weapon": "АКМ"
+        },
+        {
+          "time": "0:23:51",
+          "target": "[7th]Etwas",
+          "distance": "5m",
+          "weapon": "АКМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:24:44",
+        "target": "[STELS]Swebak",
+        "distance": "86m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[srr]Sector594",
+      "squad": "SRR",
+      "side": "GUER",
+      "group": "Alpha 1-2",
+      "frags": 5,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:09:49",
+          "target": "[URAL]Andpew58rus",
+          "distance": "1522m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:12:11",
+          "target": "[SYND] quas",
+          "distance": "1847m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:24:15",
+          "target": "[URAL] Flandern",
+          "distance": "1221m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:26:14",
+          "target": "[SYND] ARC",
+          "distance": "1676m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:26:26",
+          "target": "[FSK] Ерсын",
+          "distance": "1588m",
+          "weapon": "PM md.63"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:26:25",
+        "target": "[URAL]Rebi",
+        "distance": "1186m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "Сохатый",
+      "squad": "Alpha 1-5",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:31:25",
+        "target": "[RMC]Jastik",
+        "distance": "61m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "Hilux (Covered)",
+      "squad": "HILUX",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:02",
+        "target": "*ARMA*",
+        "distance": "-1m",
+        "weapon": "no weapon"
+      }
+    },
+    {
+      "name": "Leonid Malyukov",
+      "squad": "LEONID",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:34:08",
+        "target": "Leonid Malyukov",
+        "distance": "0m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[13th] Godzilla",
+      "squad": "13TH",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:26",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "2070m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[13th] Smittsam",
+      "squad": "13TH",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:34",
+        "target": "[13th] Hakka",
+        "distance": "2m",
+        "weapon": "АКМ (ГП-25)"
+      }
+    },
+    {
+      "name": "[1REC] Billy911",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:17:02",
+        "target": "[URAL]Dram",
+        "distance": "318m",
+        "weapon": "ПКМ"
+      }
+    },
+    {
+      "name": "[1REC] Eskander",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:11",
+        "target": "[LG] NotSkvich",
+        "distance": "664m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[7th]Shpingalet",
+      "squad": "7TH",
+      "side": "GUER",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:34:11",
+          "target": "[RMI]metaldoze",
+          "distance": "29m",
+          "weapon": "[BAF Factions] M16A2"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[Delta] Delovoy",
+      "squad": "DELTA",
+      "side": "GUER",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:55",
+        "target": "[FSK]nurmuh",
+        "distance": "125m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[SNZ] Mr. Prays",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:59",
+        "target": "[13th] Doloman",
+        "distance": "2m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[SYND] Улюп",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 2,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:24",
+          "target": "[1REC] мотуган",
+          "distance": "42m",
+          "weapon": "АКМС (ГП-25)"
+        },
+        {
+          "time": "0:24:17",
+          "target": "[1REC] Krechet",
+          "distance": "8m",
+          "weapon": "АКМС (ГП-25)"
+        },
+        {
+          "time": "0:31:56",
+          "target": "[RMI]Trager",
+          "distance": "98m",
+          "weapon": "АКМС (ГП-25)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[URAL] Flandern",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:24:15",
+        "target": "[srr]Sector594",
+        "distance": "1221m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "Aleksander Zubov",
+      "squad": "ALEKSANDER",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:09:26",
+        "target": "[LG] Fused88",
+        "distance": "174m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[13th] WoWrostov",
+      "squad": "13TH",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:31:31",
+        "target": "[RMC]Jastik",
+        "distance": "68m",
+        "weapon": "АКМС"
+      }
+    },
+    {
+      "name": "[1REC] NKVDshnik",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:12",
+        "target": "[URAL]Rebi",
+        "distance": "475m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[FSK] Ерсын",
+      "squad": "FSK",
+      "side": "EAST",
+      "group": "Alpha 3-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:23:18",
+          "target": "[7th]Pashtet",
+          "distance": "78m",
+          "weapon": "АКМ (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:26:26",
+        "target": "[srr]Sector594",
+        "distance": "1588m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[JW] BornToYarik",
+      "squad": "JW",
+      "side": "GUER",
+      "group": "Alpha 2-5",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:33:40",
+          "target": "[UN] havaec",
+          "distance": "32m",
+          "weapon": "АКМС"
+        },
+        {
+          "time": "0:35:14",
+          "target": "[UN]Ezer",
+          "distance": "22m",
+          "weapon": "АКМС"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[VRG] llBa1kerll",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 3-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:30:20",
+          "target": "[СМЕРШ]shegol",
+          "distance": "42m",
+          "weapon": "АК-74МР (ГП-25)"
+        },
+        {
+          "time": "0:30:24",
+          "target": "[СМЕРШ]Zaba4",
+          "distance": "32m",
+          "weapon": "РПГ-26 (отстрелянный)"
+        },
+        {
+          "time": "0:30:30",
+          "target": "BMP-1",
+          "distance": "38m",
+          "weapon": "АК-74МР (ГП-25)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "GAZ-233014 (Camo)",
+      "squad": "GAZ",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:58",
+        "target": "[RAF]Merc",
+        "distance": "1077m",
+        "weapon": "[BAF Factions] M16A3 (M203)"
+      }
+    },
+    {
+      "name": "[RDO] VavvVay :З",
+      "squad": "RDO",
+      "side": "GUER",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:31",
+        "target": "[UN]Apple",
+        "distance": "1186m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[SYND] Масло",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:13:12",
+        "target": "[SYND] Масло",
+        "distance": "0m",
+        "weapon": "АКМ (ГП-25)"
+      }
+    },
+    {
+      "name": "[URAL]Andpew58rus",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:09:49",
+        "target": "[srr]Sector594",
+        "distance": "1522m",
+        "weapon": "PM md.63"
+      }
+    },
+    {
+      "name": "[СМЕРШ]Zaba4",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:24",
+        "target": "[VRG] llBa1kerll",
+        "distance": "32m",
+        "weapon": "РПГ-26 (отстрелянный)"
+      }
+    },
+    {
+      "name": "[СМЕРШ] Renne",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:28",
+          "target": "[LG] NotSkvich",
+          "distance": "103m",
+          "weapon": "ПКМ"
+        },
+        {
+          "time": "0:33:26",
+          "target": "ZiL-131",
+          "distance": "34m",
+          "weapon": "РШГ-2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:34:27",
+        "target": "[СМЕРШ] Renne",
+        "distance": "0m",
+        "weapon": "M1911A1"
+      }
+    },
+    {
+      "name": "[СМЕРШ] Tesla",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:32:52",
+        "target": "[VRG] Azov",
+        "distance": "1752m",
+        "weapon": "DXL-5 Опустошитель"
+      }
+    },
+    {
+      "name": "[СМЕРШ]shegol",
+      "squad": "СМЕРШ",
+      "side": "GUER",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:28:50",
+          "target": "[LG] Pank",
+          "distance": "1090m",
+          "weapon": "Binoculars"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:30:20",
+        "target": "[VRG] llBa1kerll",
+        "distance": "42m",
+        "weapon": "АК-74МР (ГП-25)"
+      }
+    },
+    {
+      "name": "[Гивай] Roofix",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 4-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:19:22",
+          "target": "[520th] SKY",
+          "distance": "325m",
+          "weapon": "[BAF Factions] M16A3 (M203)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:23:01",
+        "target": "[SYND] Pipinkorotkiy",
+        "distance": "169m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[SYND] Pipinkorotkiy",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:16:06",
+          "target": "[Гивай]Zlodziej",
+          "distance": "132m",
+          "weapon": "[BAF Factions] СВД"
+        },
+        {
+          "time": "0:23:01",
+          "target": "[Гивай] Roofix",
+          "distance": "169m",
+          "weapon": "[BAF Factions] СВД"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[Гивай]Zlodziej",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 4-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:16:06",
+        "target": "[SYND] Pipinkorotkiy",
+        "distance": "132m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[1REC] мотуган",
+      "squad": "1REC",
+      "side": "GUER",
+      "group": "Alpha 2-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:08:12",
+          "target": "vaska",
+          "distance": "156m",
+          "weapon": "ПКМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:22:24",
+        "target": "[SYND] Улюп",
+        "distance": "42m",
+        "weapon": "АКМС (ГП-25)"
+      }
+    },
+    {
+      "name": "[Гивай] DuckSide",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:35",
+        "target": "[URAL] Mosinka_Stalina",
+        "distance": "76m",
+        "weapon": "Binoculars"
+      }
+    },
+    {
+      "name": "[520th] Эфедрин",
+      "squad": "520TH",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:30:43",
+        "target": "[STELS]Swebak",
+        "distance": "194m",
+        "weapon": "[BAF Factions] СВД"
+      }
+    },
+    {
+      "name": "[URAL] Mosinka_Stalina",
+      "squad": "URAL",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 2,
+      "kills_detailed": [
+        {
+          "time": "0:20:35",
+          "target": "[Гивай] DuckSide",
+          "distance": "76m",
+          "weapon": "Binoculars"
+        },
+        {
+          "time": "0:20:38",
+          "target": "Val",
+          "distance": "69m",
+          "weapon": "Binoculars"
+        },
+        {
+          "time": "0:20:40",
+          "target": "Hilux (Rocket)",
+          "distance": "75m",
+          "weapon": "Binoculars"
+        },
+        {
+          "time": "0:24:52",
+          "target": "Hilux (DHSKM)",
+          "distance": "470m",
+          "weapon": "Binoculars"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:29:26",
+        "target": "[13th] Doloman",
+        "distance": "51m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[520th] Лидокаин",
+      "squad": "520TH",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:33:02",
+          "target": "[RDO]Geng",
+          "distance": "70m",
+          "weapon": "АКМС (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:35:04",
+        "target": "Kirill",
+        "distance": "13m",
+        "weapon": "[BAF Factions] M16A3 (M203)"
+      }
+    },
+    {
+      "name": "[520th] Новокаин",
+      "squad": "520TH",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:18:50",
+        "target": "[13th] Doloman",
+        "distance": "110m",
+        "weapon": "РШГ-2 (отстрелянный)"
+      }
+    },
+    {
+      "name": "[Гивай]Snow Murakami",
+      "squad": "ГИВАЙ",
+      "side": "GUER",
+      "group": "Alpha 1-5",
+      "frags": 2,
+      "teamkills": 1,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:21:05",
+          "target": "[VRG] Tolik",
+          "distance": "792m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:26:34",
+          "target": "[7th]Kuler",
+          "distance": "1565m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:30:26",
+          "target": "[13th] Godzilla",
+          "distance": "2070m",
+          "weapon": "PM md.63"
+        },
+        {
+          "time": "0:35:11",
+          "target": "BMP-1",
+          "distance": "42m",
+          "weapon": "PM md.63"
+        }
+      ],
+      "death_detailed": null
+    }
+  ]
+}

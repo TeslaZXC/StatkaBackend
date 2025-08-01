@@ -1,0 +1,3430 @@
+{
+  "players": [
+    {
+      "name": "M2A3",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:11:45",
+        "target": "[NT] FishKa",
+        "distance": "418m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "Vaza",
+      "squad": "Alpha 1-2",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:28",
+        "target": "[RMC]Eva",
+        "distance": "307m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "gast",
+      "squad": "Alpha 3-3",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:52:29",
+        "target": "[VRG] Foki",
+        "distance": "67m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "DShKM",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:59:56",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "792m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "danie",
+      "squad": "Alpha 3-3",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:07:13",
+        "target": "[AGG] John_de_Pa`Atras",
+        "distance": "199m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "dima2",
+      "squad": "Alpha 3-2",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:48:06",
+        "target": "[7th]PyJIbka",
+        "distance": "40m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "Nestor",
+      "squad": "Alpha 2-1",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:51:59",
+        "target": "Wojciech84",
+        "distance": "102m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[UN]DED",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:37:57",
+        "target": "[CA] AleekseeV",
+        "distance": "6m",
+        "weapon": "[BAF] L110A2"
+      }
+    },
+    {
+      "name": "Dw. ASYS",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:26",
+        "target": "[RMC] N1le",
+        "distance": "25m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "GOMZLIKE",
+      "squad": "Alpha 1-4",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:20",
+        "target": "[RMC]Eva",
+        "distance": "16m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[7th]k0t",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:49:14",
+        "target": "Камень",
+        "distance": "36m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[RMC]Eva",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:28",
+          "target": "Vaza",
+          "distance": "307m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        },
+        {
+          "time": "0:23:40",
+          "target": "Aniflexer",
+          "distance": "52m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        },
+        {
+          "time": "0:25:20",
+          "target": "GOMZLIKE",
+          "distance": "16m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:27:26",
+        "target": "[StB]Guron",
+        "distance": "17m",
+        "weapon": "[BAF] L110A2"
+      }
+    },
+    {
+      "name": "[RS]KOBA",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:04:29",
+        "target": "[TERA] KSander",
+        "distance": "28m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[TF]bass",
+      "squad": "TF",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "1:10:24",
+          "target": "[SYND] ARC",
+          "distance": "269m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "Клон",
+      "squad": "Alpha 3-3",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:07:56",
+        "target": "[SYND] ARC",
+        "distance": "4m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "Aniflexer",
+      "squad": "Alpha 1-4",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:23:40",
+        "target": "[RMC]Eva",
+        "distance": "52m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "Ural-4320",
+      "squad": "URAL",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:25",
+        "target": "[URAL] Mosinka_Stalina",
+        "distance": "54m",
+        "weapon": "M3 MAAWS"
+      }
+    },
+    {
+      "name": "[CA] Efr.",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:16:53",
+        "target": "[UN]Исак",
+        "distance": "105m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[LG]heizy",
+      "squad": "LG",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 10,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:34:01",
+          "target": "[RMC] Uktus",
+          "distance": "1384m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:45:06",
+          "target": "[AGG] Sum_Pack",
+          "distance": "1223m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:49:02",
+          "target": "[SYND] liss",
+          "distance": "895m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:49:08",
+          "target": "[СМЕРШ] lazcore",
+          "distance": "894m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:49:17",
+          "target": "[SYND] Arsik7",
+          "distance": "903m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:50:19",
+          "target": "[FRC] Fenrir",
+          "distance": "1887m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:50:33",
+          "target": "БТР-82А",
+          "distance": "1887m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:51:35",
+          "target": "[SYND] Pipinkorotkiy",
+          "distance": "206m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:55:16",
+          "target": "[UN]Barbaris",
+          "distance": "280m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:55:31",
+          "target": "[TERA] Iskra",
+          "distance": "1541m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:55:33",
+          "target": "[TERA] Мелочь",
+          "distance": "1560m",
+          "weapon": "[BAF] L22"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:56:05",
+        "target": "[Delta] Панин 2.0",
+        "distance": "206m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[RDO]Geng",
+      "squad": "RDO",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:19:08",
+          "target": "[UN]Farid",
+          "distance": "194m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        },
+        {
+          "time": "0:19:51",
+          "target": "[UN]Logan",
+          "distance": "109m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:45:46",
+        "target": "[SYND] liss",
+        "distance": "165m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[RS]Drago",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:57:42",
+        "target": "[Delta] Панин 2.0",
+        "distance": "107m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[UN]Farid",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:19:08",
+        "target": "[RDO]Geng",
+        "distance": "194m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[UN]Logan",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:19:51",
+        "target": "[RDO]Geng",
+        "distance": "109m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[VRG] Cat",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:25",
+          "target": "[13th] CaH4e3",
+          "distance": "48m",
+          "weapon": "АКС-74У"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:25:25",
+        "target": "[13th] Oleg",
+        "distance": "41m",
+        "weapon": "[BAF] L110A2"
+      }
+    },
+    {
+      "name": "Dw. Domver",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:32",
+          "target": "[RMC] Kypatop",
+          "distance": "54m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        },
+        {
+          "time": "0:57:37",
+          "target": "[СМЕРШ]  Терский",
+          "distance": "821m",
+          "weapon": "M3 MAAWS"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:04:13",
+        "target": "[AGG] nishikinov",
+        "distance": "155m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "Dw. MOLOKO",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:50:51",
+        "target": "[VRG] Matvein",
+        "distance": "115m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "Dw. Nerzul",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:11:45",
+        "target": "[NT] FishKa",
+        "distance": "418m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "Wojciech84",
+      "squad": "Alpha 2-4",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:51:59",
+          "target": "Nestor",
+          "distance": "102m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:57:04",
+        "target": "[13th] Smittsam",
+        "distance": "51m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[7th]Kuler",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:15:19",
+        "target": "[FSK] SALAT1x",
+        "distance": "93m",
+        "weapon": "[BAF] L110A2"
+      }
+    },
+    {
+      "name": "[AGG] Moon",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:02:21",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "394m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[CA] Godis",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:32",
+          "target": "[UN]Исак",
+          "distance": "246m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:28:58",
+        "target": "[UN] MACTEP",
+        "distance": "89m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[FSK] Бо",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:57:53",
+          "target": "[Delta] Панин 2.0",
+          "distance": "50m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:01:15",
+        "target": "[TERA] KSander",
+        "distance": "23m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[RDO] Nael",
+      "squad": "RDO",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:51:49",
+        "target": "[SYND]Douglas",
+        "distance": "21m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[RMC] N1le",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:26",
+          "target": "Dw. ASYS",
+          "distance": "25m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:20:34",
+        "target": "[STELS]Iwan_Susanin",
+        "distance": "80m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[RS]Vender",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:31:02",
+          "target": "[RMC]Jastik",
+          "distance": "107m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        },
+        {
+          "time": "0:54:22",
+          "target": "[SYND]Douglas",
+          "distance": "26m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:57:34",
+        "target": "[Delta] Панин 2.0",
+        "distance": "93m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[SYND] ARC",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:58:52",
+          "target": "[RS] NelikZ",
+          "distance": "75m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "1:05:44",
+          "target": "[CCO]exmarin",
+          "distance": "35m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "1:07:56",
+          "target": "Клон",
+          "distance": "4m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:10:24",
+        "target": "[TF]bass",
+        "distance": "269m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[StB]Guron",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:27:26",
+          "target": "[RMC]Eva",
+          "distance": "17m",
+          "weapon": "[BAF] L110A2"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[StB]Psikh",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:11:00",
+        "target": "[StB]Zanoza",
+        "distance": "69m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[URAL]Rebi",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:56",
+          "target": "[TERA] ulitka",
+          "distance": "717m",
+          "weapon": "[BAF] L129A1"
+        },
+        {
+          "time": "0:29:41",
+          "target": "[TERA]LeSnOi",
+          "distance": "687m",
+          "weapon": "[BAF] L129A1"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[VRG] Foki",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:49:34",
+          "target": "[520th] SKY",
+          "distance": "253m",
+          "weapon": "СВДМ"
+        },
+        {
+          "time": "0:52:29",
+          "target": "gast",
+          "distance": "67m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:52:44",
+        "target": "[RS]Falcon5",
+        "distance": "75m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[VRG] MURA",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:40",
+        "target": "[13th] Pank",
+        "distance": "1059m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[13th] Oleg",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:25",
+          "target": "[VRG] Cat",
+          "distance": "41m",
+          "weapon": "[BAF] L110A2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:43:04",
+        "target": "[VRG] Matvein",
+        "distance": "392m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[13th] Pank",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:26:40",
+          "target": "[VRG] MURA",
+          "distance": "1059m",
+          "weapon": ""
+        },
+        {
+          "time": "0:49:45",
+          "target": "[VRG] Cyxapuk",
+          "distance": "262m",
+          "weapon": "[BAF] L129A1"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[520th] SKY",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:49:34",
+        "target": "[VRG] Foki",
+        "distance": "253m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[7th]karas'",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:18:32",
+          "target": "[RMC] Marshall",
+          "distance": "2m",
+          "weapon": "L105A1"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:18:32",
+        "target": "[RMC] Marshall",
+        "distance": "2m",
+        "weapon": "ПМ"
+      }
+    },
+    {
+      "name": "[AGG] Broul",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:06:43",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "661m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[AGG] Kavo?",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:25",
+        "target": "[URAL] Mosinka_Stalina",
+        "distance": "54m",
+        "weapon": "M3 MAAWS"
+      }
+    },
+    {
+      "name": "[FSK] Sprut",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 4,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "1:01:34",
+          "target": "[TERA] Winston",
+          "distance": "137m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "1:08:23",
+          "target": "[NT]Blackburn",
+          "distance": "46m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "1:08:25",
+          "target": "[NT] Andrew",
+          "distance": "44m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "1:11:55",
+          "target": "[NT] FishKa",
+          "distance": "134m",
+          "weapon": "[BAF] L85A3"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[FSK]nurmuh",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:54:36",
+        "target": "[VRG] Matvein",
+        "distance": "85m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[NT] Andrew",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:43:06",
+          "target": "[URAL]fantom",
+          "distance": "35m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:08:25",
+        "target": "[FSK] Sprut",
+        "distance": "44m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[NT] FishKa",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "1:11:45",
+          "target": "Dw. Bear_Baby_Bear",
+          "distance": "419m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "1:11:45",
+          "target": "M2A3",
+          "distance": "418m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "1:11:45",
+          "target": "Dw. Nerzul",
+          "distance": "418m",
+          "weapon": "РПГ-7В2"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:11:55",
+        "target": "[FSK] Sprut",
+        "distance": "134m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[RMC] Alpha",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:15",
+          "target": "[STELS]Pushkar",
+          "distance": "14m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "0:21:33",
+          "target": "[STELS]Jason",
+          "distance": "9m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:23:06",
+        "target": "[STELS]sega",
+        "distance": "36m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[RMC] Monty",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 4,
+      "teamkills": 0,
+      "vehicle_kills": 2,
+      "kills_detailed": [
+        {
+          "time": "0:34:59",
+          "target": "[SPQR]0Mirage",
+          "distance": "1187m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:35:11",
+          "target": "FV510 Warrior (Мод.)",
+          "distance": "1188m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:35:11",
+          "target": "[Гивай]ёрик",
+          "distance": "1189m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:35:25",
+          "target": "[CA] Whopper",
+          "distance": "952m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:35:25",
+          "target": "FV510 Warrior (Мод.)",
+          "distance": "954m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:35:25",
+          "target": "[CA] Cake_is_lie",
+          "distance": "951m",
+          "weapon": "АКС-74У"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:35:58",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "1368m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[RMC] Uktus",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:34:01",
+        "target": "[LG]heizy",
+        "distance": "1384m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[RMC]Jastik",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:19:38",
+          "target": "[StB]Zanoza",
+          "distance": "407m",
+          "weapon": "СВДМ"
+        },
+        {
+          "time": "0:21:21",
+          "target": "[FSK] ml1ster",
+          "distance": "162m",
+          "weapon": "СВДМ"
+        },
+        {
+          "time": "0:28:17",
+          "target": "[RS]kulpole",
+          "distance": "53m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:31:02",
+        "target": "[RS]Vender",
+        "distance": "107m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[RS] NelikZ",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:53:15",
+          "target": "Камень",
+          "distance": "9m",
+          "weapon": "[BAF] L110A2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:58:52",
+        "target": "[SYND] ARC",
+        "distance": "75m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[RS]Falcon5",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:52:44",
+          "target": "[VRG] Foki",
+          "distance": "75m",
+          "weapon": "[BAF] L129A1"
+        },
+        {
+          "time": "0:59:03",
+          "target": "[VRG] Matvein",
+          "distance": "26m",
+          "weapon": "Throw"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:57:53",
+        "target": "[VRG] Matvein",
+        "distance": "25m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[RS]Monster",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:49:34",
+        "target": "[RS]Monster",
+        "distance": "0m",
+        "weapon": "L105A1"
+      }
+    },
+    {
+      "name": "[RS]kulpole",
+      "squad": "RS",
+      "side": "WEST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:28:17",
+        "target": "[RMC]Jastik",
+        "distance": "53m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[SNZ] Tihon",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:59:11",
+        "target": "[13th] Smittsam",
+        "distance": "371m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[SNZ]Sweety",
+      "squad": "SNZ",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:57:01",
+        "target": "[RDO] Trouble",
+        "distance": "25m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[STELS]sega",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:23:06",
+          "target": "[RMC] Alpha",
+          "distance": "36m",
+          "weapon": "[BAF] L129A1"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:55:39",
+        "target": "[SYND] Масло",
+        "distance": "55m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[SYND] liss",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:45:46",
+          "target": "[RDO]Geng",
+          "distance": "165m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:49:02",
+        "target": "[LG]heizy",
+        "distance": "895m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[StB]Zanoza",
+      "squad": "STB",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:11:00",
+          "target": "[StB]Psikh",
+          "distance": "69m",
+          "weapon": "[BAF] L129A1"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:19:38",
+        "target": "[RMC]Jastik",
+        "distance": "407m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[TERA]Prime",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:07:08",
+        "target": "[520th] Alik",
+        "distance": "7m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[UN] MACTEP",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 4,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:21:42",
+          "target": "[CA] Atreides",
+          "distance": "25m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:26:50",
+          "target": "[CA] Bogdan Spivak",
+          "distance": "42m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:28:58",
+          "target": "[CA] Godis",
+          "distance": "89m",
+          "weapon": "АКС-74У"
+        },
+        {
+          "time": "0:41:27",
+          "target": "[CA] AleekseeV",
+          "distance": "37m",
+          "weapon": "АКС-74У"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:54:26",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "257m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[UN]Bronson",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:26:31",
+          "target": "[RDO] А ГейСер",
+          "distance": "1404m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:37:27",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "1052m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[VRG] Vacha",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:45:29",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "408m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[VRG] Yanik",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:37:31",
+          "target": "[13th] Evgenrus",
+          "distance": "4m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:43:29",
+        "target": "[VRG] Matvein",
+        "distance": "2m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[VRG] ZLuka",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:23",
+        "target": "[13th] Evgenrus",
+        "distance": "38m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "БТР-82А",
+      "squad": "no_group",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:50:33",
+        "target": "[LG]heizy",
+        "distance": "1887m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "Dw. nikokrav",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:03:01",
+        "target": "[13th] Smittsam",
+        "distance": "152m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "Toby Rollins",
+      "squad": "TOBY",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:10:21",
+        "target": "Toby Rollins",
+        "distance": "0m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[13th] Hakka",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:55:39",
+          "target": "[SYND] Масло",
+          "distance": "40m",
+          "weapon": "[BAF] L85A3"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:56:02",
+        "target": "[VRG] Olemak",
+        "distance": "21m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[520th] Alik",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "1:07:02",
+          "target": "[AGG] Kruger",
+          "distance": "63m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        },
+        {
+          "time": "1:07:08",
+          "target": "[TERA]Prime",
+          "distance": "7m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[7th]Jigurda",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:57:19",
+        "target": "[Delta] Панин 2.0",
+        "distance": "113m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[7th]PyJIbka",
+      "squad": "7TH",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:48:06",
+          "target": "dima2",
+          "distance": "40m",
+          "weapon": "ПКП"
+        },
+        {
+          "time": "0:49:44",
+          "target": "[SYND] Улюп",
+          "distance": "34m",
+          "weapon": "РПГ-7В2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:52:32",
+        "target": "[SYND]Douglas",
+        "distance": "30m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[AGG] Kabron",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:00:16",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "159m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[AGG] Kruger",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 3-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:07:02",
+        "target": "[520th] Alik",
+        "distance": "63m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[CA] Whopper",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:25",
+        "target": "[RMC] Monty",
+        "distance": "952m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[CCO]exmarin",
+      "squad": "CCO",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:05:44",
+        "target": "[SYND] ARC",
+        "distance": "35m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[FRC] Fenrir",
+      "squad": "FRC",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:50:19",
+        "target": "[LG]heizy",
+        "distance": "1887m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[STELS]Jason",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:33",
+        "target": "[RMC] Alpha",
+        "distance": "9m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[SYND] sudba",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:44:46",
+        "target": "[СМЕРШ] lazcore",
+        "distance": "200m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[TERA] Iskra",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:55:31",
+        "target": "[LG]heizy",
+        "distance": "1541m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[TERA] teran",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:40:21",
+          "target": "[URAL] Mosinka_Stalina",
+          "distance": "24m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[TERA]LeSnOi",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:29:41",
+        "target": "[URAL]Rebi",
+        "distance": "687m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[UN]Barbaris",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:55:16",
+        "target": "[LG]heizy",
+        "distance": "280m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[UN]Исак",
+      "squad": "UN",
+      "side": "EAST",
+      "group": "Alpha 2-5",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:16:53",
+          "target": "[CA] Efr.",
+          "distance": "105m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:25:32",
+        "target": "[CA] Godis",
+        "distance": "246m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[URAL] Alexs",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 3,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:47:57",
+          "target": "[NT] NKVDshnik",
+          "distance": "40m",
+          "weapon": "[HLC] AUG A3 (M203) [Green]"
+        },
+        {
+          "time": "0:48:00",
+          "target": "[NT]vllad2004",
+          "distance": "38m",
+          "weapon": "[HLC] AUG A3 (M203) [Green]"
+        },
+        {
+          "time": "0:49:04",
+          "target": "[NT] mitternacht",
+          "distance": "149m",
+          "weapon": "[HLC] AUG A3 (M203) [Green]"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:49:34",
+        "target": "[TERA] KSander",
+        "distance": "176m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[URAL] Babai",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:58",
+        "target": "[NT]Blackburn",
+        "distance": "472m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[URAL]fantom",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:43:06",
+        "target": "[NT] Andrew",
+        "distance": "35m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[VRG] Olemak",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:56:02",
+          "target": "[13th] Hakka",
+          "distance": "21m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "0:59:52",
+          "target": "[STELS]Zealot",
+          "distance": "26m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:00:28",
+        "target": "Dw. Zloy_aka_JIbI4",
+        "distance": "38m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "Камень",
+      "squad": "Alpha 3-2",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:49:14",
+          "target": "[7th]k0t",
+          "distance": "36m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:53:15",
+        "target": "[RS] NelikZ",
+        "distance": "9m",
+        "weapon": "[BAF] L110A2"
+      }
+    },
+    {
+      "name": "BMP-3 (early)",
+      "squad": "BMP",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:36:02",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "1367m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "Quinton Smith",
+      "squad": "QUINTON",
+      "side": "WEST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:04:18",
+        "target": "[13th] NotSkvich",
+        "distance": "1m",
+        "weapon": ""
+      }
+    },
+    {
+      "name": "[13th] CaH4e3",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:25",
+        "target": "[VRG] Cat",
+        "distance": "48m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[AGG] Waai fu",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:25",
+        "target": "[URAL] Mosinka_Stalina",
+        "distance": "54m",
+        "weapon": "M3 MAAWS"
+      }
+    },
+    {
+      "name": "[CA] Atreides",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:42",
+        "target": "[UN] MACTEP",
+        "distance": "25m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[FSK] SALAT1x",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:15:19",
+          "target": "[7th]Kuler",
+          "distance": "93m",
+          "weapon": "[BAF] L110A2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:49:49",
+        "target": "[SYND]Douglas",
+        "distance": "27m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[FSK] ml1ster",
+      "squad": "FSK",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:21",
+        "target": "[RMC]Jastik",
+        "distance": "162m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[NT]Blackburn",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:58",
+          "target": "[URAL] Babai",
+          "distance": "472m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:08:23",
+        "target": "[FSK] Sprut",
+        "distance": "46m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[NT]vllad2004",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:48:00",
+        "target": "[URAL] Alexs",
+        "distance": "38m",
+        "weapon": "[HLC] AUG A3 (M203) [Green]"
+      }
+    },
+    {
+      "name": "[RDO] Trouble",
+      "squad": "RDO",
+      "side": "WEST",
+      "group": "Alpha 1-5",
+      "frags": 7,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:44:29",
+          "target": "[SYND] TAKANAWA",
+          "distance": "63m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "0:45:08",
+          "target": "[VRG] Daniil30",
+          "distance": "44m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "0:50:03",
+          "target": "[SYND] Fanken",
+          "distance": "59m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "0:56:01",
+          "target": "[СМЕРШ] Renne",
+          "distance": "153m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "0:57:01",
+          "target": "[SNZ]Sweety",
+          "distance": "25m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "0:57:18",
+          "target": "[СМЕРШ] MIRK",
+          "distance": "76m",
+          "weapon": "[BAF] L85A3"
+        },
+        {
+          "time": "1:10:07",
+          "target": "[TERA] KSander",
+          "distance": "225m",
+          "weapon": "[BAF] L85A3"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[RMC] Kypatop",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:32",
+        "target": "Dw. Domver",
+        "distance": "54m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[SPQR]0Mirage",
+      "squad": "SPQR",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:34:59",
+        "target": "[RMC] Monty",
+        "distance": "1187m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[STELS]Zealot",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:59:52",
+        "target": "[VRG] Olemak",
+        "distance": "26m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[SYND] Arsik7",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:49:17",
+        "target": "[LG]heizy",
+        "distance": "903m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[SYND] Fanken",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:50:03",
+        "target": "[RDO] Trouble",
+        "distance": "59m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[SYND]Douglas",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 4,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:49:49",
+          "target": "[FSK] SALAT1x",
+          "distance": "27m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "0:51:47",
+          "target": "[SNZ] manfrint",
+          "distance": "68m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "0:51:49",
+          "target": "[RDO] Nael",
+          "distance": "21m",
+          "weapon": "АК-74М (Б-13)"
+        },
+        {
+          "time": "0:52:32",
+          "target": "[7th]PyJIbka",
+          "distance": "30m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:54:22",
+        "target": "[RS]Vender",
+        "distance": "26m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[TERA] ulitka",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:25:56",
+        "target": "[URAL]Rebi",
+        "distance": "717m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[VRG] Cyxapuk",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:32:40",
+          "target": "[13th] Doloman",
+          "distance": "35m",
+          "weapon": "ПКП"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:49:45",
+        "target": "[13th] Pank",
+        "distance": "262m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[VRG] Matvein",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 4,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:43:04",
+          "target": "[13th] Oleg",
+          "distance": "392m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        },
+        {
+          "time": "0:43:29",
+          "target": "[VRG] Yanik",
+          "distance": "2m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        },
+        {
+          "time": "0:50:51",
+          "target": "Dw. MOLOKO",
+          "distance": "115m",
+          "weapon": "СВДМ"
+        },
+        {
+          "time": "0:54:36",
+          "target": "[FSK]nurmuh",
+          "distance": "85m",
+          "weapon": "СВДМ"
+        },
+        {
+          "time": "0:57:53",
+          "target": "[RS]Falcon5",
+          "distance": "25m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:59:03",
+        "target": "[RS]Falcon5",
+        "distance": "26m",
+        "weapon": "Throw"
+      }
+    },
+    {
+      "name": "[13th] Doloman",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:32:40",
+        "target": "[VRG] Cyxapuk",
+        "distance": "35m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[13th] Fused88",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:56:05",
+        "target": "[Delta] Панин 2.0",
+        "distance": "208m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[AGG] Inaderit",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:20:49",
+        "target": "[CA] Cake_is_lie",
+        "distance": "308m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[AGG] Sum_Pack",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 2-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:45:06",
+        "target": "[LG]heizy",
+        "distance": "1223m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[CA] AleekseeV",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:37:57",
+          "target": "[UN]DED",
+          "distance": "6m",
+          "weapon": "[BAF] L110A2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:41:27",
+        "target": "[UN] MACTEP",
+        "distance": "37m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[NT] NKVDshnik",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:35:01",
+          "target": "[URAL] Flandern",
+          "distance": "14m",
+          "weapon": "ПКП"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:47:57",
+        "target": "[URAL] Alexs",
+        "distance": "40m",
+        "weapon": "[HLC] AUG A3 (M203) [Green]"
+      }
+    },
+    {
+      "name": "[RMC] Marshall",
+      "squad": "RMC",
+      "side": "EAST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:18:32",
+          "target": "[7th]karas'",
+          "distance": "2m",
+          "weapon": "ПМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:18:32",
+        "target": "[7th]karas'",
+        "distance": "2m",
+        "weapon": "L105A1"
+      }
+    },
+    {
+      "name": "[SNZ] manfrint",
+      "squad": "SNZ",
+      "side": "WEST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:51:47",
+        "target": "[SYND]Douglas",
+        "distance": "68m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[STELS]Pushkar",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:21:15",
+        "target": "[RMC] Alpha",
+        "distance": "14m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[TERA] KSander",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 5,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:49:34",
+          "target": "[URAL] Alexs",
+          "distance": "176m",
+          "weapon": "ПКП"
+        },
+        {
+          "time": "1:01:15",
+          "target": "[FSK] Бо",
+          "distance": "23m",
+          "weapon": "ПКП"
+        },
+        {
+          "time": "1:03:24",
+          "target": "Dw. Zloy_aka_JIbI4",
+          "distance": "37m",
+          "weapon": "ПКП"
+        },
+        {
+          "time": "1:04:27",
+          "target": "[13th] Smittsam",
+          "distance": "27m",
+          "weapon": "ПКП"
+        },
+        {
+          "time": "1:04:29",
+          "target": "[RS]KOBA",
+          "distance": "28m",
+          "weapon": "ПКП"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:10:07",
+        "target": "[RDO] Trouble",
+        "distance": "225m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[TERA] Winston",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:01:34",
+        "target": "[FSK] Sprut",
+        "distance": "137m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[VRG] Daniil30",
+      "squad": "VRG",
+      "side": "EAST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:45:08",
+        "target": "[RDO] Trouble",
+        "distance": "44m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[13th] Evgenrus",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:25:23",
+          "target": "[VRG] ZLuka",
+          "distance": "38m",
+          "weapon": "[BAF] L85A3"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:37:31",
+        "target": "[VRG] Yanik",
+        "distance": "4m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[13th] Smittsam",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-3",
+      "frags": 2,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:57:04",
+          "target": "Wojciech84",
+          "distance": "51m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        },
+        {
+          "time": "0:59:11",
+          "target": "[SNZ] Tihon",
+          "distance": "371m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        },
+        {
+          "time": "1:03:01",
+          "target": "Dw. nikokrav",
+          "distance": "152m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:04:27",
+        "target": "[TERA] KSander",
+        "distance": "27m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[SYND] TAKANAWA",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:44:29",
+        "target": "[RDO] Trouble",
+        "distance": "63m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[SYND] Улюп",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:49:44",
+        "target": "[7th]PyJIbka",
+        "distance": "34m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[URAL] Flandern",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:01",
+        "target": "[NT] NKVDshnik",
+        "distance": "14m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[13th] NotSkvich",
+      "squad": "13TH",
+      "side": "WEST",
+      "group": "Alpha 2-6",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:04:18",
+          "target": "Quinton Smith",
+          "distance": "1m",
+          "weapon": ""
+        }
+      ],
+      "death_detailed": {
+        "time": "0:56:05",
+        "target": "[Delta] Панин 2.0",
+        "distance": "206m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "[AGG] nishikinov",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "1:04:13",
+          "target": "Dw. Domver",
+          "distance": "155m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[CA] Cake_is_lie",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:49",
+          "target": "[AGG] Inaderit",
+          "distance": "308m",
+          "weapon": "[BAF] L22"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:35:25",
+        "target": "[RMC] Monty",
+        "distance": "951m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[NT] mitternacht",
+      "squad": "NT",
+      "side": "EAST",
+      "group": "Alpha 1-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:49:04",
+        "target": "[URAL] Alexs",
+        "distance": "149m",
+        "weapon": "[HLC] AUG A3 (M203) [Green]"
+      }
+    },
+    {
+      "name": "[SYND] Gang Bang",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:42:38",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "1778m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[RDO] VavvVay :З",
+      "squad": "RDO",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:22:01",
+        "target": "[CA] Bogdan Spivak",
+        "distance": "31m",
+        "weapon": "[BAF] L129A1"
+      }
+    },
+    {
+      "name": "[SYND] Масло",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 3-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:55:39",
+          "target": "[STELS]sega",
+          "distance": "55m",
+          "weapon": "ПКП"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:55:39",
+        "target": "[13th] Hakka",
+        "distance": "40m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[СМЕРШ] MIRK",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:57:18",
+        "target": "[RDO] Trouble",
+        "distance": "76m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[СМЕРШ] SomM",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:29",
+        "target": "[СМЕРШ]  Терский",
+        "distance": "38m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "[СМЕРШ]Zaba4",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:50:49",
+        "target": "[СМЕРШ]Zaba4",
+        "distance": "0m",
+        "weapon": "ПЯ \"Грач\""
+      }
+    },
+    {
+      "name": "Dw. Bear_Baby_Bear",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 2-5",
+      "frags": 9,
+      "teamkills": 0,
+      "vehicle_kills": 2,
+      "kills_detailed": [
+        {
+          "time": "0:35:58",
+          "target": "[RMC] Monty",
+          "distance": "1368m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:36:02",
+          "target": "BMP-3 (early)",
+          "distance": "1367m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:37:27",
+          "target": "[UN]Bronson",
+          "distance": "1052m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:37:27",
+          "target": "БТР-82А",
+          "distance": "1052m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:42:38",
+          "target": "[SYND] Gang Bang",
+          "distance": "1778m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:45:29",
+          "target": "[VRG] Vacha",
+          "distance": "408m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:54:26",
+          "target": "[UN] MACTEP",
+          "distance": "257m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "0:59:56",
+          "target": "DShKM",
+          "distance": "792m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "1:00:16",
+          "target": "[AGG] Kabron",
+          "distance": "159m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "1:02:21",
+          "target": "[AGG] Moon",
+          "distance": "394m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "1:06:43",
+          "target": "[AGG] Broul",
+          "distance": "661m",
+          "weapon": "[BAF] L22"
+        },
+        {
+          "time": "1:11:22",
+          "target": "[AGG] John_de_Pa`Atras",
+          "distance": "145m",
+          "weapon": "[BAF] L22"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:11:45",
+        "target": "[NT] FishKa",
+        "distance": "419m",
+        "weapon": "РПГ-7В2"
+      }
+    },
+    {
+      "name": "Dw. Zloy_aka_JIbI4",
+      "squad": "DW",
+      "side": "WEST",
+      "group": "Alpha 1-4",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "1:00:28",
+          "target": "[VRG] Olemak",
+          "distance": "38m",
+          "weapon": "[BAF] L129A1"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:03:24",
+        "target": "[TERA] KSander",
+        "distance": "37m",
+        "weapon": "ПКП"
+      }
+    },
+    {
+      "name": "[CA] Bogdan Spivak",
+      "squad": "CA",
+      "side": "WEST",
+      "group": "Alpha 2-4",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:22:01",
+          "target": "[RDO] VavvVay :З",
+          "distance": "31m",
+          "weapon": "[BAF] L129A1"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:26:50",
+        "target": "[UN] MACTEP",
+        "distance": "42m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[Гивай]Pigeon",
+      "squad": "ГИВАЙ",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:45:55",
+        "target": "[SYND] Pipinkorotkiy",
+        "distance": "66m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[СМЕРШ] Renne",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:56:01",
+        "target": "[RDO] Trouble",
+        "distance": "153m",
+        "weapon": "[BAF] L85A3"
+      }
+    },
+    {
+      "name": "[STELS]Iwan_Susanin",
+      "squad": "STELS",
+      "side": "WEST",
+      "group": "Alpha 1-2",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:20:34",
+          "target": "[RMC] N1le",
+          "distance": "80m",
+          "weapon": "[BAF] L85A3 (L123A2)"
+        }
+      ],
+      "death_detailed": null
+    },
+    {
+      "name": "[TERA] Мелочь",
+      "squad": "TERA",
+      "side": "EAST",
+      "group": "Alpha 1-5",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:55:33",
+        "target": "[LG]heizy",
+        "distance": "1560m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[SYND] Pipinkorotkiy",
+      "squad": "SYND",
+      "side": "EAST",
+      "group": "Alpha 2-1",
+      "frags": 1,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:45:55",
+          "target": "[Гивай]Pigeon",
+          "distance": "66m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:51:35",
+        "target": "[LG]heizy",
+        "distance": "206m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[Гивай]ёрик",
+      "squad": "ГИВАЙ",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:11",
+        "target": "[RMC] Monty",
+        "distance": "1189m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[СМЕРШ] lazcore",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 1-1",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:44:46",
+          "target": "[SYND] sudba",
+          "distance": "200m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:49:08",
+        "target": "[LG]heizy",
+        "distance": "894m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[RDO] А ГейСер",
+      "squad": "RDO",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:26:31",
+        "target": "[UN]Bronson",
+        "distance": "1404m",
+        "weapon": "[NMG] АК-12 (ГП-25)"
+      }
+    },
+    {
+      "name": "[520th] Эфедрин",
+      "squad": "520TH",
+      "side": "WEST",
+      "group": "Alpha 3-3",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "1:05:06",
+        "target": "[AGG] John_de_Pa`Atras",
+        "distance": "195m",
+        "weapon": "СВДМ"
+      }
+    },
+    {
+      "name": "[AGG] John_de_Pa`Atras",
+      "squad": "AGG",
+      "side": "EAST",
+      "group": "Alpha 1-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "1:05:06",
+          "target": "[520th] Эфедрин",
+          "distance": "195m",
+          "weapon": "СВДМ"
+        },
+        {
+          "time": "1:07:13",
+          "target": "danie",
+          "distance": "199m",
+          "weapon": "СВДМ"
+        }
+      ],
+      "death_detailed": {
+        "time": "1:11:22",
+        "target": "Dw. Bear_Baby_Bear",
+        "distance": "145m",
+        "weapon": "[BAF] L22"
+      }
+    },
+    {
+      "name": "[Delta] Панин 2.0",
+      "squad": "DELTA",
+      "side": "EAST",
+      "group": "Alpha 1-4",
+      "frags": 6,
+      "teamkills": 0,
+      "vehicle_kills": 1,
+      "kills_detailed": [
+        {
+          "time": "0:56:05",
+          "target": "M2A3",
+          "distance": "206m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:56:05",
+          "target": "[LG]heizy",
+          "distance": "206m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:56:05",
+          "target": "[13th] NotSkvich",
+          "distance": "206m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:56:05",
+          "target": "[13th] Fused88",
+          "distance": "208m",
+          "weapon": "РПГ-7В2"
+        },
+        {
+          "time": "0:57:19",
+          "target": "[7th]Jigurda",
+          "distance": "113m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        },
+        {
+          "time": "0:57:34",
+          "target": "[RS]Vender",
+          "distance": "93m",
+          "weapon": "[NMG] АК-12 (ГП-25)"
+        },
+        {
+          "time": "0:57:42",
+          "target": "[RS]Drago",
+          "distance": "107m",
+          "weapon": "РПГ-7В2"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:57:53",
+        "target": "[FSK] Бо",
+        "distance": "50m",
+        "weapon": "[BAF] L85A3 (L123A2)"
+      }
+    },
+    {
+      "name": "[URAL] Mosinka_Stalina",
+      "squad": "URAL",
+      "side": "WEST",
+      "group": "Alpha 3-2",
+      "frags": 2,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:35:25",
+          "target": "[AGG] Kavo?",
+          "distance": "54m",
+          "weapon": "M3 MAAWS"
+        },
+        {
+          "time": "0:35:25",
+          "target": "Ural-4320",
+          "distance": "54m",
+          "weapon": "M3 MAAWS"
+        },
+        {
+          "time": "0:35:25",
+          "target": "[AGG] Waai fu",
+          "distance": "54m",
+          "weapon": "M3 MAAWS"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:40:21",
+        "target": "[TERA] teran",
+        "distance": "24m",
+        "weapon": "АК-74М (Б-13)"
+      }
+    },
+    {
+      "name": "FV510 Warrior (Мод.)",
+      "squad": "FV510",
+      "side": "no_side",
+      "group": "no_group",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:35:25",
+        "target": "[RMC] Monty",
+        "distance": "954m",
+        "weapon": "АКС-74У"
+      }
+    },
+    {
+      "name": "[Гивай]Snow Murakami",
+      "squad": "ГИВАЙ",
+      "side": "WEST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 0,
+      "vehicle_kills": 0,
+      "kills_detailed": [],
+      "death_detailed": {
+        "time": "0:32:30",
+        "target": "[Гивай]Snow Murakami",
+        "distance": "0m",
+        "weapon": "L105A1"
+      }
+    },
+    {
+      "name": "[СМЕРШ]  Терский",
+      "squad": "СМЕРШ",
+      "side": "EAST",
+      "group": "Alpha 1-6",
+      "frags": 0,
+      "teamkills": 1,
+      "vehicle_kills": 0,
+      "kills_detailed": [
+        {
+          "time": "0:26:29",
+          "target": "[СМЕРШ] SomM",
+          "distance": "38m",
+          "weapon": "АК-74М (Б-13)"
+        }
+      ],
+      "death_detailed": {
+        "time": "0:57:37",
+        "target": "Dw. Domver",
+        "distance": "821m",
+        "weapon": "M3 MAAWS"
+      }
+    }
+  ]
+}
