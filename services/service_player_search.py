@@ -1,18 +1,23 @@
+import json
+import os
 from fastapi import HTTPException
-from pymongo import MongoClient
-import re
-
-client = MongoClient("mongodb://localhost:27017/")
-db = client["stat"]
-collection = db["players"]
+from services.config import MISSION_DIR, STATS_FILE
 
 def search_player_names(query: str) -> list[str]:
+    file_path = STATS_FILE
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Файл stats.json не найден")
+
     try:
-        regex = re.compile(re.escape(query), re.IGNORECASE)
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-        cursor = collection.find({"name": {"$regex": regex}}, {"name": 1})
+        players = data.get("players", {})
+        query_lower = query.lower()
 
-        return [doc["name"] for doc in cursor if "name" in doc]
+        matching_names = [name for name in players if query_lower in name.lower()]
+
+        return matching_names
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при запросе к базе данных: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Ошибка при чтении stats.json: {str(e)}")

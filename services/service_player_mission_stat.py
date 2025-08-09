@@ -1,19 +1,23 @@
+import os
+import json
 from fastapi import HTTPException
-from pymongo import MongoClient
-
-client = MongoClient("mongodb://localhost:27017/")
-db = client["mission"]
-collection = db["player"]
+from services.config import MISSION_DIR, STATS_FILE
 
 def get_player_mission_stats(mission_id: int):
-    doc_id = str(mission_id)
-
     try:
-        data = collection.find_one({"_id": doc_id})
-        if data is None:
-            raise HTTPException(status_code=404, detail=f"Данные для миссии {mission_id} не найдены в базе.")
+        for filename in os.listdir(MISSION_DIR):
+            if filename.endswith(".json"):
+                file_path = os.path.join(MISSION_DIR, filename)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
 
-        return data
+                        if str(data.get("id")) == str(mission_id):
+                            return data.get("players_stats", [])
+                except Exception as e:
+                    print(f"Ошибка при чтении {filename}: {e}")
+
+        raise HTTPException(status_code=404, detail=f"Данные для миссии {mission_id} не найдены.")
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при запросе к базе данных: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Ошибка при получении данных: {str(e)}")

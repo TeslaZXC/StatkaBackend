@@ -1,26 +1,41 @@
+import os
+import json
 from fastapi import HTTPException
-from pymongo import MongoClient
-
-client = MongoClient("mongodb://localhost:27017/")
-db = client["mission"]
-collection = db["stat"]
-
+from services.config import MISSION_DIR, STATS_FILE
 
 def get_mission_info_by_id(mission_id: int) -> dict:
-    doc_id = str(mission_id)
+    folder_path = MISSION_DIR
+    mission_id_str = str(mission_id)
 
-    mission_data = collection.find_one({"_id": doc_id})
+    required_fields = [
+        "id",
+        "mission_name",
+        "ocap_link",
+        "stats_url",
+        "players",
+        "frags",
+        "tk",
+        "map",
+        "duration",
+        "date",
+        "tag_check"
+    ]
 
-    if mission_data is None:
-        raise HTTPException(status_code=404, detail=f"Миссия с ID {mission_id} не найдена в базе данных.")
+    if not os.path.exists(folder_path):
+        raise HTTPException(status_code=500, detail=f"Папка с миссиями не найдена: {folder_path}")
 
-    mission_name = mission_data.get("mission_name")
-    play_link = mission_data.get("play_link")
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".json"):
+            file_path = os.path.join(folder_path, filename)
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
 
-    if not mission_name or not play_link:
-        raise HTTPException(status_code=500, detail="Отсутствует поле 'mission_name' или 'play_link'.")
+                if isinstance(data, dict) and data.get("id") == mission_id_str:
+                    result = {field: data.get(field) for field in required_fields}
+                    return result
 
-    return {
-        "mission_name": mission_name,
-        "play_link": play_link
-    }
+            except Exception as e:
+                print(f"Ошибка при чтении файла {file_path}: {e}")
+
+    raise HTTPException(status_code=404, detail=f"Миссия с ID {mission_id} не найдена в файлах.")

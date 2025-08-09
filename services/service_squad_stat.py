@@ -1,26 +1,32 @@
-from pymongo import MongoClient
+import json
+import os
 from fastapi import HTTPException
-
-client = MongoClient("mongodb://localhost:27017/")
-db = client["stat"]
-collection = db["squads"]
+from services.config import MISSION_DIR, STATS_FILE
 
 def get_squad_stat(tag: str):
-    tag_upper = tag.upper()
+    file_path = STATS_FILE
+
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Файл stats.json не найден")
 
     try:
-        squad = collection.find_one({"_id": tag_upper})
-        if not squad:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        teams = data.get("teams", {})
+        tag_upper = tag.upper()
+
+        if tag_upper not in teams:
             return None
 
+        squad = teams[tag_upper]
         return {
             "name": tag_upper,
             "frags": squad.get("frags", 0),
+            "teamkills": squad.get("teamkills", 0),
             "deaths": squad.get("deaths", 0),
-            "average_attendance": squad.get("average_attendance", 0),
-            "members": squad.get("members", []),
-            "score": squad.get("score", 0)
+            "side": squad.get("side", "unknown")
         }
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при обращении к MongoDB: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Ошибка при чтении stats.json: {str(e)}")
