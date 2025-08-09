@@ -10,7 +10,8 @@ from routers import (
     router_player_top,
     router_squad_stat,
     router_player_search,
-    router_mission_name
+    router_mission_name,
+    router_team_players
 )
 
 app = FastAPI(title="STATKA")
@@ -32,3 +33,4 @@ app.include_router(router_player_top.router, prefix='/api', tags=["Топ игр
 app.include_router(router_squad_stat.router, prefix='/api', tags=["Отряд стата по названию"])
 app.include_router(router_player_search.router, prefix='/api', tags=["Поиск игрока имени"])
 app.include_router(router_mission_name.router, prefix='/api', tags=["Получить название миссии по id"])
+app.include_router(router_team_players.router, prefix='/api', tags=["Получить игроков отряда"])
