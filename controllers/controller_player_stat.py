@@ -1,4 +1,4 @@
-from services import service_player_stat
+from services.service_player_stat import load_player_by_name
 
-def get_player_by_name(player_name: str):
-    return service_player_stat.load_player_by_name(player_name)
+def get_player_by_name(file_name: str, player_name: str):
+    return load_player_by_name(file_name, player_name)

@@ -2,26 +2,7 @@ import os
 import json
 import re
 from fastapi import HTTPException
-from services.config import MISSION_DIR, STATS_FILE, TEAM_FILE
-
-def load_team_list():
-    if not os.path.exists(TEAM_FILE):
-        raise HTTPException(status_code=404, detail="Файл team.json не найден.")
-    with open(TEAM_FILE, "r", encoding="utf-8") as f:
-        try:
-            data = json.load(f)
-            if isinstance(data, list):
-                return data
-            else:
-                raise HTTPException(status_code=500, detail="Формат team.json некорректен.")
-        except json.JSONDecodeError:
-            raise HTTPException(status_code=500, detail="Ошибка при чтении team.json")
-
-import os
-import json
-import re
-from fastapi import HTTPException
-from services.config import MISSION_DIR, STATS_FILE, TEAM_FILE
+from services.config import TEMP_DIR, TEAM_FILE  # используем TEMP_DIR вместо STATS_FILE
 
 def load_team_list():
     if not os.path.exists(TEAM_FILE):
@@ -42,16 +23,18 @@ def normalize_tag(tag: str, teams: list):
     for team in teams:
         if team.lower() == tag_lower:
             return team
-    return tag 
+    return tag
 
-def get_top_player():
+def get_top_player(file_name: str):
     try:
-        if not os.path.exists(STATS_FILE):
-            raise HTTPException(status_code=404, detail="Файл stats.json не найден.")
+        file_path = os.path.join(TEMP_DIR, file_name)
+
+        if not os.path.exists(file_path):
+            raise HTTPException(status_code=404, detail=f"Файл {file_name} не найден в папке temp.")
 
         teams = load_team_list()
 
-        with open(STATS_FILE, "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         players = data.get("players")
@@ -102,4 +85,4 @@ def get_top_player():
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при чтении stats.json: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Ошибка при чтении {file_name}: {str(e)}")

@@ -1,13 +1,13 @@
 import json
 import os
 from fastapi import HTTPException
-from services.config import MISSION_DIR, STATS_FILE
+from services.config import TEMP_DIR
 
-def get_squad_stat(tag: str):
-    file_path = STATS_FILE
+def get_squad_stat(file_name: str, tag: str):
+    file_path = os.path.join(TEMP_DIR, file_name)
 
     if not os.path.exists(file_path):
-        raise HTTPException(status_code=404, detail="Файл stats.json не найден")
+        raise HTTPException(status_code=404, detail=f"Файл {file_name} не найден в папке temp")
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -29,4 +29,4 @@ def get_squad_stat(tag: str):
         }
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при чтении stats.json: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Ошибка при чтении {file_name}: {str(e)}")

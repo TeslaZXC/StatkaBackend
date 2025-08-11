@@ -2,22 +2,23 @@ import os
 import json
 import re
 from fastapi import HTTPException
-from services.config import STATS_FILE  
+from services.config import TEMP_DIR
 
-def get_team_players(tag: str):
+def get_team_players(file_name: str, tag: str):
     tag = tag.strip()
+    file_path = os.path.join(TEMP_DIR, file_name)
 
-    if not os.path.exists(STATS_FILE):
-        raise HTTPException(status_code=404, detail="Файл stats.json не найден.")
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail=f"Файл {file_name} не найден в папке temp.")
 
-    with open(STATS_FILE, "r", encoding="utf-8") as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         try:
             data = json.load(f)
         except json.JSONDecodeError:
-            raise HTTPException(status_code=500, detail="Ошибка чтения stats.json")
+            raise HTTPException(status_code=500, detail=f"Ошибка чтения {file_name}")
 
     if "players" not in data:
-        raise HTTPException(status_code=500, detail="Неверный формат файла stats.json")
+        raise HTTPException(status_code=500, detail=f"Неверный формат файла {file_name}")
 
     pattern_brackets = re.compile(r"^\[([^\]]+)\]")  
     pattern_prefix = re.compile(r"^([^.]+)\.")    
@@ -42,6 +43,6 @@ def get_team_players(tag: str):
             })
 
     if not filtered_players:
-        raise HTTPException(status_code=404, detail=f"Игроки с тегом '{tag}' не найдены.")
+        raise HTTPException(status_code=404, detail=f"Игроки с тегом '{tag}' не найдены в файле {file_name}.")
 
     return filtered_players
