@@ -1,7 +1,7 @@
 import os
 import re
 from fastapi import HTTPException
-from services.config import TEMP_DIR  # путь к папке temp
+from services.config import TEMP_DIR 
 
 def get_season():
     try:

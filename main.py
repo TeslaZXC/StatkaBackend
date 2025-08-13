@@ -2,19 +2,28 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from routers import (
-    router_missions_list,
-    router_player_mission_stat,
-    router_squad_mission_stat,
-    router_squad_top,
-    router_player_stat,
-    router_player_top,
-    router_squad_stat,
-    router_player_search,
-    router_mission_name,
     router_team_players,
-    router_mission_squad_player_stat,
     router_season,
     router_top_season
+)
+
+from routers.mission import(
+    router_mission_name,
+    router_mission_squad_player_stat,
+    router_missions_list
+)
+
+from routers.player import(
+    router_player_mission_stat,
+    router_player_search,
+    router_player_stat,
+    router_player_top
+)
+
+from routers.squad import(
+    router_squad_mission_stat,
+    router_squad_stat,
+    router_squad_top
 )
 
 app = FastAPI(title="STATKA")

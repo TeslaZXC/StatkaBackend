@@ -2,7 +2,7 @@ import os
 import json
 import re
 from fastapi import HTTPException
-from services.config import TEMP_DIR, TEAM_FILE
+from services.config import TEMP_DIR, TEAM_FILE 
 
 def load_team_list():
     if not os.path.exists(TEAM_FILE):
@@ -25,18 +25,19 @@ def normalize_tag(tag: str, teams: list):
             return team
     return tag
 
-def get_top_season(file_name: str):
+def get_top_player(file_name: str):
     try:
         file_path = os.path.join(TEMP_DIR, file_name)
 
         if not os.path.exists(file_path):
             raise HTTPException(status_code=404, detail=f"Файл {file_name} не найден в папке temp.")
 
-        teams_list = load_team_list()
+        teams = load_team_list()
 
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        players = data.get("players", {})
+
+        players = data.get("players")
         if not players:
             raise HTTPException(status_code=404, detail="В файле нет данных об игроках.")
 
@@ -46,6 +47,7 @@ def get_top_season(file_name: str):
         players_stats = []
         for name, stats in players.items():
             tag = None
+
             m = pattern_brackets.match(name)
             if m:
                 tag = m.group(1)
@@ -55,9 +57,9 @@ def get_top_season(file_name: str):
                     tag = m.group(1)
 
             if tag:
-                tag = normalize_tag(tag.strip(), teams_list)
+                tag = normalize_tag(tag.strip(), teams)
 
-            if not tag or tag not in teams_list:
+            if not tag or tag not in teams:
                 continue
 
             frags = stats.get("frags", 0)
@@ -76,36 +78,9 @@ def get_top_season(file_name: str):
                 "kd": kd
             })
 
-        top_players = sorted(players_stats, key=lambda x: x["kd"], reverse=True)[:3]
-        teams_data = data.get("teams", {})
-        if not teams_data:
-            raise HTTPException(status_code=404, detail="В файле отсутствует ключ 'teams'.")
+        sorted_players = sorted(players_stats, key=lambda x: x["kd"], reverse=True)
 
-        squads_stats = []
-        for tag, stats in teams_data.items():
-            squad_frags = stats.get("frags", 0)
-            squad_deaths = stats.get("deaths", 0)
-
-            if squad_deaths > 0:
-                kd = round(squad_frags / squad_deaths, 2)
-            elif squad_frags > 0:
-                kd = float(squad_frags)
-            else:
-                kd = 0.0
-
-            cleaned_stats = {k: v for k, v in stats.items() if k != "side"}
-            squads_stats.append({
-                "tag": tag,
-                "stats": cleaned_stats,
-                "kd": kd
-            })
-
-        top_squads = sorted(squads_stats, key=lambda x: x["kd"], reverse=True)[:3]
-
-        return {
-            "top_players": top_players,
-            "top_squads": top_squads
-        }
+        return sorted_players[:100]
 
     except HTTPException:
         raise
