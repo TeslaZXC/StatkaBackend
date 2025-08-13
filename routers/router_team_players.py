@@ -5,7 +5,7 @@ router = APIRouter()
 
 @router.get("/team-players")
 def team_players_route(
-    file_name: str = Query(..., description="Название блядства"),
+    id: int = Query(..., description="id блядства"),
     tag: str = Query(..., description="Тег отряда")
 ):
-    return controller_team_players(file_name, tag)
+    return controller_team_players(id, tag)

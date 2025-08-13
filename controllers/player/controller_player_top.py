@@ -1,4 +1,4 @@
 from services.player.service_player_top import get_top_player
 
-def get_top_players(file_name: str):
-    return get_top_player(file_name)
+def get_top_players(id: int):
+    return get_top_player(id)

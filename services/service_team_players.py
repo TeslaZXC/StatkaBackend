@@ -3,9 +3,11 @@ import json
 import re
 from fastapi import HTTPException
 from services.config import TEMP_DIR
+from get_season_id import get_season_file_by_id
 
-def get_team_players(file_name: str, tag: str):
+def get_team_players(id: int, tag: str):
     tag = tag.strip()
+    file_name = get_season_file_by_id(id)
     file_path = os.path.join(TEMP_DIR, file_name)
 
     if not os.path.exists(file_path):

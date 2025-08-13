@@ -5,6 +5,6 @@ router = APIRouter()
 
 @router.get("/player-top")
 def get_top_players_route(
-    file_name: str = Query(..., description="Название блядства")
+    id: int = Query(..., description="id блядства")
 ):
-    return get_top_players(file_name)
+    return get_top_players(id)

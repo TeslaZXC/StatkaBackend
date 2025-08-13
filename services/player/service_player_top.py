@@ -3,6 +3,7 @@ import json
 import re
 from fastapi import HTTPException
 from services.config import TEMP_DIR, TEAM_FILE 
+from get_season_id import get_season_file_by_id
 
 def load_team_list():
     if not os.path.exists(TEAM_FILE):
@@ -25,8 +26,10 @@ def normalize_tag(tag: str, teams: list):
             return team
     return tag
 
-def get_top_player(file_name: str):
+def get_top_player(id: int):
     try:
+        file_name = get_season_file_by_id(id)
+
         file_path = os.path.join(TEMP_DIR, file_name)
 
         if not os.path.exists(file_path):

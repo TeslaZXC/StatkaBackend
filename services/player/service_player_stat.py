@@ -3,15 +3,17 @@ import json
 import re
 from fastapi import HTTPException
 from services.config import TEMP_DIR
+from get_season_id import get_season_file_by_id
 
 def clean_name(name: str) -> str:
-    """Удаляет теги и возвращает чистое имя игрока"""
     name = re.sub(r"\[.*?\]\s*", "", name)
     name = re.sub(r"^[A-Za-z0-9]+\.\s*", "", name)
     return name.strip().lower()
 
-def load_player_by_name(file_name: str, name: str) -> dict:
+def load_player_by_name(id: int, name: str) -> dict:
     try:
+        file_name = get_season_file_by_id(id)
+
         file_path = os.path.join(TEMP_DIR, file_name)
 
         if not os.path.exists(file_path):
