@@ -26,10 +26,18 @@ def normalize_tag(tag: str, teams: list):
             return team
     return tag
 
-def get_top_player(id: int):
+def get_top_inf_player(id: int):
+    return get_top_player(id, "frag_inf")
+
+def get_top_veh_player(id: int):
+    return get_top_player(id, "frag_veh")
+
+def get_top_all_player(id: int):
+    return get_top_player(id, "frags")
+
+def get_top_player(id, fragFiltre):
     try:
         file_name = get_season_file_by_id(id)
-
         file_path = os.path.join(TEMP_DIR, file_name)
 
         if not os.path.exists(file_path):
@@ -65,7 +73,11 @@ def get_top_player(id: int):
             if not tag or tag not in teams:
                 continue
 
-            frags = stats.get("frags", 0)
+            missions_played = stats.get("missions_played", 0)
+            if missions_played < 5:
+                continue
+
+            frags = stats.get(fragFiltre, 0)
             deaths = stats.get("deaths_count", 0)
 
             if deaths > 0:
@@ -75,13 +87,20 @@ def get_top_player(id: int):
             else:
                 kd = 0.0
 
+            score = frags / missions_played  
+
+            stats_clean = dict(stats)
+            stats_clean.pop("victims", None)
+            stats_clean.pop("deaths", None)
+
             players_stats.append({
                 "name": name,
-                "stats": stats,
-                "kd": kd
+                "stats": stats_clean,
+                "kd": kd,
+                "score": score
             })
 
-        sorted_players = sorted(players_stats, key=lambda x: x["kd"], reverse=True)
+        sorted_players = sorted(players_stats, key=lambda x: x["score"], reverse=True)
 
         return sorted_players[:100]
 
