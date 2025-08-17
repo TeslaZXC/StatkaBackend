@@ -43,8 +43,6 @@ app.include_router(router_squad_top.router, prefix='/api', tags=["Топ отр�
 app.include_router(router_player_stat.router, prefix='/api', tags=["Игрок по стате"])
 
 app.include_router(router_player_top.router, prefix='/api', tags=["Топ игроки"])
-app.include_router(router_player_top.router, prefix='/api', tags=["Топ игроки по тех"])
-app.include_router(router_player_top.router, prefix='/api', tags=["Топ игроки по пех"])
 
 app.include_router(router_squad_stat.router, prefix='/api', tags=["Отряд стата по названию"])
 app.include_router(router_player_search.router, prefix='/api', tags=["Поиск игрока имени"])

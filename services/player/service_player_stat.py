@@ -3,7 +3,7 @@ import json
 import re
 from fastapi import HTTPException
 from services.config import TEMP_DIR
-from get_season_id import get_season_file_by_id
+from utils.get_season_id import get_season_file_by_id
 
 def clean_name(name: str) -> str:
     name = re.sub(r"\[.*?\]\s*", "", name)

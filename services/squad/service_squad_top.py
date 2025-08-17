@@ -2,7 +2,7 @@ import os
 import json
 from fastapi import HTTPException
 from services.config import TEMP_DIR  
-from get_season_id import get_season_file_by_id
+from utils.get_season_id import get_season_file_by_id
 
 def get_squad_top(id : int):
     try:

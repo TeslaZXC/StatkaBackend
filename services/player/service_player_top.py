@@ -3,7 +3,7 @@ import json
 import re
 from fastapi import HTTPException
 from services.config import TEMP_DIR, TEAM_FILE 
-from get_season_id import get_season_file_by_id
+from utils.get_season_id import get_season_file_by_id
 
 def load_team_list():
     if not os.path.exists(TEAM_FILE):
