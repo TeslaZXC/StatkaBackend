@@ -5,7 +5,7 @@ router = APIRouter()
 
 @router.get("/player-search")
 def player_search_route(
-    file_name: str = Query(..., description="Название блядства"),
+    id: int = Query(..., description="id блядства"),
     player_name: str = Query(..., description="Имя дауна поиск совпад ззз егойды")
 ):
-    return get_player_search(file_name, player_name)
+    return get_player_search(id, player_name)
