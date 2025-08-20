@@ -3,6 +3,9 @@ import re
 from services.config import TEMP_DIR 
 
 def get_season_file_by_id(season_id: int) -> str:
+    if season_id == 0:
+        return "all_stats.json"
+
     if not os.path.exists(TEMP_DIR):
         raise FileNotFoundError("Папка temp не найдена.")
 

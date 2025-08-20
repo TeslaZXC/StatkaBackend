@@ -1,7 +1,7 @@
 import os
 import re
 from fastapi import HTTPException
-from services.config import TEMP_DIR 
+from services.config import TEMP_DIR
 
 def get_season():
     try:
@@ -12,8 +12,15 @@ def get_season():
         pattern = re.compile(r"^stats_(\d{4}-\d{2}-\d{2})_(\d{4}-\d{2}-\d{2})\.json$")
 
         seasons = []
-        season_number = 1
 
+        seasons.append({
+            "season_number": 0,
+            "file_name": "all_stats.json",  
+            "start_date": "-",  
+            "end_date": "-"     
+        })
+
+        season_number = 1
         for filename in sorted(files):
             match = pattern.match(filename)
             if match:
@@ -25,9 +32,6 @@ def get_season():
                     "end_date": end_date
                 })
                 season_number += 1
-
-        if not seasons:
-            raise HTTPException(status_code=404, detail="Файлы сезонов не найдены.")
 
         return seasons
 

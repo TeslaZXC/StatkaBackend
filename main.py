@@ -18,6 +18,7 @@ from routers.player import(
     router_player_search,
     router_player_stat,
     router_player_top,
+    router_reward_player
 )
 
 from routers.squad import(
@@ -51,3 +52,5 @@ app.include_router(router_team_players.router, prefix='/api', tags=["Получ�
 app.include_router(router_mission_squad_player_stat.router, prefix='/api', tags=["Получить мини стату игроков по отряду на мисии"])
 app.include_router(router_season.router, prefix='/api', tags=["Получить инфу о сезонах"])
 app.include_router(router_top_season.router, prefix='/api', tags=["Получить топы для доски почета по сезонам"])
+
+app.include_router(router_reward_player.router, prefix='/api', tags=["получение реварда"])

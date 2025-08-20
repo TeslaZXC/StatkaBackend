@@ -27,8 +27,10 @@ def get_squad_stat(id: int, tag: str):
             "frags": squad.get("frags", 0),
             "teamkills": squad.get("teamkills", 0),
             "deaths": squad.get("deaths", 0),
-            "missions_played": squad.get("missions_played",0),
-            "score" : squad.get("score", 0)
+            "missions_played": squad.get("missions_played", 0),
+            "total_players": squad.get("total_players", 0),  
+            "score": squad.get("score", 0),
+            "missions": squad.get("missions", [])  
         }
 
     except Exception as e:
