@@ -1,110 +1,79 @@
-import os
-import json
-import re
 from fastapi import HTTPException
-from services.config import TEMP_DIR, TEAM_FILE 
-from utils.get_season_id import get_season_file_by_id
+from bd.bd import missions
+from datetime import datetime
 
-def load_team_list():
-    if not os.path.exists(TEAM_FILE):
-        raise HTTPException(status_code=404, detail="Файл team.json не найден.")
-    with open(TEAM_FILE, "r", encoding="utf-8") as f:
+def _parse_date(date_str: str) -> datetime:
+    for fmt in ("%Y-%m-%d", "%Y_%m_%d"):
         try:
-            data = json.load(f)
-            if isinstance(data, list):
-                return data
-            else:
-                raise HTTPException(status_code=500, detail="Формат team.json некорректен.")
-        except json.JSONDecodeError:
-            raise HTTPException(status_code=500, detail="Ошибка при чтении team.json")
+            return datetime.strptime(date_str, fmt)
+        except ValueError:
+            continue
+    raise HTTPException(status_code=400, detail=f"Неверный формат даты: {date_str}")
 
-def normalize_tag(tag: str, teams: list):
-    """Возвращает тег в том же виде, как он записан в team.json"""
-    tag_lower = tag.lower()
-    for team in teams:
-        if team.lower() == tag_lower:
-            return team
-    return tag
+def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str):
+    start_dt = _parse_date(start_date)
+    end_dt = _parse_date(end_date)
 
-def get_top_inf_player(id: int):
-    return get_top_player(id, "frag_inf")
+    cursor = missions.find(
+        {"file_date": {"$gte": start_date, "$lte": end_date}},
+        {"_id": 0, "file_date": 1, "players": 1}
+    )
 
-def get_top_veh_player(id: int):
-    return get_top_player(id, "frag_veh")
+    if missions.count_documents({"file_date": {"$gte": start_date, "$lte": end_date}}) == 0:
+        raise HTTPException(status_code=404, detail="Миссии в указанном диапазоне не найдены")
 
-def get_top_all_player(id: int):
-    return get_top_player(id, "frags")
+    player_stats = {}
 
-def get_top_player(id, fragFiltre):
-    try:
-        file_name = get_season_file_by_id(id)
-        file_path = os.path.join(TEMP_DIR, file_name)
-
-        if not os.path.exists(file_path):
-            raise HTTPException(status_code=404, detail=f"Файл {file_name} не найден в папке temp.")
-
-        teams = load_team_list()
-
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        players = data.get("players")
-        if not players:
-            raise HTTPException(status_code=404, detail="В файле нет данных об игроках.")
-
-        pattern_brackets = re.compile(r"^\[([^\]]+)\]")
-        pattern_prefix = re.compile(r"^([^.]+)\.")
-
-        players_stats = []
-        for name, stats in players.items():
-            tag = None
-
-            m = pattern_brackets.match(name)
-            if m:
-                tag = m.group(1)
-            else:
-                m = pattern_prefix.match(name)
-                if m:
-                    tag = m.group(1)
-
-            if tag:
-                tag = normalize_tag(tag.strip(), teams)
-
-            if not tag or tag not in teams:
+    for doc in cursor:
+        file_date = _parse_date(doc.get("file_date"))
+        for p in doc.get("players", []):
+            name = p.get("name")
+            if not name:
                 continue
+            frags = p.get(frag_type, 0)
+            squad = p.get("squad")  
+            missions_played = player_stats.get(name, {}).get("missions_played", 0) + 1
+            total_frags = player_stats.get(name, {}).get("frags", 0) + frags
+            deaths = player_stats.get(name, {}).get("deaths", 0) + p.get("death", 0)
 
-            missions_played = stats.get("missions_played", 0)
-            if missions_played < 5:
-                continue
-
-            frags = stats.get(fragFiltre, 0)
-            deaths = stats.get("deaths_count", 0)
-
-            if deaths > 0:
-                kd = round(frags / deaths, 2)
-            elif frags > 0:
-                kd = float(frags)
-            else:
-                kd = 0.0
-
-            score = frags / missions_played  
-
-            stats_clean = dict(stats)
-            stats_clean.pop("victims", None)
-            stats_clean.pop("deaths", None)
-
-            players_stats.append({
+            last_squad = player_stats.get(name, {}).get("squad", None)
+            last_date = player_stats.get(name, {}).get("last_date", datetime.min)
+            if squad and file_date >= last_date:
+                last_squad = squad
+            player_stats[name] = {
                 "name": name,
-                "stats": stats_clean,
-                "kd": kd,
-                "score": score
-            })
+                "frags": total_frags,
+                "deaths": deaths,
+                "missions_played": missions_played,
+                "squad": last_squad,
+                "last_date": file_date
+            }
 
-        sorted_players = sorted(players_stats, key=lambda x: x["score"], reverse=True)
+    players_list = []
+    for stats in player_stats.values():
+        if stats["missions_played"] <= 5 or not stats["squad"]:
+            continue
+        deaths = stats["deaths"] if stats["deaths"] > 0 else 1
+        kd = round(stats["frags"] / deaths, 2)
+        score = stats["frags"] / stats["missions_played"]
+        players_list.append({
+            "name": stats["name"],
+            "frags": stats["frags"],
+            "missions_played": stats["missions_played"],
+            "deaths": stats["deaths"],
+            "kd": kd,
+            "score": score,
+            "squad": stats["squad"] 
+        })
 
-        return sorted_players[:100]
+    players_list.sort(key=lambda x: x["score"], reverse=True)
+    return players_list[:100]
 
-    except HTTPException:
-        raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при чтении {file_name}: {str(e)}")
+def get_top_all_players_by_period(start_date: str, end_date: str):
+    return _get_top_players_by_frag_type(start_date, end_date, "frags")
+
+def get_top_inf_players_by_period(start_date: str, end_date: str):
+    return _get_top_players_by_frag_type(start_date, end_date, "frags_inf")
+
+def get_top_veh_players_by_period(start_date: str, end_date: str):
+    return _get_top_players_by_frag_type(start_date, end_date, "frags_veh")
