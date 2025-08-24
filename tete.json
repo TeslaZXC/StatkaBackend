@@ -1,0 +1,274 @@
+{
+  "_id": {
+    "$oid": "68aa431b0b4080ec2818ddb9"
+  },
+  "file": "2025_08_23__23_09_Negativnayasvobodav2a.json",
+  "file_date": "2025_08_23",
+  "game_type": "tvt2",
+  "duration_frames": 2844,
+  "missionName": "Негативная свобода v2a",
+  "worldName": "Stratis",
+  "win_side": "WEST",
+  "players": [
+    {
+      "id": 29,
+      "name": "lazcore",
+      "side": "EAST",
+      "squad": "СМЕРШ",
+      "frags": 4,
+      "frags_veh": 4,
+      "frags_inf": 0,
+      "tk": 0,
+      "death": 1,
+      "victims_players": [
+        {
+          "name": "[Delta] Delovoy",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 453,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[Delta]Бебрус",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 447,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[Delta]Siris [AI]",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 449,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[Delta]Ogrizok [AI]",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 450,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        }
+      ],
+      "destroyed_vehicles": [
+        {
+          "name": "RHIB",
+          "veh_type": "sea",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 448,
+          "kill_type": "veh"
+        }
+      ],
+      "destroyed_veh": 1
+    },
+    {
+      "id": 58,
+      "name": "voker",
+      "side": "EAST",
+      "squad": "13TH",
+      "frags": 4,
+      "frags_veh": 0,
+      "frags_inf": 4,
+      "tk": 0,
+      "death": 1,
+      "victims_players": [
+        {
+          "name": "[TERA]Zloy",
+          "weapon": "[BAF Factions] СВД",
+          "distance": 168,
+          "killer_name": "voker",
+          "kill_type": "kill"
+        },
+        {
+          "name": "[TERA] ulitka",
+          "weapon": "[BAF Factions] СВД",
+          "distance": 162,
+          "killer_name": "voker",
+          "kill_type": "kill"
+        },
+        {
+          "name": "[TERA] Pepel",
+          "weapon": "[BAF Factions] СВД",
+          "distance": 173,
+          "killer_name": "voker",
+          "kill_type": "kill"
+        },
+        {
+          "name": "[TERA] Kisser",
+          "weapon": "[BAF Factions] СВД",
+          "distance": 170,
+          "killer_name": "voker",
+          "kill_type": "kill"
+        }
+      ],
+      "destroyed_vehicles": [],
+      "destroyed_veh": 0
+    },
+    {
+      "id": 59,
+      "name": "mosinka_stalina",
+      "side": "EAST",
+      "squad": "URAL",
+      "frags": 0,
+      "frags_veh": 0,
+      "frags_inf": 0,
+      "tk": 0,
+      "death": 1,
+      "victims_players": [],
+      "destroyed_vehicles": [],
+      "destroyed_veh": 0
+    }
+  ],
+  "squads": [
+    {
+      "squad_tag": "TF",
+      "side": "EAST",
+      "frags": 0,
+      "death": 2,
+      "tk": 0,
+      "victims_players": [],
+      "squad_players": [
+        {
+          "name": "bass",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "lion",
+          "frags": 0,
+          "tk": 0
+        }
+      ]
+    },
+    {
+      "squad_tag": "СМЕРШ",
+      "side": "EAST",
+      "frags": 7,
+      "death": 7,
+      "tk": 0,
+      "victims_players": [
+        {
+          "name": "[Delta] Delovoy",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 453,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[Delta]Бебрус",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 447,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[Delta]Siris [AI]",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 449,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[Delta]Ogrizok [AI]",
+          "weapon": "MT-LB (ZU-23)",
+          "distance": 450,
+          "killer_name": "lazcore",
+          "kill_type": "veh"
+        },
+        {
+          "name": "[VRG] Wojciech84",
+          "weapon": "АКМ",
+          "distance": 36,
+          "killer_name": "somm",
+          "kill_type": "kill"
+        },
+        {
+          "name": "[NT] Marnet",
+          "weapon": "АКМ",
+          "distance": 50,
+          "killer_name": "somm",
+          "kill_type": "kill"
+        },
+        {
+          "name": "[AGG] Sum_Pack",
+          "weapon": "АКМ",
+          "distance": 55,
+          "killer_name": "somm",
+          "kill_type": "kill"
+        }
+      ],
+      "squad_players": [
+        {
+          "name": "lazcore",
+          "frags": 4,
+          "tk": 0
+        },
+        {
+          "name": "demur",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "muxtar",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "zaba4",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "somm",
+          "frags": 3,
+          "tk": 0
+        },
+        {
+          "name": "renne",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "coffee",
+          "frags": 0,
+          "tk": 0
+        }
+      ]
+    },
+    {
+      "squad_tag": "URAL",
+      "side": "EAST",
+      "frags": 0,
+      "death": 4,
+      "tk": 0,
+      "victims_players": [],
+      "squad_players": [
+        {
+          "name": "mosinka_stalina",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "sars",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "alexs",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "babai",
+          "frags": 0,
+          "tk": 0
+        },
+        {
+          "name": "rebi",
+          "frags": 0,
+          "tk": 0
+        }
+      ]
+    }
+  ]
+}

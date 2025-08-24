@@ -3,21 +3,12 @@ import json
 from fastapi import HTTPException
 from services.config import MISSION_DIR
 
-def get_player_mission_stats(mission_id: int):
+from bd.bd import get_players_by_file
+
+def get_player_mission_stats(file: str):
     try:
-        for filename in os.listdir(MISSION_DIR):
-            if filename.endswith(".json"):
-                file_path = os.path.join(MISSION_DIR, filename)
-                try:
-                    with open(file_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-
-                        if str(data.get("id")) == str(mission_id):
-                            return data.get("players_stats", [])
-                except Exception as e:
-                    print(f"Ошибка при чтении {filename}: {e}")
-
-        raise HTTPException(status_code=404, detail=f"Данные для миссии {mission_id} не найдены.")
+        data = get_players_by_file(file)
+        return data
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Ошибка при получении данных: {str(e)}")

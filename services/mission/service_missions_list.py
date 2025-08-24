@@ -1,43 +1,28 @@
-import os
-import json
-from fastapi import APIRouter, HTTPException
-from services.config import MISSION_DIR
+from typing import Optional
+from bd.bd import get_all_missions
 
-router = APIRouter()
+def get_mission_list(
+    game_type: Optional[str] = None,
+    win_side: Optional[str] = None,
+    world_name: Optional[str] = None,
+    mission_name: Optional[str] = None,
+    file_date: Optional[str] = None
+):
+    missions = get_all_missions()
 
-@router.get("/missions")
-def get_mission_list():
-    try:
-        missions = []
+    filters = {
+        "game_type": game_type,
+        "win_side": win_side,
+        "worldName": world_name,
+        "missionName": mission_name,
+        "file_date": file_date
+    }
 
-        for filename in os.listdir(MISSION_DIR):
-            if filename.endswith(".json"):
-                file_path = os.path.join(MISSION_DIR, filename)
-                try:
-                    with open(file_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)
+    for key, value in filters.items():
+        if value:
+            if key == "missionName":
+                missions = [m for m in missions if value.lower() in m.get(key, "").lower()]
+            else:
+                missions = [m for m in missions if m.get(key) == value]
 
-                        mission_info = {
-                            "id": data.get("id"),
-                            "mission_name": data.get("mission_name"),
-                            "ocap_link": data.get("ocap_link"),
-                            "stats_url": data.get("stats_url"),
-                            "players": data.get("players"),
-                            "frags": data.get("frags"),
-                            "tk": data.get("tk"),
-                            "map": data.get("map"),
-                            "duration": data.get("duration"),
-                            "date": data.get("date"),
-                            "tag_check": data.get("tag_check")
-                        }
-
-                        missions.append(mission_info)
-                except Exception as e:
-                    print(f"Ошибка при чтении {filename}: {e}")
-
-        missions.sort(key=lambda m: int(m.get("id", 0)), reverse=True)
-
-        return missions
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при получении миссий: {str(e)}")
+    return missions

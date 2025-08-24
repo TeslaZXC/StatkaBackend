@@ -1,32 +1,46 @@
-import os
-import json
-from fastapi import HTTPException
-from services.config import TEMP_DIR  
-from utils.get_season_id import get_season_file_by_id
+from typing import List, Dict
+from bd.bd import get_all_missions, get_squads_by_file
 
-def get_squad_top(id : int):
-    try:
-        file_name = get_season_file_by_id(id)
+def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
+    missions = get_all_missions()
 
-        file_path = os.path.join(TEMP_DIR, file_name)
+    missions_in_period = [
+        m for m in missions 
+        if start_date <= m.get("file_date", "") <= end_date
+    ]
 
-        if not os.path.exists(file_path):
-            raise HTTPException(status_code=404, detail=f"Файл {file_name} не найден в папке temp.")
+    squad_stats = {}
 
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+    for mission in missions_in_period:
+        file_name = mission["file"]
+        squads = get_squads_by_file(file_name)
 
-        teams = data.get("teams")
-        if not teams:
-            raise HTTPException(status_code=404, detail="В файле отсутствует ключ 'teams'.")
+        for squad in squads:
+            tag = squad["squad_tag"]
+            if tag not in squad_stats:
+                squad_stats[tag] = {
+                    "squad_tag": tag,
+                    "frags": 0,
+                    "death": 0,
+                    "tk": 0,
+                    "mission_play": 0,
+                    "total_victims_players": 0  
+                }
 
-        cleaned = {}
-        for tag, stats in teams.items():
-            cleaned[tag] = {k: v for k, v in stats.items() if k != "side"}
+            squad_stats[tag]["frags"] += squad.get("frags", 0)
+            squad_stats[tag]["death"] += squad.get("death", 0)
+            squad_stats[tag]["tk"] += squad.get("tk", 0)
+            squad_stats[tag]["mission_play"] += 1
+            squad_stats[tag]["total_victims_players"] += len(squad.get("victims_players", []))
 
-        return cleaned
+    for stats in squad_stats.values():
+        stats["kd"] = round(stats["frags"] / stats["death"], 2) if stats["death"] > 0 else stats["frags"]
+        stats["average_presence"] = round(stats["total_victims_players"] / stats["mission_play"], 2) if stats["mission_play"] > 0 else 0
+        stats["score"] = round(
+            (stats["frags"] / stats["mission_play"]) / stats["average_presence"], 2
+        ) if stats["average_presence"] > 0 else 0
+        del stats["total_victims_players"]
 
-    except HTTPException:
-        raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Ошибка при чтении {file_name}: {str(e)}")
+    top_squads = sorted(squad_stats.values(), key=lambda x: x["score"], reverse=True)
+
+    return top_squads
