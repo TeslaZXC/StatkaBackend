@@ -1,8 +1,5 @@
 from fastapi import HTTPException
-from services.squad.service_squad_stat import get_squad_stat
+from services.squad.service_squad_stat import get_squad_stat_by_period
 
-def controller_squad_stat(id: int, tag: str):
-    squad_data = get_squad_stat(id, tag)
-    if not squad_data:
-        raise HTTPException(status_code=404, detail=f"Squad '{tag}' not found")
-    return squad_data
+def controller_squad_stat(squad_tag: str, start_date: str, end_date: str):
+    return get_squad_stat_by_period(squad_tag, start_date, end_date)

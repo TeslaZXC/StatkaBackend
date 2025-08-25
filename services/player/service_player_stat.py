@@ -1,5 +1,5 @@
 from collections import Counter
-from fastapi import HTTPException
+from fastapi import HTTPException, APIRouter, Query
 from datetime import datetime, timedelta
 from bd.bd import missions
 
@@ -12,13 +12,13 @@ def _parse_date(date_str: str) -> datetime:
     raise HTTPException(status_code=400, detail=f"Неверный формат даты: {date_str}")
 
 def _get_week_key(date: datetime) -> str:
-    weekday = date.weekday() 
+    weekday = date.weekday()
     offset = (weekday - 3) % 7
     week_start = date - timedelta(days=offset)
-    week_end = week_start + timedelta(days=2)  
+    week_end = week_start + timedelta(days=2)
     return week_start.strftime("%Y_%m_%d"), week_end.strftime("%Y_%m_%d")
 
-def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: str) -> dict:
+def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: str, squad: str | None = None) -> dict:
     query = {"file_date": {"$gte": start_date, "$lte": end_date}}
     cursor = missions.find(query, {"_id": 0, "file": 1, "file_date": 1, "players": 1})
 
@@ -27,6 +27,7 @@ def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: 
 
     total_stats = {
         "name": player_name,
+        "squad_filter": squad,
         "start_date": start_date,
         "end_date": end_date,
         "matches": 0,
@@ -71,6 +72,8 @@ def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: 
         for p in players:
             if p.get("name", "").lower() != player_name.lower():
                 continue
+            if squad and p.get("squad") != squad:
+                continue
 
             total_stats["matches"] += 1
             total_stats["frags"] += p.get("frags", 0)
@@ -105,7 +108,7 @@ def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: 
             w["destroyed_veh"] += p.get("destroyed_veh", 0)
 
             for victim in p.get("victims_players", []):
-                if victim.get("kill_type") != "tk": 
+                if victim.get("kill_type") != "tk":
                     victim_name = victim.get("name")
                     weapon = victim.get("weapon")
                     kill_type = victim.get("kill_type")

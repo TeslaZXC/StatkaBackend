@@ -5,7 +5,8 @@ router = APIRouter()
 
 @router.get("/player-search")
 def player_search_route(
-    id: int = Query(..., description="id блядства"),
-    player_name: str = Query(..., description="Имя дауна поиск совпад ззз егойды")
+    player_name: str = Query(..., description="Имя или его часть для поиска"),
+    start_date: str = Query(..., description="Начальная дата (формат YYYY_MM_DD)"),
+    end_date: str = Query(..., description="Конечная дата (формат YYYY_MM_DD)")
 ):
-    return get_player_search(id, player_name)
+    return get_player_search(player_name, start_date, end_date)
