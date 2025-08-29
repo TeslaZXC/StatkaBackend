@@ -1,5 +1,5 @@
 from typing import List, Dict
-from bd.bd import get_all_missions, get_squads_by_file
+from bd.bd import get_all_missions, get_squads_by_file, get_all_squads
 
 def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
     missions = get_all_missions()
@@ -9,6 +9,9 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
         if start_date <= m.get("file_date", "") <= end_date
     ]
 
+    valid_squads_doc = get_all_squads()
+    valid_squads = {k.lower(): v for k, v in valid_squads_doc.items() if k != "_id"}
+
     squad_stats = {}
 
     for mission in missions_in_period:
@@ -16,10 +19,17 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
         squads = get_squads_by_file(file_name)
 
         for squad in squads:
-            tag = squad["squad_tag"]
-            if tag not in squad_stats:
-                squad_stats[tag] = {
-                    "squad_tag": tag,
+            tag = squad.get("squad_tag")
+            if not tag:
+                continue
+
+            tag_lower = tag.lower()
+            if tag_lower not in valid_squads: 
+                continue
+
+            if tag_lower not in squad_stats:
+                squad_stats[tag_lower] = {
+                    "squad_tag": tag_lower,
                     "frags": 0,
                     "death": 0,
                     "tk": 0,
@@ -27,18 +37,28 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
                     "total_victims_players": 0  
                 }
 
-            squad_stats[tag]["frags"] += squad.get("frags", 0)
-            squad_stats[tag]["death"] += squad.get("death", 0)
-            squad_stats[tag]["tk"] += squad.get("tk", 0)
-            squad_stats[tag]["mission_play"] += 1
-            squad_stats[tag]["total_victims_players"] += len(squad.get("victims_players", []))
+            squad_stats[tag_lower]["frags"] += squad.get("frags", 0)
+            squad_stats[tag_lower]["death"] += squad.get("death", 0)
+            squad_stats[tag_lower]["tk"] += squad.get("tk", 0)
+            squad_stats[tag_lower]["mission_play"] += 1
+            squad_stats[tag_lower]["total_victims_players"] += len(squad.get("victims_players", []))
 
     for stats in squad_stats.values():
-        stats["kd"] = round(stats["frags"] / stats["death"], 2) if stats["death"] > 0 else stats["frags"]
-        stats["average_presence"] = round(stats["total_victims_players"] / stats["mission_play"], 2) if stats["mission_play"] > 0 else 0
-        stats["score"] = round(
-            (stats["frags"] / stats["mission_play"]) / stats["average_presence"], 2
-        ) if stats["average_presence"] > 0 else 0
+        deaths = stats["death"] if stats["death"] > 0 else 1
+        kd = round(stats["frags"] / deaths, 2)
+
+        avg_presence = stats["total_victims_players"] / stats["mission_play"] if stats["mission_play"] > 0 else 0
+
+        # используем просто общее frags, т.к. frags_inf и frags_veh = 0
+        if avg_presence == 0 or stats["mission_play"] == 0:
+            score = 0
+        else:
+            score = round(kd * (stats["frags"] / (stats["mission_play"] * avg_presence)), 3)
+
+        stats["kd"] = kd
+        stats["average_presence"] = round(avg_presence, 2)
+        stats["score"] = score
+
         del stats["total_victims_players"]
 
     top_squads = sorted(squad_stats.values(), key=lambda x: x["score"], reverse=True)

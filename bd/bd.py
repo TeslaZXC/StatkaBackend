@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 
 client = MongoClient("mongodb://localhost:27017/")
-db = client["stat"]
-missions = db["misssion_stat"]
+db = client["stats"]
+missions = db["mission_stat"]
 
 
 def get_all_missions():
@@ -42,3 +42,7 @@ def get_players_by_file(file_name: str):
 def get_squads_by_file(file_name: str):
     data = missions.find_one({"file": file_name}, {"_id": 0, "squads": 1})
     return data.get("squads", []) if data else []
+
+def get_all_squads():
+    doc = db["squads"].find_one({}, {"_id": 0})
+    return doc if doc else {}

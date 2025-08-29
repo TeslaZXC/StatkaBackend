@@ -30,23 +30,19 @@ def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str
             name = p.get("name")
             if not name:
                 continue
-            frags = p.get(frag_type, 0)
-            squad = p.get("squad")  
-            missions_played = player_stats.get(name, {}).get("missions_played", 0) + 1
-            total_frags = player_stats.get(name, {}).get("frags", 0) + frags
-            deaths = player_stats.get(name, {}).get("deaths", 0) + p.get("death", 0)
 
-            last_squad = player_stats.get(name, {}).get("squad", None)
-            last_date = player_stats.get(name, {}).get("last_date", datetime.min)
-            if squad and file_date >= last_date:
-                last_squad = squad
+            frags = p.get(frag_type, 0)
+            squad = p.get("squad")
+            prev = player_stats.get(name, {})
+
             player_stats[name] = {
                 "name": name,
-                "frags": total_frags,
-                "deaths": deaths,
-                "missions_played": missions_played,
-                "squad": last_squad,
-                "last_date": file_date
+                "frags": prev.get("frags", 0) + frags,
+                "deaths": prev.get("deaths", 0) + p.get("death", 0),
+                "missions_played": prev.get("missions_played", 0) + 1,
+                # если squad есть и миссия новее — обновляем
+                "squad": squad if squad and file_date >= prev.get("last_date", datetime.min) else prev.get("squad"),
+                "last_date": max(file_date, prev.get("last_date", datetime.min))
             }
 
     players_list = []
@@ -63,7 +59,7 @@ def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str
             "deaths": stats["deaths"],
             "kd": kd,
             "score": score,
-            "squad": stats["squad"] 
+            "squad": stats["squad"]  # всегда последний отряд
         })
 
     players_list.sort(key=lambda x: x["score"], reverse=True)

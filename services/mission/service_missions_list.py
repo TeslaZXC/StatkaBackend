@@ -22,7 +22,14 @@ def get_mission_list(
         if value:
             if key == "missionName":
                 missions = [m for m in missions if value.lower() in m.get(key, "").lower()]
+            elif key == "game_type":
+                if value.lower() == "tvt":
+                    missions = [m for m in missions if m.get(key) in ("tvt1", "tvt2")]
+                else:
+                    missions = [m for m in missions if m.get(key) == value]
             else:
                 missions = [m for m in missions if m.get(key) == value]
+
+    missions = [m for m in missions if m.get("game_type") in ("tvt1", "tvt2")]
 
     return missions
