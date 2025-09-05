@@ -3,11 +3,11 @@ import json
 from fastapi import HTTPException
 from services.config import MISSION_DIR
 
-from bd.bd import get_players_by_file
+from bd.bd import get_players_by_id
 
-def get_player_mission_stats(file: str):
+def get_player_mission_stats(id: int):
     try:
-        data = get_players_by_file(file)
+        data = get_players_by_id(id)
         return data
 
     except Exception as e:

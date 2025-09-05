@@ -10,26 +10,31 @@ def get_mission_list(
 ):
     missions = get_all_missions()
 
-    filters = {
-        "game_type": game_type,
-        "win_side": win_side,
-        "worldName": world_name,
-        "missionName": mission_name,
-        "file_date": file_date
-    }
+    if game_type:
+        if game_type.lower() == "tvt":
+            missions = [m for m in missions if m.get("game_type") in ("tvt1", "tvt2")]
+        else:
+            missions = [m for m in missions if m.get("game_type") == game_type]
 
-    for key, value in filters.items():
-        if value:
-            if key == "missionName":
-                missions = [m for m in missions if value.lower() in m.get(key, "").lower()]
-            elif key == "game_type":
-                if value.lower() == "tvt":
-                    missions = [m for m in missions if m.get(key) in ("tvt1", "tvt2")]
-                else:
-                    missions = [m for m in missions if m.get(key) == value]
-            else:
-                missions = [m for m in missions if m.get(key) == value]
+    if win_side:
+        missions = [m for m in missions if m.get("win_side") == win_side]
 
-    missions = [m for m in missions if m.get("game_type") in ("tvt1", "tvt2")]
+    if world_name:
+        missions = [m for m in missions if m.get("worldName") == world_name]
 
-    return missions
+    if mission_name:
+        missions = [m for m in missions if mission_name.lower() in m.get("missionName", "").lower()]
+
+    if file_date:
+        missions = [m for m in missions if m.get("file_date") == file_date]
+
+    result = []
+    for m in missions:
+        if m.get("game_type") not in ("tvt1", "tvt2"):
+            continue
+
+        mission = dict(m) 
+        mission["id"] = m.get("id") or str(m.get("_id"))
+        result.append(mission)
+
+    return result

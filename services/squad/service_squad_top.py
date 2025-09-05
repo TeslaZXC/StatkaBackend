@@ -1,11 +1,11 @@
 from typing import List, Dict
-from bd.bd import get_all_missions, get_squads_by_file, get_all_squads
+from bd.bd import get_all_missions, get_squads_by_id, get_all_squads
 
 def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
     missions = get_all_missions()
 
     missions_in_period = [
-        m for m in missions 
+        m for m in missions
         if start_date <= m.get("file_date", "") <= end_date
     ]
 
@@ -15,8 +15,8 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
     squad_stats = {}
 
     for mission in missions_in_period:
-        file_name = mission["file"]
-        squads = get_squads_by_file(file_name)
+        mission_id = mission["id"]
+        squads = get_squads_by_id(mission_id)
 
         for squad in squads:
             tag = squad.get("squad_tag")
@@ -24,7 +24,7 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
                 continue
 
             tag_lower = tag.lower()
-            if tag_lower not in valid_squads: 
+            if tag_lower not in valid_squads:
                 continue
 
             if tag_lower not in squad_stats:
@@ -34,7 +34,7 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
                     "death": 0,
                     "tk": 0,
                     "mission_play": 0,
-                    "total_victims_players": 0  
+                    "total_victims_players": 0
                 }
 
             squad_stats[tag_lower]["frags"] += squad.get("frags", 0)
@@ -49,7 +49,6 @@ def get_squad_top_by_period(start_date: str, end_date: str) -> List[Dict]:
 
         avg_presence = stats["total_victims_players"] / stats["mission_play"] if stats["mission_play"] > 0 else 0
 
-        # используем просто общее frags, т.к. frags_inf и frags_veh = 0
         if avg_presence == 0 or stats["mission_play"] == 0:
             score = 0
         else:

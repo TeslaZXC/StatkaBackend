@@ -1,4 +1,4 @@
 from services.squad.service_squad_mission_stat import get_squad_statistics
 
-def controller_squad_stats(file: str):
-    return get_squad_statistics(file)
+def controller_squad_stats(id: int):
+    return get_squad_statistics(id)

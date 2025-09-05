@@ -1,24 +1,27 @@
 from fastapi import HTTPException
-from bd.bd import get_squads_by_file, get_all_squads
+from bd.bd import get_squads_by_id, get_all_squads
 
-def get_squad_statistics(file: str):
+def get_squad_statistics(id: int):
     try:
-        squads = get_squads_by_file(file)  
-        valid_squads_doc = get_all_squads()  
+        squads = get_squads_by_id(id)
+        if not squads:
+            return []
 
-        valid_squads = {k.lower(): v for k, v in valid_squads_doc.items() if k != "_id"}
+        valid_squads_doc = get_all_squads()
+        valid_squads = {str(k).strip().lower(): v for k, v in valid_squads_doc.items() if k != "_id"}
 
         result = []
         for squad in squads:
-            tag = squad.get("squad_tag") or squad.get("tag") 
+            tag = squad.get("squad_tag") or squad.get("tag")
             if not tag:
                 continue  
 
-            tag_lower = tag.lower()
+            tag_lower = str(tag).strip().lower()
+
             if tag_lower not in valid_squads:
                 continue  
 
-            victims = squad.get("victims_players", [])
+            victims = squad.get("victims_players", []) or []
 
             frags_inf = 0
             frags_veh = 0
@@ -33,7 +36,7 @@ def get_squad_statistics(file: str):
                 elif kt == "veh":
                     frags_veh += 1
 
-            s = dict(squad)
+            s = dict(squad)  
             s["stats"] = {
                 "frags_inf": frags_inf,
                 "frags_veh": frags_veh,

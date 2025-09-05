@@ -18,7 +18,6 @@ def load_team_list():
             raise HTTPException(status_code=500, detail="Ошибка при чтении team.json")
 
 def normalize_tag(tag: str, teams: list):
-    """Возвращает тег в том же виде, как он записан в team.json"""
     tag_lower = tag.lower()
     for team in teams:
         if team.lower() == tag_lower:
