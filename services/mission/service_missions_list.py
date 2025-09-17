@@ -6,10 +6,13 @@ def get_mission_list(
     win_side: Optional[str] = None,
     world_name: Optional[str] = None,
     mission_name: Optional[str] = None,
-    file_date: Optional[str] = None
+    file_date: Optional[str] = None,
+    page: int = None,                # номер страницы (по умолчанию 1)
+    per_page: int = None            # количество миссий на странице (по умолчанию 10)
 ):
     missions = get_all_missions()
 
+    # Фильтрация
     if game_type:
         if game_type.lower() == "tvt":
             missions = [m for m in missions if m.get("game_type") in ("tvt1", "tvt2")]
@@ -28,13 +31,25 @@ def get_mission_list(
     if file_date:
         missions = [m for m in missions if m.get("file_date") == file_date]
 
+    # Преобразование
     result = []
     for m in missions:
         if m.get("game_type") not in ("tvt1", "tvt2"):
             continue
 
-        mission = dict(m) 
+        mission = dict(m)
         mission["id"] = m.get("id") or str(m.get("_id"))
         result.append(mission)
 
-    return result
+    # Пагинация
+    start = (page - 1) * per_page
+    end = start + per_page
+    paginated_result = result[start:end]
+
+    return {
+        "page": page,
+        "per_page": per_page,
+        "total": len(result),
+        "total_pages": (len(result) + per_page - 1) // per_page,
+        "missions": paginated_result
+    }
