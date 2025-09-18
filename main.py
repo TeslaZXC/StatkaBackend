@@ -10,7 +10,8 @@ from routers import (
 from routers.mission import(
     router_mission_name,
     router_mission_squad_player_stat,
-    router_missions_list
+    router_missions_list,
+    router_mission_filtr
 )
 
 from routers.player import(
@@ -38,6 +39,7 @@ app.add_middleware(
 )
 
 app.include_router(router_missions_list.router, prefix="/api", tags=["информация о всех миссиях"])
+app.include_router(router_mission_filtr.router, prefix="/api", tags=["информация о фильтр"])
 app.include_router(router_player_mission_stat.router, prefix="/api", tags=["информация о игроках на мисках"])
 app.include_router(router_squad_mission_stat.router, prefix='/api', tags=["информация о отрядах на миске"])
 app.include_router(router_squad_top.router, prefix='/api', tags=["Топ отряды"])
@@ -54,3 +56,4 @@ app.include_router(router_season.router, prefix='/api', tags=["Получить 
 app.include_router(router_top_season.router, prefix='/api', tags=["Получить топы для доски почета по сезонам"])
 
 app.include_router(router_reward_player.router, prefix='/api', tags=["получение реварда"])
+
