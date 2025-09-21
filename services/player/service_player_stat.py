@@ -39,7 +39,7 @@ def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: 
         "destroyed_veh": 0,
         "victims_players": [],
         "missions": [],
-        "squads": set(),
+        "squads": {},   # <-- тут словарь: ключ = нормализованное имя, значение = оригинал
         "weapons": Counter(),
         "vehicles": Counter(),
         "killed_players": Counter()
@@ -83,9 +83,13 @@ def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: 
             total_stats["death"] += p.get("death", 0)
             total_stats["destroyed_veh"] += p.get("destroyed_veh", 0)
 
+            # --- обработка сквадов ---
             squad_name = p.get("squad")
             if squad_name:
-                total_stats["squads"].add(squad_name)
+                normalized = squad_name.strip().lower()
+                if normalized not in ("ai", "аи"):  # фильтр AI
+                    if normalized not in total_stats["squads"]:
+                        total_stats["squads"][normalized] = squad_name  # сохраняем первую форму
 
             total_stats["missions"].append({
                 "file": doc["file"],
@@ -138,7 +142,9 @@ def aggregate_player_stats_by_date(player_name: str, start_date: str, end_date: 
     if total_stats["matches"] == 0:
         raise HTTPException(status_code=404, detail=f"Игрок '{player_name}' не найден в указанном диапазоне")
 
-    total_stats["squads"] = list(total_stats["squads"])
+    # --- здесь отдаем только уникальные оригинальные имена сквадов ---
+    total_stats["squads"] = list(total_stats["squads"].values())
+
     total_stats["weapons"] = dict(sorted(total_stats["weapons"].items(), key=lambda x: x[1], reverse=True))
     total_stats["vehicles"] = dict(sorted(total_stats["vehicles"].items(), key=lambda x: x[1], reverse=True))
     total_stats["killed_players"] = dict(sorted(total_stats["killed_players"].items(), key=lambda x: x[1], reverse=True))
