@@ -7,8 +7,8 @@ def get_mission_list(
     world_name: Optional[str] = None,
     mission_name: Optional[str] = None,
     file_date: Optional[str] = None,
-    page: int = None,                # номер страницы (по умолчанию 1)
-    per_page: int = None            # количество миссий на странице (по умолчанию 10)
+    page: int = 1,               # по умолчанию 1
+    per_page: int = 10           # по умолчанию 10
 ):
     missions = get_all_missions()
 
@@ -39,6 +39,10 @@ def get_mission_list(
 
         mission = dict(m)
         mission["id"] = m.get("id") or str(m.get("_id"))
+
+        # Добавляем players_count (если в базе нет, то 0)
+        mission["players_count"] = m.get("players_count", 0)
+
         result.append(mission)
 
     # Пагинация
@@ -50,6 +54,6 @@ def get_mission_list(
         "page": page,
         "per_page": per_page,
         "total": len(result),
-        "total_pages": (len(result) + per_page - 1) // per_page,
+        "total_pages": (len(result) + per_page - 1) // per_page if per_page else 1,
         "missions": paginated_result
     }

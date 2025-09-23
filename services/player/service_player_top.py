@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from bd.bd import missions
+from bd.bd import missions, get_registered_squad_tags
 from datetime import datetime
 
 def _parse_date(date_str: str) -> datetime:
@@ -13,6 +13,9 @@ def _parse_date(date_str: str) -> datetime:
 def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str):
     start_dt = _parse_date(start_date)
     end_dt = _parse_date(end_date)
+
+    # Получаем список зарегистрированных отрядов и приводим все к нижнему регистру
+    registered_squads = {squad.lower() for squad in get_registered_squad_tags()}
 
     cursor = missions.find(
         {"file_date": {"$gte": start_date, "$lte": end_date}},
@@ -28,11 +31,11 @@ def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str
         file_date = _parse_date(doc.get("file_date"))
         for p in doc.get("players", []):
             name = p.get("name")
-            if not name:
-                continue
+            squad = p.get("squad")
+            if not name or not squad or squad.lower() not in registered_squads:
+                continue  # пропускаем игроков, чьи отряды не зарегистрированы
 
             frags = p.get(frag_type, 0)
-            squad = p.get("squad")
             prev = player_stats.get(name, {})
 
             player_stats[name] = {
@@ -40,8 +43,7 @@ def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str
                 "frags": prev.get("frags", 0) + frags,
                 "deaths": prev.get("deaths", 0) + p.get("death", 0),
                 "missions_played": prev.get("missions_played", 0) + 1,
-                # если squad есть и миссия новее — обновляем
-                "squad": squad if squad and file_date >= prev.get("last_date", datetime.min) else prev.get("squad"),
+                "squad": squad if file_date >= prev.get("last_date", datetime.min) else prev.get("squad"),
                 "last_date": max(file_date, prev.get("last_date", datetime.min))
             }
 
@@ -59,7 +61,7 @@ def _get_top_players_by_frag_type(start_date: str, end_date: str, frag_type: str
             "deaths": stats["deaths"],
             "kd": kd,
             "score": score,
-            "squad": stats["squad"]  # всегда последний отряд
+            "squad": stats["squad"]
         })
 
     players_list.sort(key=lambda x: x["score"], reverse=True)

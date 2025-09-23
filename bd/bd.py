@@ -6,6 +6,7 @@ db = client["stats"]
 
 missions = db["mission_stat"]
 ocap_tokens = db["ocap_tokens"]  
+squads_collection = db["squads"]  # добавим коллекцию squads
 
 
 def get_all_missions():
@@ -19,7 +20,8 @@ def get_all_missions():
         "duration_time": 1,
         "missionName": 1,
         "worldName": 1,
-        "win_side": 1
+        "win_side": 1,
+        "players_count": 1   
     })
     return list(data)
 
@@ -59,8 +61,16 @@ def get_squads_by_id(mission_id: int):
 
 
 def get_all_squads():
-    doc = db["squads"].find_one({}, {"_id": 0})
+    doc = squads_collection.find_one({}, {"_id": 0})
     return doc if doc else {}
+
+
+def get_registered_squad_tags() -> set:
+    """
+    Возвращает множество тегов всех зарегистрированных отрядов
+    """
+    squads = get_all_squads()
+    return set(squads.keys()) if squads else set()
 
 
 def save_ocap_token(payload: dict):
